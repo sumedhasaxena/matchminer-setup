@@ -1,0 +1,6 @@
+[submodule "matchminer-ui"]
+	path = matchminer-ui
+	url = https://github.com/sumedhasaxena/matchminer-ui
+[submodule "matchminer-api"]
+	path = matchminer-api
+	url = https://github.com/sumedhasaxena/matchminer-api

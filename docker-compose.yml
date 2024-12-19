@@ -1,0 +1,57 @@
+version: "3"
+services:
+  elasticsearch:
+    platform: linux/x86_64
+    image: elasticsearch:6.8.12
+    volumes:
+    - ./matchminer-api/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    - ./matchminer-api/elasticsearch/synonyms.txt:/usr/share/elasticsearch/config/synonyms.txt
+    networks:
+    - mm-dev-network
+  matchminer-api:
+    platform: linux/x86_64
+    build:
+      context: ${MATCHMINER_BUILD_PATH:-/tmp/nowhere}/matchminer-api
+    image: matchminer/matchminer-api:latest-prod-test
+    read_only: true
+    volumes:
+    - ./secrets.json:/secrets.json
+    tmpfs:
+    - /tmp
+    - /var/tmp
+    environment:
+      SECRETS_JSON: /secrets.json
+    networks:
+    - mm-dev-network
+  mongo:
+    image: mongo:6.0-focal
+    #command: mongod --replSet=rs0 --setParameter maxLogSizeKB=1 --wiredTigerCacheSizeGB=1 --quiet 
+    tmpfs:
+    - /tmp
+    networks:
+    - mm-dev-network
+  matchminer-ui:
+    platform: linux/x86_64
+    build:
+      context: ${MATCHMINER_BUILD_PATH:-/tmp/nowhere}/matchminer-ui
+    image: matchminer/matchminer-ui:latest-prod-test
+    stop_signal: SIGKILL # service is stateless, can be stopped immediately
+    read_only: true
+    ports:
+    - "1952:80"
+    depends_on:
+    - matchminer-api
+    environment:
+      CONFIG_JSON: /config.json
+    volumes:
+    - ./config.json:/config.json
+    tmpfs:
+    - /tmp
+    - /var/cache/nginx
+    - /var/run
+    networks:
+    - mm-dev-network
+networks:
+  mm-dev-network:
+    # tell docker-compose to create the network
+    external: false

@@ -25,7 +25,9 @@ services:
     - mm-dev-network
   mongo:
     image: mongo:6.0-focal
-    #command: mongod --replSet=rs0 --setParameter maxLogSizeKB=1 --wiredTigerCacheSizeGB=1 --quiet 
+    #command: mongod --replSet=rs0 --setParameter maxLogSizeKB=1 --wiredTigerCacheSizeGB=1 --quiet
+    volumes:
+    - matchminer_data:/data/db
     tmpfs:
     - /tmp
     networks:
@@ -44,13 +46,15 @@ services:
     environment:
       CONFIG_JSON: /config.json
     volumes:
-    - ./config.json:/config.json
+    - ./matchminer-ui/config.json:/config.json
     tmpfs:
     - /tmp
     - /var/cache/nginx
     - /var/run
     networks:
     - mm-dev-network
+volumes:
+  matchminer_data:
 networks:
   mm-dev-network:
     # tell docker-compose to create the network

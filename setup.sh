@@ -11,6 +11,25 @@ case "$(docker-compose version)" in
     ;;
 esac
 
+DEV_MODE=false
+
+# Check if the first argument is provided
+if [[ "$#" -eq 0 ]]; then
+    echo "Usage: $0 --dev <true/false>"
+    exit 1
+fi
+
+# Check if the first argument is --dev
+if [[ "$1" == "--dev" ]]; then
+    DEV_MODE="$2"
+else
+    echo "Unknown parameter passed: $1"
+    exit 1
+fi
+
+export MATCHMINER_BUILD_PATH=$(pwd)
+echo "MATCHMINER_BUILD_PATH = $MATCHMINER_BUILD_PATH"
+
 echo "*****************"
 echo "STARTING DATABASE SERVICES"
 echo "*****************"
@@ -23,30 +42,33 @@ echo "SETTING UP MONGO"
 echo "*****************"
 sleep 5
 
-echo "Add dev user to database to bypass authentication"
-docker-compose exec mongo mongosh matchminer --eval 'db.user.replaceOne({
-  "_id": ObjectId("577cf6ef2b9920002cef0337")
-}, {
-  "_id": ObjectId("577cf6ef2b9920002cef0337"),
-  "last_name" : "Doe",
-  "teams" : [
-    ObjectId("5a8ede8f4e0cce002dd5913c")
-  ],
-  "_updated" : ISODate("2018-02-22T10:15:27.000-05:00"),
-  "first_name" : "John",
-  "roles" : [
-    "user",
-    "cti",
-    "oncologist",
-    "admin"
-  ],
-  "title" : "",
-  "email" : "fake_email@institution.edu",
-  "_created" : ISODate("2018-02-22T10:15:27.000-05:00"),
-  "user_name" : "du123",
-  "token" : "fb4d6830-d3aa-481b-bcd6-270d69790e11",
-  "oncore_token" : "5f3c2421-271c-41ba-ac14-899f214d49b9"
-}, { "upsert": true })'
+
+if [[ $DEV_MODE == true ]]; then
+  echo "Add dev user to database to bypass authentication"
+  docker-compose exec mongo mongosh matchminer --eval 'db.user.replaceOne({
+    "_id": ObjectId("577cf6ef2b9920002cef0337")
+  }, {
+    "_id": ObjectId("577cf6ef2b9920002cef0337"),
+    "last_name" : "Doe",
+    "teams" : [
+      ObjectId("5a8ede8f4e0cce002dd5913c")
+    ],
+    "_updated" : ISODate("2018-02-22T10:15:27.000-05:00"),
+    "first_name" : "John",
+    "roles" : [
+      "user",
+      "cti",
+      "oncologist",
+      "admin"
+    ],
+    "title" : "",
+    "email" : "fake_email@institution.edu",
+    "_created" : ISODate("2018-02-22T10:15:27.000-05:00"),
+    "user_name" : "du123",
+    "token" : "fb4d6830-d3aa-481b-bcd6-270d69790e11",
+    "oncore_token" : "5f3c2421-271c-41ba-ac14-899f214d49b9"
+  }, { "upsert": true })'
+fi
 
 echo ""
 echo "*****************"
@@ -67,7 +89,7 @@ echo "STARTING API"
 echo "*****************"
 docker-compose build matchminer-api
 docker-compose up -d matchminer-api
-echo "API is running at: http://localhost:5000"
+echo "API is running"
 sleep 10
 echo "*****************"
 echo "STARTING UI"

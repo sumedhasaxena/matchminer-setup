@@ -3,13 +3,13 @@
 # Set up a local development mongo/mongo-connector/elasticsearch environment.
 set -e
 
-case "$(docker-compose version)" in
-  *docker-compose\ version\ 1*)
-    # docker-compose exec sometimes breaks in v1
-    echo "Requires docker-compose version 2 or greater."
-    exit 1
-    ;;
-esac
+ case "$(docker compose version)" in
+   *docker\ compose\ version\ 1*)
+     # docker-compose exec sometimes breaks in v1
+     echo "Requires docker-compose version 2 or greater."
+     exit 1
+     ;;
+ esac
 
 DEV_MODE=false
 
@@ -33,7 +33,7 @@ echo "MATCHMINER_BUILD_PATH = $MATCHMINER_BUILD_PATH"
 echo "*****************"
 echo "STARTING DATABASE SERVICES"
 echo "*****************"
-docker-compose up -d mongo elasticsearch
+docker compose up -d mongo elasticsearch
 echo "DONE."
 echo ""
 
@@ -45,7 +45,7 @@ sleep 5
 
 if [[ $DEV_MODE == true ]]; then
   echo "Add dev user to database to bypass authentication"
-  docker-compose exec mongo mongosh matchminer --eval 'db.user.replaceOne({
+  docker compose exec mongo mongosh matchminer --eval 'db.user.replaceOne({
     "_id": ObjectId("577cf6ef2b9920002cef0337")
   }, {
     "_id": ObjectId("577cf6ef2b9920002cef0337"),
@@ -77,23 +77,23 @@ echo "*****************"
 # naively wait for elasticsearch to start up
 sleep 20
 # run script to configure indexes, synonyms, etc.
-docker-compose build matchminer-api
+docker compose build matchminer-api
 echo "Setup elasticsearch settings, mappings"
 
-docker-compose run --rm matchminer-api python pymm_run.py reset-elasticsearch
+docker compose run --rm matchminer-api python pymm_run.py reset-elasticsearch
 echo "DONE."
 echo ""
 
 echo "*****************"
 echo "STARTING API"
 echo "*****************"
-docker-compose build matchminer-api
-docker-compose up -d matchminer-api
+docker compose build matchminer-api
+docker compose up -d matchminer-api
 echo "API is running"
 sleep 10
 echo "*****************"
 echo "STARTING UI"
 echo "*****************"
-docker-compose build matchminer-ui
-docker-compose up -d matchminer-ui
+docker compose build matchminer-ui
+docker compose up -d matchminer-ui
 echo "UI is running at: http://localhost:1952"

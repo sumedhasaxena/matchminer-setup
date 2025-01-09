@@ -13,7 +13,6 @@ services:
     build:
       context: ${MATCHMINER_BUILD_PATH:-/tmp/nowhere}/matchminer-api
     image: matchminer/matchminer-api:latest-prod-test
-    read_only: true
     volumes:
     - ./secrets.json:/secrets.json
     tmpfs:
@@ -24,8 +23,9 @@ services:
     networks:
     - mm-dev-network
   mongo:
-    image: mongo:6.0-focal
-    #command: mongod --replSet=rs0 --setParameter maxLogSizeKB=1 --wiredTigerCacheSizeGB=1 --quiet
+    image: mongo:6.0-focal    
+    ports:
+      - "27017:27017"
     volumes:
     - matchminer_data:/data/db
     tmpfs:
@@ -38,9 +38,8 @@ services:
       context: ${MATCHMINER_BUILD_PATH:-/tmp/nowhere}/matchminer-ui
     image: matchminer/matchminer-ui:latest-prod-test
     stop_signal: SIGKILL # service is stateless, can be stopped immediately
-    read_only: true
     ports:
-    - "1952:80"
+    - "1952:443"
     depends_on:
     - matchminer-api
     environment:

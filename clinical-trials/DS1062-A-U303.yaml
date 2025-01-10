@@ -1,0 +1,76 @@
+nct_id: 'DS1062-A-U303'
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: 'Interventional'
+drug_list:
+  drug:
+    - drug_name: Dao-DXd
+    - drug_name: Pembrolizumab
+    - drug_name: Carboplatin
+    - drug_name: Pemetrexed
+long_title: 'A Randomized, Open-Label, Phase 3 Study to Evaluate Zimberelimab and Domvanalimab in Combination with Chemotherapy Versus Pembrolizumab with Chemotherapy for the First-Line Treatment of Patients With Metastatic Non–Small Cell Lung Cancer With No Epidermal Growth Factor Receptor or Anaplastic Lymphoma Kinase Genomic Tumor Aberrations'
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group 1 
+oncology_group_list:
+  oncology_group:
+  - group_name: Group 1
+    is_primary: N
+phase: '3'
+principal_investigator: 'Dr. Victor LEE'
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program 1
+protocol_id: 2
+protocol_no: '2025010800'
+protocol_target_accrual: 0
+protocol_type: ""
+prior_treatment_requirements: 
+  - 'Stage IIIB or IIIC NSCLC who are not candidates for surgical resection or definitive chemoradiation, or Stage IV NSCLC'
+  - 'PD-L1 TPS < 50%'
+  - 'Negative test results for EGFR, ALK, ROS1, and other actionable driver kinases with locally approved therapies'
+  - 'Have not received prior systemic treatment for advanced or metastatic NSCLC'
+short_title: 'A Randomized, Open-Label, Phase 3 Study to Evaluate Zimberelimab and Domvanalimab in Combination with Chemotherapy Versus Pembrolizumab with Chemotherapy for the First-Line Treatment of Patients With Metastatic Non–Small Cell Lung Cancer With No Epidermal Growth Factor Receptor or Anaplastic Lymphoma Kinase Genomic Tumor Aberrations'
+site_list:
+ site: []
+sponsor_list:
+ sponsor: []
+staff_list:
+ protocol_staff: []
+status: open to accrual
+summary: ''
+treatment_list:
+  step:
+  - arm:
+    - arm_code: Arm A
+      arm_internal_id: 1111
+      arm_description: 'Treatment with Dao-DXd + Pembrolizumab + Carboplatin'
+      arm_suspended: N
+    - arm_code: Arm B
+      arm_internal_id: 2222
+      arm_description: 'Treatment with Dato-DXd + Pembrolizumab'
+      arm_suspended: N
+    - arm_code: Arm C
+      arm_internal_id: 3333
+      arm_description: 'Treatment with Pembrolizumab + Pemetrexed + Carboplatin'
+      arm_suspended: N
+    step_code: '1'
+    step_type: 'Registration'
+    step_internal_id: 1111
+    match:
+        - and:
+          - clinical:              
+              oncotree_primary_diagnosis: Non-Small Cell Lung Cancer          
+          - and:
+              - genomic:
+                    hugo_symbol: '!EGFR'
+                    variant_category: 'Mutation'
+              - genomic:
+                    hugo_symbol: '!ALK'
+                    variant_category: 'Mutation'
+              - genomic:
+                    hugo_symbol: '!ROS1'
+                    variant_category: 'Mutation'
+            

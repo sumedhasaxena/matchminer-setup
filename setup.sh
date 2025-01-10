@@ -46,15 +46,15 @@ sleep 5
 if [[ $DEV_MODE == true ]]; then
   echo "Add dev user to database to bypass authentication"
   docker compose exec mongo mongosh matchminer --eval 'db.user.replaceOne({
-    "_id": ObjectId("577cf6ef2b9920002cef0337")
+    "_id": ObjectId("insert-id-here")
   }, {
-    "_id": ObjectId("577cf6ef2b9920002cef0337"),
-    "last_name" : "Doe",
+    "_id": ObjectId("insert-id-here"),
+    "last_name" : "User",
     "teams" : [
       ObjectId("5a8ede8f4e0cce002dd5913c")
     ],
     "_updated" : ISODate("2018-02-22T10:15:27.000-05:00"),
-    "first_name" : "John",
+    "first_name" : "Matchminer",
     "roles" : [
       "user",
       "cti",
@@ -64,8 +64,8 @@ if [[ $DEV_MODE == true ]]; then
     "title" : "",
     "email" : "fake_email@institution.edu",
     "_created" : ISODate("2018-02-22T10:15:27.000-05:00"),
-    "user_name" : "du123",
-    "token" : "fb4d6830-d3aa-481b-bcd6-270d69790e11",
+    "user_name" : "matchmineruser",
+    "token" : "insert-token-here",
     "oncore_token" : "5f3c2421-271c-41ba-ac14-899f214d49b9"
   }, { "upsert": true })'
 fi

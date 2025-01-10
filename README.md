@@ -9,4 +9,4 @@ With a seed mongoDB user:
 Run ```./setup.sh --dev true```
 
 Without a seed mongoDB user:
-Run ```./setup.sh```
+Run ```./setup.sh --dev false```

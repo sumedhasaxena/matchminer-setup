@@ -6,7 +6,6 @@ drug_list:
   drug:
     - drug_name: AMG 193
     - drug_name: Docetaxel
-lead_study_coordinator: 'Kailyn HUI - 2255 5034'
 long_title: 'A phase 1/1b/2 study evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and efficacy of AMG 193 alone and in combination with docetaxel in subjects with advanced MTAP-null solid tumors'
 management_group_list:
   management_group:
@@ -17,7 +16,6 @@ oncology_group_list:
   - group_name: Group 1
     is_primary: N
 phase: '1/1b/2'
-primary_study_contact: 'Kailyn HUI - 2255 5034'
 principal_investigator: 'Dr. Aya El Helali'
 program_area_list:
   program_area:

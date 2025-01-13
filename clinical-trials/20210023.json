@@ -1,0 +1,162 @@
+{
+  "nct_id": "20210023",
+  "age": "Adults",
+  "cancer_center_accrual_goal_upper": 0,
+  "data_table4": "Interventional",
+  "drug_list": {
+    "drug": [
+      {
+        "drug_name": "AMG 193"
+      },
+      {
+        "drug_name": "Docetaxel"
+      }
+    ]
+  },
+  "long_title": "A phase 1/1b/2 study evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and efficacy of AMG 193 alone and in combination with docetaxel in subjects with advanced MTAP-null solid tumors",
+  "management_group_list": {
+    "management_group": [
+      {
+        "is_primary": "Y",
+        "management_group_name": "Group 1"
+      }
+    ]
+  },
+  "oncology_group_list": {
+    "oncology_group": [
+      {
+        "group_name": "Group 1",
+        "is_primary": "N"
+      }
+    ]
+  },
+  "phase": "1/1b/2",
+  "principal_investigator": "Dr. Aya El Helali",
+  "program_area_list": {
+    "program_area": [
+      {
+        "is_primary": "Y",
+        "program_area_name": "Program 1"
+      }
+    ]
+  },
+  "protocol_id": 1,
+  "protocol_no": "2025010700",
+  "protocol_target_accrual": 0,
+  "protocol_type": "",
+  "prior_treatment_requirements": [
+    "Age ≥ 18 years",
+    "Evidence of homozygous loss of CDKN2A (null) (Parts 1a and 1b only) and/or MTAP (null) in the tumor tissue or blood (Parts 1a to 1h, Parts 2a and 2b) or lost MTAP expression in the tumor tissue (Parts 1a to 1h, Parts 2a and 2b)",
+    "Histologically confirmed metastatic or locally advanced solid tumor not amenable to curative treatment with surgery and/or radiation.",
+    "Able to swallow and retain PO administered study treatment and willing to record daily adherence to investigational product.",
+    "Disease measurable as defined by Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1).",
+    "ECOG performance status of 0 to 1."
+  ],
+  "short_title": "A phase 1/1b/2 study evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and efficacy of AMG 193 alone and in combination with docetaxel in subjects with advanced MTAP-null solid tumors",
+  "site_list": {
+    "site": []
+  },
+  "sponsor_list": {
+    "sponsor": []
+  },
+  "staff_list": {
+    "protocol_staff": []
+  },
+  "status": "open to accrual",
+  "summary": "A phase 1/1b/2 study evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and efficacy of AMG 193 alone and in combination with docetaxel in subjects with advanced MTAP-null solid tumors",
+  "treatment_list": {
+    "step": [
+      {
+        "arm": [
+          {
+            "arm_code": "Cohort A",
+            "arm_internal_id": 1111,
+            "arm_description": "Evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and efficacy of AMG 193 alone",
+            "arm_suspended": "N"
+          },
+          {
+            "arm_code": "Cohort B",
+            "arm_internal_id": 2222,
+            "arm_description": "Evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and efficacy of AMG 193 in combination with docetaxel",
+            "arm_suspended": "N"
+          }
+        ],
+        "step_code": "1",
+        "step_type": "Registration",
+        "step_internal_id": 1111,
+        "match": [
+          {
+            "and": [
+              {
+                "clinical": {
+                  "age_numerical": ">=18"
+                }
+              },
+              {
+                "or": [
+                  {
+                    "clinical": {
+                      "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                    }
+                  },
+                  {
+                    "clinical": {
+                      "oncotree_primary_diagnosis": "Biliary Tract"
+                    }
+                  },
+                  {
+                    "clinical": {
+                      "oncotree_primary_diagnosis": "Head and Neck Squamous Cell Carcinoma"
+                    }
+                  },
+                  {
+                    "clinical": {
+                      "oncotree_primary_diagnosis": "Pancreatic Adenocarcinoma"
+                    }
+                  },
+                  {
+                    "and": [
+                      {
+                        "clinical": {
+                          "oncotree_primary_diagnosis": "_SOLID_"
+                        }
+                      },
+                      {
+                        "clinical": {
+                          "oncotree_primary_diagnosis": "!Primary Brain Tumor"
+                        }
+                      },
+                      {
+                        "clinical": {
+                          "oncotree_primary_diagnosis": "!Malignant Lymphoma"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "or": [
+                  {
+                    "genomic": {
+                      "hugo_symbol": "CDKN2A",
+                      "variant_category": "Copy Number Variation",
+                      "cnv_call": "Homozygous Deletion"
+                    }
+                  },
+                  {
+                    "genomic": {
+                      "hugo_symbol": "MTAP",
+                      "variant_category": "Copy Number Variation",
+                      "cnv_call": "Homozygous Deletion"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

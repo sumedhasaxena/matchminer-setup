@@ -1,0 +1,91 @@
+{
+  "nct_id": "UW 21-577",
+  "age": "Adults",
+  "cancer_center_accrual_goal_upper": 0,
+  "data_table4": "Interventional",
+  "long_title": "A randomized study of neoadjuvant chemoradiotherapy with or without intensification with the FOLFOXIRI chemo-regimen for high-risk locally advanced rectal cancer",
+  "management_group_list": {
+    "management_group": [
+      {
+        "is_primary": "Y",
+        "management_group_name": "Group 1"
+      }
+    ]
+  },
+  "oncology_group_list": {
+    "oncology_group": [
+      {
+        "group_name": "Group 1",
+        "is_primary": "N"
+      }
+    ]
+  },
+  "phase": "1",
+  "principal_investigator": "Dr. Aya El Helali",
+  "program_area_list": {
+    "program_area": [
+      {
+        "is_primary": "Y",
+        "program_area_name": "Program 1"
+      }
+    ]
+  },
+  "protocol_id": 4,
+  "protocol_no": "2025010802",
+  "protocol_target_accrual": 0,
+  "protocol_type": "",
+  "prior_treatment_requirements": [
+    "Histologically confirmed rectal adenocarcinoma (defined as either mid- or low rectal cancer that is located within 12 cm from the anal verge OR below the peritoneal reflection) that is previously untreated.",
+    "Measurable disease by RECIST 1.1 criteria.",
+    "High-risk rectal cancer, or rectal cancers that are considered marginally operable where there is a significant risk of ‘positive surgical margin’ (or otherwise known as ‘threatened circumferential margin’) = T3 or T4 tumor with one or more of the following features:",
+    "- Tumour infiltrating perirectal fat and/or mesorectal fascia and/or vasculature",
+    "- Pelvic lymph node involvement.",
+    "- Absence of distant metastases."
+  ],
+  "short_title": "A randomized study of neoadjuvant chemoradiotherapy with or without intensification with the FOLFOXIRI chemo-regimen for high-risk locally advanced rectal cancer",
+  "site_list": {
+    "site": []
+  },
+  "sponsor_list": {
+    "sponsor": []
+  },
+  "staff_list": {
+    "protocol_staff": []
+  },
+  "status": "open to accrual",
+  "summary": "",
+  "treatment_list": {
+    "step": [
+      {
+        "arm": [
+          {
+            "arm_code": "Arm A (Control)",
+            "arm_internal_id": 1111,
+            "arm_description": "Concurrent neoadjuvant concurrent capecitabine-radiotherapy followed by surgery and post-operative chemotherapy ",
+            "arm_suspended": "N"
+          },
+          {
+            "arm_code": "Arm B (Experimental)",
+            "arm_internal_id": 2222,
+            "arm_description": "Neoadjuvant FOLFOXIRI x 4 cycles then concurrent capecitabineradiotherapy, surgery and post-operative chemotherapy",
+            "arm_suspended": "N"
+          }
+        ],
+        "step_code": "1",
+        "step_type": "Registration",
+        "step_internal_id": 1111,
+        "match": [
+          {
+            "and": [
+              {
+                "clinical": {
+                  "oncotree_primary_diagnosis": "Rectal Adenocarcinoma"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

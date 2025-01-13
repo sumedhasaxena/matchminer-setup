@@ -1,0 +1,124 @@
+{
+  "nct_id": "GS-US-626-6216",
+  "age": "Adults",
+  "cancer_center_accrual_goal_upper": 0,
+  "data_table4": "Interventional",
+  "drug_list": {
+    "drug": [
+      {
+        "drug_name": "Zimberelimab"
+      },
+      {
+        "drug_name": "Domvanalimab"
+      },
+      {
+        "drug_name": "Pembrolizumab"
+      }
+    ]
+  },
+  "long_title": "A Randomized, Open-Label, Phase 3 Study to Evaluate Zimberelimab and Domvanalimab in Combination with Chemotherapy Versus Pembrolizumab with Chemotherapy for the First-Line Treatment of Patients With Metastatic Non–Small Cell Lung Cancer With No Epidermal Growth Factor Receptor or Anaplastic Lymphoma Kinase Genomic Tumor Aberrations",
+  "management_group_list": {
+    "management_group": [
+      {
+        "is_primary": "Y",
+        "management_group_name": "Group 1"
+      }
+    ]
+  },
+  "oncology_group_list": {
+    "oncology_group": [
+      {
+        "group_name": "Group 1",
+        "is_primary": "N"
+      }
+    ]
+  },
+  "phase": "3",
+  "principal_investigator": "Dr. Victor LEE",
+  "program_area_list": {
+    "program_area": [
+      {
+        "is_primary": "Y",
+        "program_area_name": "Program 1"
+      }
+    ]
+  },
+  "protocol_id": 2,
+  "protocol_no": "2025010803",
+  "protocol_target_accrual": 0,
+  "protocol_type": "",
+  "prior_treatment_requirements": [
+    "Pathologically documented stage IV NSCLC",
+    "EGFR and ALK negative",
+    "Have no known actionable genomic alterations with approved therapies",
+    "Have not received prior systemic treatment for metastatic NSCLC"
+  ],
+  "short_title": "A Randomized, Open-Label, Phase 3 Study to Evaluate Zimberelimab and Domvanalimab in Combination with Chemotherapy Versus Pembrolizumab with Chemotherapy for the First-Line Treatment of Patients With Metastatic Non–Small Cell Lung Cancer With No Epidermal Growth Factor Receptor or Anaplastic Lymphoma Kinase Genomic Tumor Aberrations",
+  "site_list": {
+    "site": []
+  },
+  "sponsor_list": {
+    "sponsor": []
+  },
+  "staff_list": {
+    "protocol_staff": []
+  },
+  "status": "open to accrual",
+  "summary": "",
+  "treatment_list": {
+    "step": [
+      {
+        "arm": [
+          {
+            "arm_code": "Group A",
+            "arm_internal_id": 1111,
+            "arm_description": "Treatment with Zimberelimab + Domvanalimab + Chemotherapy",
+            "arm_suspended": "N"
+          },
+          {
+            "arm_code": "Group B",
+            "arm_internal_id": 2222,
+            "arm_description": "Treatment with Pembrolizumab + Chemotherapy",
+            "arm_suspended": "N"
+          },
+          {
+            "arm_code": "Group C",
+            "arm_internal_id": 3333,
+            "arm_description": "Treatment with Zimberelimab + Chemotherapy",
+            "arm_suspended": "N"
+          }
+        ],
+        "step_code": "1",
+        "step_type": "Registration",
+        "step_internal_id": 1111,
+        "match": [
+          {
+            "and": [
+              {
+                "clinical": {
+                  "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                }
+              },
+              {
+                "and": [
+                  {
+                    "genomic": {
+                      "hugo_symbol": "!EGFR",
+                      "variant_category": "Mutation"
+                    }
+                  },
+                  {
+                    "genomic": {
+                      "hugo_symbol": "!ALK",
+                      "variant_category": "Mutation"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

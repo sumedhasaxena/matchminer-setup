@@ -1,0 +1,98 @@
+{
+  "nct_id": "MK7902-014",
+  "age": "Adults",
+  "cancer_center_accrual_goal_upper": 0,
+  "data_table4": "Interventional",
+  "drug_list": {
+    "drug": [
+      {
+        "drug_name": "Pembrolizumab"
+      },
+      {
+        "drug_name": "Lenvatinib"
+      }
+    ]
+  },
+  "long_title": "A Phase 3, Randomized Study to Evaluate the Efficacy and Safety of Pembrolizumab (MK-3475) + Lenvatinib (E7080/MK-7902) + Chemotherapy Compared With Standard of Care as First-line Intervention in Participants With Metastatic Esophageal Carcinoma",
+  "management_group_list": {
+    "management_group": [
+      {
+        "is_primary": "Y",
+        "management_group_name": "HKUMed"
+      }
+    ]
+  },
+  "oncology_group_list": {
+    "oncology_group": [
+      {
+        "group_name": "Group 1",
+        "is_primary": "N"
+      }
+    ]
+  },
+  "phase": "3",
+  "principal_investigator": "Professor Dora KWONG",
+  "program_area_list": {
+    "program_area": [
+      {
+        "is_primary": "Y",
+        "program_area_name": "Program 1"
+      }
+    ]
+  },
+  "protocol_id": null,
+  "protocol_no": "",
+  "protocol_target_accrual": 0,
+  "protocol_type": "",
+  "prior_treatment_requirements": [
+    "Metastatic squamous cell carcinoma of the esophagus",
+    "No GI obstruction, poor oral intake, difficulty in taking oral medication, or existing esophageal stent",
+    "No known history of Hepatitis B or active Hepatitis C virus infection"
+  ],
+  "short_title": "Evaluate the Efficacy and Safety of Pembrolizumab (MK-3475) + Lenvatinib (E7080/MK-7902) + Chemotherapy",
+  "site_list": {
+    "site": []
+  },
+  "sponsor_list": {
+    "sponsor": []
+  },
+  "staff_list": {
+    "protocol_staff": []
+  },
+  "status": "open to accrual",
+  "summary": "",
+  "treatment_list": {
+    "step": [
+      {
+        "arm": [
+          {
+            "arm_code": "Arm A",
+            "arm_internal_id": 1111,
+            "arm_description": "Pembrolizumab + Lenvatinib + Chemotherapy",
+            "arm_suspended": "N"
+          },
+          {
+            "arm_code": "Arm B",
+            "arm_internal_id": 2222,
+            "arm_description": "Pembrolizumab + Chemotherapy",
+            "arm_suspended": "N"
+          }
+        ],
+        "step_code": "1",
+        "step_type": "Registration",
+        "step_internal_id": 1111,
+        "match": [
+          {
+            "and": [
+              {
+                "clinical": {
+                  "oncotree_primary_diagnosis": "Esophageal Squamous Cell Carcinoma"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

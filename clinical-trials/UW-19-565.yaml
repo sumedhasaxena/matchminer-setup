@@ -1,0 +1,66 @@
+nct_id: 'UW 19-565'
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: 'Interventional'
+long_title: 'Tumor Control, Treatment Toxicity, Quality of Life and Bio-Imaging Repository Databank (TQ-BIRD) for Cancer Patients'
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: HKUMed
+oncology_group_list:
+  oncology_group:
+  - group_name: Group 1
+    is_primary: N
+phase: ''
+principal_investigator: 'Professor Feng-ming Spring KONG'
+principal_investigator_institution: HKU
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program 1
+protocol_id: 
+protocol_no: ''
+protocol_target_accrual: 0
+protocol_type: ""
+prior_treatment_requirements: 
+  - 'Cancer Patients:'
+  - '- 18 years of age and older.'
+  - '- Scheduled to receive any kind of therapy or no cancer therapy'
+  - '- ECOG Performance score of 0, 1, 2, or 3.'
+  - '- Able to understand QoL questionnaire'
+  - 'Normal (non cancer) controls:'
+  - '- 18 years of age and older healthy volunteers'
+  - '- Without a history of cancer except for cured skin cancer'
+  - '- ECOG Performance status 0, 1, 2, or 3.'
+short_title: 'Tumor Control, Treatment Toxicity, Quality of Life and Bio-Imaging Repository Databank (TQ-BIRD) for Cancer Patients'
+site_list:
+ site: []
+sponsor_list:
+ sponsor: []
+staff_list:
+ protocol_staff: []
+status: open to accrual
+summary: ''
+treatment_list:
+  step:
+  - arm:
+    - arm_code: Arm A
+      arm_internal_id: 1111
+      arm_description: 'Treatment arm'
+      arm_suspended: N  
+    - arm_code: Arm B
+      arm_internal_id: 2222
+      arm_description: 'Control arm'
+      arm_suspended: N 
+    step_code: '1'
+    step_type: 'Registration'
+    step_internal_id: 1111
+    match:
+        - and:
+          - clinical:  
+              age_numerical: '>=18 years'
+          - or:
+            - clinical:              
+                oncotree_primary_diagnosis: '_SOLID_'
+            - clinical:              
+                oncotree_primary_diagnosis: '_LIQUID_'

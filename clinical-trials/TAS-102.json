@@ -1,0 +1,100 @@
+{
+  "nct_id": "TAS-102",
+  "age": "Adults",
+  "cancer_center_accrual_goal_upper": 0,
+  "data_table4": "Interventional",
+  "drug_list": {
+    "drug": [
+      {
+        "drug_name": "TAS-102"
+      }
+    ]
+  },
+  "long_title": "Phase II Trial of TAS-102 in Patients with Advanced, Refractory Pancreatic Adenocarcinoma",
+  "management_group_list": {
+    "management_group": [
+      {
+        "is_primary": "Y",
+        "management_group_name": "HKUMed"
+      }
+    ]
+  },
+  "oncology_group_list": {
+    "oncology_group": [
+      {
+        "group_name": "Group 1",
+        "is_primary": "N"
+      }
+    ]
+  },
+  "phase": "II",
+  "principal_investigator": "Dr CHIANG Chi Leung",
+  "principal_investigator_institution": "HKU",
+  "program_area_list": {
+    "program_area": [
+      {
+        "is_primary": "Y",
+        "program_area_name": "Program 1"
+      }
+    ]
+  },
+  "protocol_id": null,
+  "protocol_no": "",
+  "protocol_target_accrual": 0,
+  "protocol_type": "",
+  "prior_treatment_requirements": [
+    "Histological or cytological confirmed advanced or metastatic pancreatic cancer",
+    "Measurable disease according to the RECIST criteria (version 1.1) for the evaluation of measurable disease ",
+    "Documented progression after one or more lines of systemic chemotherapy",
+    "-a. For the treatment of advanced or metastatic disease",
+    "-b. Within 6 months after completion of neo-adjuvant therapy or adjuvant therapy",
+    "Age ≥ 18 years",
+    "Eastern Cooperative Oncology Group (ECOG) performance 0-1",
+    "Written informed consent obtained for clinical trial participation and providing archival tumor tissue, if available",
+    "Females of childbearing potential or non-sterilized male who are sexually active must use a highly effective method of contraception",
+    "Females of childbearing potential must have negative serum or urine pregnancy test",
+    "Have life expectancy ≥ 3 months",
+    "Adequate organ function"
+  ],
+  "short_title": "Trial of TAS-102 in Patients with Pancreatic Adenocarcinoma",
+  "site_list": {
+    "site": []
+  },
+  "sponsor_list": {
+    "sponsor": []
+  },
+  "staff_list": {
+    "protocol_staff": []
+  },
+  "status": "open to accrual",
+  "summary": "",
+  "treatment_list": {
+    "step": [
+      {
+        "arm": [
+          {
+            "arm_code": "Arm A",
+            "arm_internal_id": 1111,
+            "arm_description": "Treatment with TAS-102 ",
+            "arm_suspended": "N"
+          }
+        ],
+        "step_code": "1",
+        "step_type": "Registration",
+        "step_internal_id": 1111,
+        "match": [
+          {
+            "and": [
+              {
+                "clinical": {
+                  "oncotree_primary_diagnosis": "Pancreatic Adenocarcinoma",
+                  "age_numerical": ">=18"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -56,6 +56,9 @@ treatment_list:
         - and:
           - clinical:              
               oncotree_primary_diagnosis: 'Invasive Breast Carcinoma'
+              disease_status:
+                - 'Locally Advanced'
+                - 'Metastatic'
               her2_status: 'Negative'
               er_status: 'Negative'
               pr_status: 'Negative'               

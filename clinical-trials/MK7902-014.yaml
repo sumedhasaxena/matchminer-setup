@@ -56,3 +56,5 @@ treatment_list:
         - and:
           - clinical:              
                 oncotree_primary_diagnosis: 'Esophageal Squamous Cell Carcinoma'
+                disease_status: 
+                  - Metastatic

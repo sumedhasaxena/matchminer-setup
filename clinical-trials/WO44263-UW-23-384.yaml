@@ -56,6 +56,9 @@ treatment_list:
           - clinical:              
               oncotree_primary_diagnosis: 'Invasive Breast Carcinoma'
               her2_status: 'Positive'
+              disease_status: 
+                - 'Locally Advanced'
+                - 'Metastatic'
           - genomic:
               hugo_symbol: 'PIK3CA'
               variant_category: 'Mutation'

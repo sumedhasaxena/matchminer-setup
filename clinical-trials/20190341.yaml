@@ -59,10 +59,8 @@ treatment_list:
         - and:
           - clinical:              
               oncotree_primary_diagnosis: 'Non-Small Cell Lung Cancer'
-          - and:
-              - genomic:
-                  hugo_symbol: '!CD274'
-                  variant_category: 'Mutation'
+              pdl1_status: Low
+          - and:              
               - genomic:
                   hugo_symbol: 'KRAS'
                   variant_category: 'Mutation'

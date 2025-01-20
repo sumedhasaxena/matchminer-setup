@@ -56,11 +56,9 @@ treatment_list:
     match:
         - and:
           - clinical:              
-              oncotree_primary_diagnosis: Non-Small Cell Lung Cancer   
-          - and:
-              - genomic:
-                  hugo_symbol: 'CD274'
-                  variant_category: 'Mutation'
+              oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+              pdl1_status: High
+          - and:              
               - genomic:
                   hugo_symbol: '!EGFR'
                   variant_category: 'Mutation'

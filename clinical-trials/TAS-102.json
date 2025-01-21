@@ -88,7 +88,11 @@
               {
                 "clinical": {
                   "oncotree_primary_diagnosis": "Pancreatic Adenocarcinoma",
-                  "age_numerical": ">=18"
+                  "age_numerical": ">=18",
+                  "disease_status": [
+                    "Advanced",
+                    "Metastatic"
+                  ]
                 }
               }
             ]

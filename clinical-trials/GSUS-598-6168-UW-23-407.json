@@ -88,7 +88,11 @@
               {
                 "clinical": {
                   "oncotree_primary_diagnosis": "Invasive Breast Carcinoma",
-                  "her2_status": "Negative"
+                  "her2_status": "Negative",
+                  "disease_status": [
+                    "Locally Advanced",
+                    "Metastatic"
+                  ]
                 }
               }
             ]

@@ -85,7 +85,11 @@
             "and": [
               {
                 "clinical": {
-                  "oncotree_primary_diagnosis": "Nasopharyngeal Carcinoma"
+                  "oncotree_primary_diagnosis": "Nasopharyngeal Carcinoma",
+                  "disease_status": [
+                    "Recurrent",
+                    "Metastatic"
+                  ]
                 }
               }
             ]

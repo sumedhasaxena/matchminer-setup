@@ -99,7 +99,8 @@
             "and": [
               {
                 "clinical": {
-                  "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                  "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer",
+                  "pdl1_status": "Low"
                 }
               },
               {

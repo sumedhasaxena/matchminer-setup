@@ -86,7 +86,10 @@
             "and": [
               {
                 "clinical": {
-                  "oncotree_primary_diagnosis": "Esophageal Squamous Cell Carcinoma"
+                  "oncotree_primary_diagnosis": "Esophageal Squamous Cell Carcinoma",
+                  "disease_status": [
+                    "Metastatic"
+                  ]
                 }
               }
             ]

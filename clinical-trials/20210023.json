@@ -40,8 +40,8 @@
       }
     ]
   },
-  "protocol_id": 1,
-  "protocol_no": "2025010700",
+  "protocol_id": ,
+  "protocol_no": "",
   "protocol_target_accrual": 0,
   "protocol_type": "",
   "prior_treatment_requirements": [
@@ -89,7 +89,11 @@
             "and": [
               {
                 "clinical": {
-                  "age_numerical": ">=18"
+                  "age_numerical": ">=18",
+                  "disease_status": [
+                    "Locally Advanced",
+                    "Metastatic"
+                  ]
                 }
               },
               {

@@ -41,7 +41,7 @@
     ]
   },
   "protocol_id": 3,
-  "protocol_no": "2025010801",
+  "protocol_no": "",
   "protocol_target_accrual": 0,
   "protocol_type": "",
   "prior_treatment_requirements": [
@@ -87,17 +87,12 @@
             "and": [
               {
                 "clinical": {
-                  "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                  "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer",
+                  "pdl1_status": "High"
                 }
               },
               {
                 "and": [
-                  {
-                    "genomic": {
-                      "hugo_symbol": "CD274",
-                      "variant_category": "Mutation"
-                    }
-                  },
                   {
                     "genomic": {
                       "hugo_symbol": "!EGFR",

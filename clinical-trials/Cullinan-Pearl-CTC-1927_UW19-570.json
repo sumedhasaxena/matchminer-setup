@@ -87,7 +87,8 @@
                     "genomic": {
                       "hugo_symbol": "EGFR",
                       "variant_category": "Mutation",
-                      "variant_classification": "In_Frame_Ins"
+                      "variant_classification": "In_Frame_Ins",
+                      "exon": 20
                     }
                   }
                 ]

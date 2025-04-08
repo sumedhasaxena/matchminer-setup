@@ -1,0 +1,130 @@
+nct_id: NCT06497556
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Adagrasib'
+  - drug_name: 'Drug: Sotorasib'
+  - drug_name: 'Drug: Divarasib'
+long_title: A Phase III, Randomized, Open-Label, Multicenter Study Evaluating the
+  Efficacy and Safety of Divarasib Versus Sotorasib or Adagrasib in Patients With
+  Previously Treated KRAS G12C-Positive Advanced or Metastatic Non-Small Cell Lung
+  Cancer
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Clinical Trials
+principal_investigator_institution: Hoffmann-La Roche
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 320
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Unequivocal histologically or cytologically confirmed diagnosis of metastatic
+  or locally advanced NSCLC not amenable to treatment with surgical resection or combined
+  chemoradiation'
+- '* Disease progression during or after treatment with at least one prior systemic
+  therapy but no more than three lines of prior systemic therapy in the advanced or
+  metastatic setting'
+- '* Measurable disease according to Response Evaluation Criteria in Solid Tumors
+  (RECIST) v1.1'
+- '* Documentation of the presence of a KRAS G12C mutation'
+- '* Availability of a representative formalin-fixed, paraffin-embedded (FFPE) tumor
+  specimen in a paraffin block (preferred) or 10-15 (15 preferred) unstained, freshly
+  cut, serial slides with an associated pathology report'
+- '* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1'
+- '* Life expectancy of \>= 12 weeks'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Known hypersensitivity to any of the components of divarasib, or sotorasib
+  or adagrasib
+- Exclude - * Malabsorption syndrome or other condition that would interfere with
+  enteral absorption
+- Exclude - * Known concomitant second oncogenic driver
+- Exclude - * Mixed small-cell lung cancer or large cell neuroendocrine histology
+- Exclude - * Known and untreated, or active central nervous system (CNS) metastases
+- Exclude - * Leptomeningeal disease or carcinomatous meningitis
+- Exclude - * Uncontrolled pleural effusion, pericardial effusion, or ascites requiring
+  recurrent drainage procedures biweekly or more frequently
+- Exclude - * Any infection that, in the opinion of the investigator, could impact
+  patient safety, or treatment with therapeutic oral or IV antibiotics within 14 days
+  prior to Day 1 of Cycle 1
+- Exclude - * Prior treatment with any KRAS G12C inhibitor or pan-KRAS/RAS inhibitor
+- Exclude - * More than 30 Gy of radiotherapy to the lung within 6 months of randomization
+- Exclude - * Uncontrolled tumor-related pain
+- Exclude - * Unresolved toxicities from prior anticancer therapy
+- Exclude - * History of malignancy within 5 years prior to screening, with the exception
+  of the cancer under investigation in this study and malignancies with a negligible
+  risk of metastasis or death (e.g., 5-year OS rate \>90%), such as adequately treated
+  carcinoma in situ of the cervix, nonmelanoma skin carcinoma, localized prostate
+  cancer, ductal carcinoma in situ, or Stage I uterine cancer
+short_title: A Study Evaluating the Efficacy and Safety of Divarasib Versus Sotorasib
+  or Adagrasib in Participants With Previously Treated KRAS G12C-positive Advanced
+  or Metastatic Non-Small Cell Lung Cancer
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Hoffmann-La Roche
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The purpose of this study is to assess the safety and efficacy of divarasib
+  compared to locally approved KRAS G12C inhibitors (sotorasib or adagrasib) in participants
+  with KRAS G12C-positive (KRAS G12C +) advanced or metastatic non-small cell lung
+  cancer (NSCLC).
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Divarasib
+      arm_internal_id: 0
+      arm_description: Participants will receive divarasib orally, once daily (QD).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Divarasib'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: KRAS G12C inhibitor
+      arm_internal_id: 1
+      arm_description: Participants will receive Sotorasib orally QD or adagrasib
+        orally twice a day (BID)
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Sotorasib'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Adagrasib'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          disease_status:
+          - Metastatic
+          - Locally Advanced
+          oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+      - or:
+        - genomic:
+            hugo_symbol: KRAS
+            variant_category: Mutation

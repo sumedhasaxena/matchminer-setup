@@ -1,0 +1,210 @@
+nct_id: NCT03286634
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: E-coli L-asparaginase'
+  - drug_name: 'Drug: 6-Mercaptopurine'
+  - drug_name: 'Drug: Daunorubicin'
+  - drug_name: 'Drug: Epirubicin'
+  - drug_name: 'Drug: Prednisolone'
+  - drug_name: 'Drug: Methotrexate'
+  - drug_name: 'Drug: Cyclophosphamide'
+  - drug_name: 'Drug: Hydrocortisone'
+  - drug_name: 'Drug: Vincristine'
+  - drug_name: 'Drug: Cytarabine'
+long_title: "Asia-wide, Multicenter Open-label, Phase II Non-randomised Study Involving\
+  \ Children With Down Syndrome Under 21 Year-old With Newly Diagnosed, Treatment\
+  \ na\xEFve Acute Lymphoblastic Leukemia"
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE2
+principal_investigator: ''
+principal_investigator_institution: National Hospital Organization Nagoya Medical
+  Center
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 60
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Down syndrome diagnosed clinically or cytogenetically (including Mosaic Down)'
+- '* Newly diagnosed ALL according to WHO 2016 classification.'
+- '* Age \< 21 years old at time of enrollment.'
+- '* ECOG performance status (PS) score of 0-2.'
+- '* Written informed consent obtained from legally acceptable representatives.'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Second malignancy.
+- Exclude - * Philadelphia positive ALL.
+- Exclude - * Mature B-ALL.
+- Exclude - * Mixed phenotype acute leukemia.
+- Exclude - * Any previous treatment with cytotoxic chemotherapy excluding treatment
+  for TAM or radiation therapy. Patient pre-treated with short term steroid (\< 7
+  days of duration within last 1 month prior to treatment start) can be enrolled into
+  this study.
+- Exclude - * Renal dysfunction with creatinine \>2x upper limit of normal (ULN).
+  Patients whose creatinine has improved to \<2x ULN before treatment commencement
+  can enrol subject to discretion of site PI.
+- Exclude - * Liver dysfunction with direct bilirubin \> 5x ULN.
+- 'Exclude - * Any serious uncontrolled medical condition or impending end organ dysfunction
+  that would impair the ability of the subject to receive protocol therapy, including:'
+- Exclude - 1. History of coronary arterial disease, cardiomyopathy, heart failure,
+  arrhythmia (other than sinus arrhythmia) or severe cardiac malformation which with
+  residual abnormalities or requires further major corrective surgery within 2 years.
+- Exclude - 2. Ongoing uncontrolled hypertension.
+- Exclude - 3. Ongoing uncontrolled diabetes mellitus.
+- Exclude - 4. Ongoing uncontrolled infection.
+- Exclude - 5. History of congenital or acquired immunodeficiency including HIV infection.
+- Exclude - 6. History of interstitial pneumonia, pulmonary fibrosis, bronchiectasis
+  or severe pulmonary emphysema.
+- Exclude - 7. CNS hemorrhage.
+- Exclude - 8. Psychiatric disorder.
+- Exclude - 9. Other concurrent active neoplasms.
+- Exclude - * Pregnant or lactating women.
+- Exclude - * Doubtful compliance or ability to complete study therapy due to financial,
+  social, familial or geographic reason, or in the judgement of site investigator.
+short_title: ASIA Down Syndrome Acute Lymphoblastic Leukemia 2016
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: National Hospital Organization Nagoya Medical Center
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: To evaluate the outcome of a prednisolone and low dose methotrexate based
+  protocol in Down syndrome children with ALL (DS-ALL) in an Asia-wide study. The
+  treatment protocol was modified based upon backbone of Taiwan Pediatric Oncology
+  Group (TPOG)-ALL protocol in which risk classification will be guided by level of
+  flow minimal residual disease (MRD) instead.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: SR
+      arm_internal_id: 0
+      arm_description: "Standard Risk (SR) :\n\nCNS 3 or CNS 2 regardless of response\
+        \ OR Time-point #1 (Day 15 induction) Flow MRD \u2265 1% (treatment will not\
+        \ be de-escalated even MRD \\<0.01% by TP#2) OR Time-point #2 (Day 1 IDMTX/MP\
+        \ of Consolidation) \u22650.01%\n\nSR strategy:\n\nAll SR patient will have\
+        \ to receive two doses of anthracycline and 12 L-asparaginase doses during\
+        \ induction except those who are escalated to SR at time point 2 when MRD\
+        \ \u22650.01%.\n\nDuring the first year of maintenance phase (48 weeks; 4x12\
+        \ weeks blocks), cyclophosphamide and cytarabine bolus will be administered\
+        \ at 4 weekly interval."
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Daunorubicin'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Prednisolone'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Vincristine'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Epirubicin'
+        level_internal_id: 3
+        level_suspended: N
+      - level_code: '4'
+        level_description: 'Drug: E-coli L-asparaginase'
+        level_internal_id: 4
+        level_suspended: N
+      - level_code: '5'
+        level_description: 'Drug: 6-Mercaptopurine'
+        level_internal_id: 5
+        level_suspended: N
+      - level_code: '6'
+        level_description: 'Drug: Methotrexate'
+        level_internal_id: 6
+        level_suspended: N
+      - level_code: '7'
+        level_description: 'Drug: Hydrocortisone'
+        level_internal_id: 7
+        level_suspended: N
+      - level_code: '8'
+        level_description: 'Drug: Cytarabine'
+        level_internal_id: 8
+        level_suspended: N
+      - level_code: '9'
+        level_description: 'Drug: Cyclophosphamide'
+        level_internal_id: 9
+        level_suspended: N
+    - arm_code: LR
+      arm_internal_id: 1
+      arm_description: 'Low Risk (LR):
+
+
+        Time-point #1 (Day 15 induction) Flow MRD \<1% AND Time-point #2 (Day 1 IDMTX/MP
+        of Consolidation) \<0.01% AND CNS 1 only
+
+
+        LR strategy:
+
+
+        For LR patients, one dose of anthracycline and 3 doses of L-asparaginase will
+        be omitted during induction.
+
+
+        Following re-induction I, interim maintenance and additional block of re-induction
+        ie. re-induction II prior to maintenance phase will be omitted for LR patients.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Daunorubicin'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Prednisolone'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Vincristine'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Epirubicin'
+        level_internal_id: 3
+        level_suspended: N
+      - level_code: '4'
+        level_description: 'Drug: E-coli L-asparaginase'
+        level_internal_id: 4
+        level_suspended: N
+      - level_code: '5'
+        level_description: 'Drug: 6-Mercaptopurine'
+        level_internal_id: 5
+        level_suspended: N
+      - level_code: '6'
+        level_description: 'Drug: Methotrexate'
+        level_internal_id: 6
+        level_suspended: N
+      - level_code: '7'
+        level_description: 'Drug: Hydrocortisone'
+        level_internal_id: 7
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=0'
+        disease_status:
+        - Untreated
+        oncotree_primary_diagnosis: Lymphoid Neoplasm

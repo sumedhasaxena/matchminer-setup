@@ -1,0 +1,136 @@
+nct_id: NCT06360354
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Gemcitabine'
+  - drug_name: 'Drug: Modified FOLFIRINOX'
+  - drug_name: 'Drug: Nab-paclitaxel'
+  - drug_name: 'Drug: AMG 193'
+long_title: A Phase 1b Study Evaluating the Safety, Tolerability, Pharmacokinetics,
+  and Efficacy of AMG 193 in Combination With Other Therapies in Subjects With Advanced
+  Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous MTAP-deletion
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: MD
+principal_investigator_institution: Amgen
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 188
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- Subprotocol B
+- 'Inclusion:'
+- "* Age \u2265 18 years (or \u2265 legal age within the country if it is older than\
+  \ 18 years)."
+- '* Histologically or cytologically confirmed diagnosis of metastatic and/or unresectable
+  (locally advanced) adenocarcinoma of the pancreas.'
+- '* Tumor tissue (FFPE sample) or an archival block must be available. Participants
+  without archived tumor tissue available may be allowed to enroll by undergoing tumor
+  biopsy before dosing.'
+- '* Homozygous MTAP-deletion.'
+- '* Disease measurable as defined by RECIST v1.1.'
+- '* Adequate organ function as defined in the protocol.'
+- 'Exclusion:'
+- '* Prior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.'
+- '* Radiation therapy within 28 days of first dose.'
+- '* Major surgery within 28 days of first dose of AMG 193.'
+- '* Cardiovascular and pulmonary exclusion criteria as defined in the protocol.'
+- '* Gastrointestinal tract disease causing the inability to take PO medication, malabsorption
+  syndrome, requirement for IV alimentation, gastric/jejunal tube feeds, uncontrolled
+  inflammatory gastrointestinal disease (eg, Crohn''s disease, ulcerative colitis).'
+- '* History of solid organ transplantation.'
+short_title: A Study Evaluating AMG 193 in Combination With Other Therapies in Participants
+  With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous
+  Methylthioadenosine Phosphorylase (MTAP)-Deletion
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Amgen
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The study aims to determine maximum tolerated dose (MTD) or recommended combination
+  dose of the MTA-cooperative PRMT5 inhibitor AMG 193 administered in combination
+  with other therapies in adult participants with metastatic or locally advanced methylthioadenosine
+  phosphorylase (MTAP)-deleted gastrointestinal, biliary tract, or pancreatic cancers.
+  The study also aims to determine the safety profile of AMG 193 administered in combination
+  with other therapies in adult participants with metastatic or locally advanced MTAP-deleted
+  gastrointestinal, biliary tract, or pancreatic cancers.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Subprotocol B: Pancreatic Ductal Adenocarcinoma (PDAC) Arm A'
+      arm_internal_id: 0
+      arm_description: 'Part 1: Participants with MTAP-deleted PDAC will receive escalating
+        doses of AMG 193 orally in combination with gemcitabine and nab-paclitaxel
+        IV.
+
+
+        Part 2: Participants with MTAP-deleted PDAC will receive the recommended dose
+        of AMG 193 in combination with gemcitabine and nab-paclitaxel.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Gemcitabine'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Nab-paclitaxel'
+        level_internal_id: 2
+        level_suspended: N
+    - arm_code: 'Subprotocol B: PDAC Arm B'
+      arm_internal_id: 1
+      arm_description: 'Part 1: Participants with MTAP-deleted PDAC will receive escalating
+        doses of AMG 193 orally in combination with mFOLFIRINOX (irinotecan, fluorouracil,
+        leucovorin calcium, oxaliplatin) IV.
+
+
+        Part 2: Participants with MTAP-deleted PDAC will receive the recommended dose
+        of AMG 193 in combination with mFOLFIRINOX.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Modified FOLFIRINOX'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - and:
+      - or:
+        - clinical:
+            oncotree_primary_diagnosis: Intraductal Papillary Neoplasm of the Bile
+              Duct
+        - clinical:
+            oncotree_primary_diagnosis: Intracholecystic Papillary Neoplasm
+      - clinical:
+          age_numerical: '>=18'
+          disease_status:
+          - Metastatic
+          - Locally Advanced

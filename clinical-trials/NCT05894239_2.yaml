@@ -1,0 +1,164 @@
+nct_id: NCT05894239
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Placebo'
+  - drug_name: 'Drug: Inavolisib'
+  - drug_name: 'Drug: Taxane-based Chemotherapy'
+  - drug_name: 'Drug: Optional Endocrine Therapy of Investigator''s Choice'
+  - drug_name: 'Drug: Phesgo'
+long_title: A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled
+  Study Evaluating the Efficacy and Safety of Inavolisib in Combination With Phesgo
+  Versus Placebo in Combination With Phesgo As Maintenance Therapy After First Line
+  Induction Therapy in Participants With PIK3CA-Mutated HER2-Positive Locally Advanced
+  or Metastatic Breast Cancer
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Clinical Trials
+principal_investigator_institution: Hoffmann-La Roche
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 230
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Eastern Cooperative Oncology Group (ECOG) Performance Status 0 or 1'
+- '* Histologically or cytologically confirmed and documented adenocarcinoma of the
+  breast with metastatic or locally advanced disease not amenable to curative resection'
+- '* Confirmation of HER2 biomarker eligibility based on valid results from central
+  testing of tumor tissue documenting HER2-positivity'
+- '* Confirmation of PIK3CA-mutation biomarker eligibility based on valid results
+  from central testing of tumor tissue documenting PIK3CA-mutated tumor status'
+- '* Disease-free interval from completion of adjuvant or neoadjuvant systemic non-hormonal
+  treatment to recurrence of \>= 6 months'
+- '* LVEF (left ventricular ejection fraction) of at least 50% measured by echocardiogram
+  (ECHO) or multiple-gated acquisition scan (MUGA)'
+- '* Adequate hematologic and organ function prior to initiation of study treatment'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Prior treatment in the locally advanced or metastatic setting with any
+  PI3K, AKT, or mTOR inhibitor or any agent whose mechanism of action is to inhibit
+  the PI3K-AKT-mTOR pathway
+- Exclude - * Any prior systemic non-hormonal anti-cancer therapy for locally advanced
+  or metastatic HER2-positive breast cancer prior to initiation of induction therapy
+- Exclude - * History or active inflammatory bowel disease
+- Exclude - * Disease progression within 6 months of receiving any HER2-targeted therapy
+- Exclude - * Type 2 diabetes requiring ongoing systemic treatment at the time of
+  study entry; or any history of Type 1 diabetes
+- Exclude - * Participants with active HBV infection
+- Exclude - * Clinically significant and active liver disease, including severe liver
+  impairment, viral or other hepatitis, current alcohol abuse, or cirrhosis
+- Exclude - * Symptomatic active lung disease, including pneumonitis or interstitial
+  lung disease
+- Exclude - * Any history of leptomeningeal disease or carcinomatous meningitis
+- Exclude - * Serious infection requiring IV antibiotics within 7 days prior to Day
+  1 of Cycle 1
+- Exclude - * Any concurrent ocular or intraocular condition that, in the opinion
+  of the investigator, would require medical or surgical intervention during the study
+  period to prevent or treat vision loss that might result from that condition
+- Exclude - * Active inflammatory or infectious conditions in either eye or history
+  of idiopathic or autoimmune-associated uveitis in either eye
+short_title: A Study to Evaluate the Efficacy and Safety of Inavolisib in Combination
+  With Phesgo Versus Placebo in Combination With Phesgo in Participants With PIK3CA-Mutated
+  HER2-Positive Locally Advanced or Metastatic Breast Cancer
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Hoffmann-La Roche
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This study will evaluate the efficacy and safety of inavolisib in combination
+  with Phesgo (pertuzumab, trastuzumab, and rHuPH20 injection for subcutaneous use)
+  compared with placebo in combination with Phesgo, as maintenance therapy, after
+  induction therapy in participants with previously untreated HER2-positive advanced
+  breast cancer (ABC).
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Induction Therapy: Phesgo plus Taxane-Based Chemotherapy'
+      arm_internal_id: 0
+      arm_description: Participants will be administered the treatments as outlined
+        in the interventions section.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Phesgo'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Taxane-based Chemotherapy'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: 'Maintenance Therapy: Inavolisib plus Phesgo'
+      arm_internal_id: 1
+      arm_description: Participants will be administered the treatments as outlined
+        in the interventions section.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Inavolisib'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Phesgo'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Optional Endocrine Therapy of Investigator''s Choice'
+        level_internal_id: 2
+        level_suspended: N
+    - arm_code: 'Maintenance Therapy: Placebo plus Phesgo'
+      arm_internal_id: 2
+      arm_description: Participants will be administered the treatments as outlined
+        in the interventions section.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Phesgo'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Placebo'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Optional Endocrine Therapy of Investigator''s Choice'
+        level_internal_id: 2
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          her2_status: Positive
+          disease_status:
+          - Metastatic
+          - Locally Advanced
+          oncotree_primary_diagnosis: Invasive Breast Carcinoma
+      - and:
+        - or:
+          - genomic:
+              hugo_symbol: ERBB2
+              variant_category: Mutation
+          - genomic:
+              hugo_symbol: PIK3CA
+              variant_category: Mutation

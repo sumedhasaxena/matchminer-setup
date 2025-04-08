@@ -1,0 +1,324 @@
+{
+  "nct_id": "NCT04589845",
+  "age": "Adults",
+  "cancer_center_accrual_goal_upper": 0,
+  "data_table4": "Interventional",
+  "drug_list": {
+    "drug": [
+      {
+        "drug_name": "Entrectinib"
+      },
+      {
+        "drug_name": "Alectinib"
+      },
+      {
+        "drug_name": "Atezolizumab"
+      },
+      {
+        "drug_name": "Ipatasertib"
+      },
+      {
+        "drug_name": "Trastuzumab emtansine"
+      },
+      {
+        "drug_name": "Idasanutlin"
+      },
+      {
+        "drug_name": "Inavolisib"
+      },
+      {
+        "drug_name": "Belvarafenib"
+      },
+      {
+        "drug_name": "Pralsetinib"
+      },
+      {
+        "drug_name": "GDC-6036"
+      },
+      {
+        "drug_name": "Camonsertib"
+      }
+    ]
+  },
+  "long_title": "Tumor-Agnostic Precision Immunooncology and Somatic Targeting Rational for You (TAPISTRY) Phase II Platform Trial",
+  "management_group_list": {
+    "management_group": [
+      {
+        "is_primary": "Y",
+        "management_group_name": "Hoffmann-La Roche"
+      }
+    ]
+  },
+  "oncology_group_list": {
+    "oncology_group": [
+      {
+        "group_name": "Group 1",
+        "is_primary": "N"
+      }
+    ]
+  },
+  "phase": "2",
+  "principal_investigator": "Clinical Trials",
+  "principal_investigator_institution": "Hoffmann-La Roche",
+  "program_area_list": {
+    "program_area": [
+      {
+        "is_primary": "Y",
+        "program_area_name": "Program 1"
+      }
+    ]
+  },
+  "protocol_id": null,
+  "protocol_no": "2020-001847-16",
+  "protocol_target_accrual": 920,
+  "protocol_type": "Phase II Study",
+  "prior_treatment_requirements": [
+    "Inclusion Criteria:",
+    "* Histologically or cytologically confirmed diagnosis of advanced and unresectable or metastatic solid malignancy",
+    "* Measurable disease as defined by RECIST v1.1, RANO criteria, or INRC",
+    "* Performance status as follows: Participants aged >= 18 years: ECOG Performance Status 0-2; Participants aged 16 to < 18 years: Karnofsky score >= 50%; Participants aged < 16 years: Lansky score >= 50%",
+    "* For participants aged >= 18 and <18 years: adequate hematologic and end-organ function",
+    "* Disease progression on prior treatment, or previously untreated disease with no available acceptable treatment",
+    "* Adequate recovery from most recent systemic or local treatment for cancer",
+    "* Life expectancy >= 8 weeks",
+    "* Ability to comply with the study protocol, in the investigator's judgment",
+    "* For female participants of childbearing potential: Negative serum pregnancy test <= 14 days prior to initiating study treatment; agreement to remain abstinent or use single or combined contraception methods that result in a failure rate of < 1% per year; and agreement to refrain from donating eggs",
+    "* For male participants: Willingness to remain abstinent or use acceptable methods of contraception",
+    "Exclude- Current participation or enrollment in another therapeutic clinical trial",
+    "Exclude- Any anticancer treatment within 2 weeks or 5 half-lives prior to start of study treatment",
+    "Exclude- Whole brain radiotherapy within 14 days prior to start of study treatment",
+    "Exclude- Pregnant or breastfeeding, or intending to become pregnant during the study",
+    "Exclude- Significant cardiovascular disease within 3 months prior to enrollment",
+    "Exclude- History of another active cancer within 5 years prior to screening"
+  ],
+  "short_title": "Tumor-Agnostic Precision Immuno-Oncology and Somatic Targeting Rational for You (TAPISTRY)",
+  "site_list": {
+    "site": []
+  },
+  "sponsor_list": {
+    "sponsor": []
+  },
+  "staff_list": {
+    "protocol_staff": []
+  },
+  "status": "open to accrual",
+  "summary": "TAPISTRY is a Phase II, global, multicenter, open-label, multi-cohort study designed to evaluate the safety and efficacy of targeted therapies or immunotherapy as single agents or in rational, specified combinations in participants with unresectable, locally advanced or metastatic solid tumors determined to harbor specific oncogenic genomic alterations or who are tumor mutational burden (TMB)-high as identified by a validated next-generation sequencing (NGS) assay. Participants with solid tumors will be treated with a drug or drug regimen tailored to their NGS assay results at screening. Participants will be assigned to the appropriate cohort based on their genetic alteration(s). Treatment will be assigned on the basis of relevant oncogenotype, will have cohort-specific inclusion/exclusion criteria, and, unless otherwise specified, will continue until disease progression, loss of clinical benefit, unacceptable toxicity, participant or physician decision to discontinue, or death, whichever occurs first.",
+  "treatment_list": {
+    "step": [
+      {
+        "step_code": "1",
+        "step_type": "Registration",
+        "step_internal_id": 1111,
+        "arm": [
+          {
+            "arm_code": "Cohort A: ROS1 Fusion-positive tumors (excluding NSCLC)",
+            "arm_internal_id": 1,
+            "arm_description": "Participants will receive entrectinib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Entrectinib will be self-administered by participants orally at home at a dose of 600 mg/day.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort B: NTRK1/2/3 fusion-positive tumors",
+            "arm_internal_id": 2,
+            "arm_description": "Participants will receive entrectinib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Entrectinib will be self-administered by participants orally at home at a dose of 600 mg/day.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort C: ALK fusion-positive tumors (excluding NSCLC)",
+            "arm_internal_id": 3,
+            "arm_description": "Participants will receive alectinib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Alectinib will be administered orally BID at a dosage of 600 mg (four 150-mg capsules).",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort D: TMB-high tumors",
+            "arm_internal_id": 4,
+            "arm_description": "Participants will receive atezolizumab.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Atezolizumab will be administered by IV infusion at a fixed dose of 1200 mg for participants aged >= 18 years.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort E: AKT1/2/3 mutant-positive tumors",
+            "arm_internal_id": 5,
+            "arm_description": "Participants will receive ipatasertib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Ipatasertib will be administered orally once daily at a starting dose of 400 mg.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort F: HER2 mutant-positive tumors",
+            "arm_internal_id": 6,
+            "arm_description": "Participants will receive trastuzumab emtansine.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Trastuzumab emtansine will be administered at a dose of 3.6 mg/kg every 21 days.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort G: MDM2-amplified, TP53 wild-type tumors",
+            "arm_internal_id": 7,
+            "arm_description": "Participants will receive idasanutlin.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Idasanutlin will be administered at 250 mg QD for Days 1-5 of each 28-day cycle.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort H: PIK3CA multiple mutant-positive tumors",
+            "arm_internal_id": 8,
+            "arm_description": "Participants will receive inavolisib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Inavolisib will be administered QD at a starting dose of 9 mg.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort I: BRAF class II mutant or fusion-positive tumors",
+            "arm_internal_id": 9,
+            "arm_description": "Participants will receive belvarafenib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Belvarafenib will be administered at a dose of 400 mg (PO) BID.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort J: BRAF class III mutant-positive tumors",
+            "arm_internal_id": 10,
+            "arm_description": "Participants will receive belvarafenib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Belvarafenib will be administered at a dose of 400 mg (PO) BID.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort K: RET fusion-positive tumors (excluding NSCLC)",
+            "arm_internal_id": 11,
+            "arm_description": "Participants will receive pralsetinib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Pralsetinib will be self-administered at a dose of 400 mg/day.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort L: KRAS G12C-positive tumors (excluding NSCLC and CRC)",
+            "arm_internal_id": 12,
+            "arm_description": "Participants will receive GDC-6036.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "GDC-6036 will be self-administered by patients orally at home.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort M: ATM Loss of Function tumors",
+            "arm_internal_id": 13,
+            "arm_description": "Participants will receive camonsertib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Camonsertib will be self-administered orally at home.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          },
+          {
+            "arm_code": "Cohort N: SETD2 Loss of Function tumors",
+            "arm_internal_id": 14,
+            "arm_description": "Participants will receive camonsertib.",
+            "arm_suspended": "N",
+            "dose_level": [
+              {
+                "level_code": "1",
+                "level_description": "Camonsertib will be self-administered orally at home.",
+                "level_internal_id": 1,
+                "level_suspended": "N"
+              }
+            ]
+          }
+        ],
+        "match": [
+          {
+            "and": [
+              {
+                "clinical": {
+                  "oncotree_primary_diagnosis": "_SOLID_"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

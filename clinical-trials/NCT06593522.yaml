@@ -1,0 +1,144 @@
+nct_id: NCT06593522
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: AMG 193'
+long_title: A Phase 2 Study Evaluating the Efficacy, Safety, Tolerability, and Pharmacokinetics
+  of AMG 193 in Subjects With Methylthioadenosine Phosphorylase (MTAP)-Deleted Previously
+  Treated Advanced Non-Small Cell Lung Cancer (NSCLC)
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE2
+principal_investigator: MD
+principal_investigator_institution: Amgen
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 200
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Histologically or cytologically confirmed metastatic or unresectable locally
+  advanced MTAP-deleted (Homozygous deletion of MTAP in the tumor tissue) non-small
+  cell lung cancer'
+- '* Participants will have received and progressed or experienced disease recurrence
+  on or after receiving at least 1 prior systemic therapy for locally advanced and
+  unresectable or metastatic disease.'
+- '* Either an archival tissue sample or an archival block must be available.'
+- '* Life expectancy of greater than 3 months, in the opinion of the investigator.'
+- '* Participants who have had brain metastases and have been appropriately treated
+  with radiation therapy or surgery ending at least 14 days before study day 1 are
+  eligible.'
+- '* Participants with untreated asymptomatic brain metastases smaller or equal to
+  2 cm in size (per lesion if more than one) and not requiring corticosteroid treatment
+  are eligible.'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - Disease Related
+- "Exclude - \u2022 Tumors harboring the following mutations amenable to targeted\
+  \ therapies: epidermal growth factor receptor (EGFR), ALK receptor tyrosine kinase\
+  \ (ALK), ROS proto-oncogene 1 (ROS1), neurotrophic tyrosine receptor kinase (NTRK),\
+  \ MET proto-oncogene (MET), B-Raf proto-oncogene (BRAF), RET proto-oncogene (RET),\
+  \ Human epidermal growth factor receptor 2 (HER2), KRAS proto-oncogene (KRAS)."
+- Exclude - Other Medical Conditions
+- Exclude - * Major surgery within 28 days of study day 1.
+- Exclude - * Untreated symptomatic central nervous system (CNS) metastatic disease
+  regardless of size or asymptomatic brain metastases greater than 2 cm per lesion.
+short_title: A Phase 2 Study of AMG 193 in Participants With MTAP-deleted Advanced
+  NSCLC
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Amgen
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The main objective of the study is to characterize safety and efficacy of
+  2 dose levels of AMG 193 by investigator, and to evaluate AMG 193 monotherapy efficacy
+  by Blinded Independent Central Review (BICR).
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Part 1: Dose Evaluation'
+      arm_internal_id: 0
+      arm_description: Participants will be randomized to receive one of 2 active
+        dose levels of AMG 193 orally (PO) daily (QD) in 28 days cycles. Part 1 of
+        the study will determine the recommended phase 2 dose (RP2D).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'Part 2: Dose Expansion'
+      arm_internal_id: 1
+      arm_description: Participants will receive AMG 193 PO QD in 28-day cycles at
+        the RP2D.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          her2_status: Negative
+          disease_status:
+          - Metastatic
+          - Unresectable
+          - Recurrent
+          - Untreated
+          oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+      - and:
+        - genomic:
+            hugo_symbol: EGFR
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: ALK
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: ROS1
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: NTRK1
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: NTRK2
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: NTRK3
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: MET
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: BRAF
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: RET
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: ERBB2
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: KRAS
+            variant_category: '!Mutation'

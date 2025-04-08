@@ -1,0 +1,177 @@
+nct_id: NCT05410145
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Cisplatin'
+  - drug_name: 'Drug: Pembrolizumab'
+  - drug_name: 'Drug: Pemetrexed'
+  - drug_name: 'Drug: Carboplatin'
+  - drug_name: 'Drug: Cetuximab'
+  - drug_name: 'Drug: D3S-001'
+long_title: A Phase 1/2, Open Label, Dose-escalation, and Dose-expansion Study Evaluating
+  the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy
+  of D3S 001 Monotherapy or Combination Therapy in Subjects With Advanced Solid Tumors
+  With a KRAS p.G12C Mutation
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: Cheng Chen, MD
+principal_investigator_institution: D3 Bio (Wuxi) Co., Ltd
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 392
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion:'
+- '* Subject must have a histologically or cytologically confirmed metastatic or locally
+  advanced solid tumor which is progressing.'
+- '* Subject must have documented KRAS p.G12C mutation identified within the last
+  5 years by a local test on tumor tissue or blood.'
+- '* Subject must have measurable disease per RECIST v1.1.'
+- '* Subject must have Eastern Cooperative Oncology Group (ECOG) performance status
+  of 0 or 1.'
+- '* Subject must have adequate organ and marrow function within the screening period.'
+- 'Exclusion:'
+- '* Subject has any prior treatment with other treatments without adequate washout
+  periods as defined in the protocol.'
+- '* Subject has uncontrolled intercurrent illness, including but not limited to,
+  ongoing or active infection, uncontrolled or significant cardiovascular disease,
+  serious chronic gastrointestinal conditions associated with diarrhea, or psychiatric
+  illness/social situations that would limit compliance with study requirements, substantially
+  increase risk of incurring AEs, or compromise the ability of the subject to give
+  written informed consent.'
+- "* Subject has unresolved treatment-related toxicities from previous anticancer\
+  \ therapy of NCI CTCAE Grade \u22652 (with exception of vitiligo or alopecia)."
+- '* Subject has active gastrointestinal disease or other that could interfere significantly
+  with the absorption, distribution, metabolism, or excretion of oral therapy.'
+- '* Concurrent participation in any clinical research study involving treatment with
+  any investigational drug, radiotherapy, or surgery, except for the nontreatment
+  phases of these studies (e.g., follow-up phase).'
+- Other protocol inclusion/exclusion criteria may apply
+short_title: A Study of D3S 001 Monotherapy or Combination Therapy in Subjects With
+  Advanced Solid Tumors With a KRAS p.G12C Mutation
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: D3 Bio (Wuxi) Co., Ltd
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This is a first-in-human (FIH), multicenter, open-label, dose-escalation,
+  and dose-expansion Phase 1/2 clinical trial to evaluate the safety, tolerability,
+  pharmacokinetics, pharmacodynamics, and preliminary efficacy of D3S-001 or combination
+  therapy in subjects with advanced KRAS p.G12C mutant solid tumors. D3S-001 will
+  be taken daily by oral administration in 21-day treatment cycles.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: D3S-001 monotherapy
+      arm_internal_id: 0
+      arm_description: 'Part 1: Dose Escalation, D3S-001 administered orally.
+
+
+        Part 2 and Part 3a Arm C: Dose Expansion, D3S-001 administered orally in selected
+        cancer type patients.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: D3S-001'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: D3S-001 and pembrolizumab
+      arm_internal_id: 1
+      arm_description: 'Part 3a Arm A: Dose Expansion, D3S-001 in combination therapy
+        administered orally in selected cancer type patients.
+
+
+        Pembrolizumab administered intravenously.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: D3S-001'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: D3S-001 and platinum doublet chemotherapy (cisplatin + pemetrexed
+        or carboplatin + permetrexed)
+      arm_internal_id: 2
+      arm_description: 'Part 3a Arm B: Dose Expansion, D3S-001 in combination therapy
+        administered orally in selected cancer type patients.
+
+
+        Cisplatin + pemetrexed administered intravenously
+
+
+        or
+
+
+        Carboplatin + permetrexed administered intravenously'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: D3S-001'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Cisplatin'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Carboplatin'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Pemetrexed'
+        level_internal_id: 3
+        level_suspended: N
+    - arm_code: D3S-001 and Cetuximab
+      arm_internal_id: 3
+      arm_description: 'Part 3b: Dose Expansion, D3S-001 in combination therapy administered
+        orally in selected cancer type patients.
+
+
+        Cetuximab administered intravenously.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: D3S-001'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Cetuximab'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          disease_status:
+          - Metastatic
+          - Locally Advanced
+          oncotree_primary_diagnosis: __SOLID__
+      - or:
+        - genomic:
+            hugo_symbol: KRAS
+            variant_category: Mutation

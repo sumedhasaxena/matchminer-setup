@@ -1,0 +1,212 @@
+nct_id: NCT06055465
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Pembrolizumab'
+  - drug_name: 'Drug: Sacituzumab Govitecan'
+long_title: 'Neoadjuvant Sacituzumab Govitecan Plus Pembrolizumab in Resectable Non-Small
+  Cell Lung Cancer: an Open-label, Multicenter, Single Arm Phase 2 Study'
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE2
+principal_investigator: ''
+principal_investigator_institution: Chinese University of Hong Kong
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 37
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- 1. Female or male patients, 18 years of age or older, able to understand and give
+  written informed consent
+- 2. Pathologically proven NSCLC
+- 3. Tumour tested negative for EGFR and ALK
+- 4. Measurable disease by CT as per RECIST Version 1.1 criteria by investigator
+- 5. Tumour tissue is available for translational research (preferably histology,
+  cytology allowed)
+- 6. AJCC 8th edition Stage II-III based on the following diagnostic workup and tumour
+  is considered potentially resectable
+- '* Distant metastasis staging by PET/CT whole body or CT thorax and upper abdomen
+  with contrast'
+- '* Patients with stage IIIB (N2) that is considered potentially resectable by cardiothoracic
+  surgeon may be enrolled'
+- 7. Eastern Cooperative Oncology Group (ECOG) Performance Status 0-1
+- "8. Adequate haematological values without transfusional or growth factor support\
+  \ within 2 weeks of study drug initiation: haemoglobin \u2265 9.0g/dL, absolute\
+  \ neutrophil count \u2265 1.5 x 10\\^9/L, platelet count \u2265 100 x 10\\^9/L"
+- "9. Adequate hepatic function: bilirubin \u2264 1.5 x ULN, AST/ALT \u2264 2.5 x\
+  \ ULN"
+- "10. Adequate renal function: calculated creatinine clearance \u2265 30 ml/min,\
+  \ according to the formula of Cockcroft-Gault equation"
+- 11. Male patients and female patients of childbearing potential who engage in heterosexual
+  intercourse must agree to use protocol-specified method(s) of contraception as described
+  in Appendix V.
+- 12. Patients with HBV (HBsAg +ve) must be on antiviral therapy and have a well-controlled
+  HBV infection as determined by investigator. Patients who test positive for hepatitis
+  B core antibody (anti-HBc) will require HBV DNA by quantitative polymerase chain
+  reaction (PCR) for confirmation of active disease. Participants should remain on
+  anti-viral therapy throughout study intervention and follow local guidelines for
+  HBV anti-viral therapy post completion of study intervention.
+- 13. Patients with known HCV infection (positive hepatitis C antibody) (testing is
+  not mandatory for trial enrolment) must have been treated with antiviral therapy
+  and have undetectable HCV viral load.
+- 14. Willing and able to comply with the requirements and restrictions in this protocol.
+- 'Exclude - Exclusion Criteria:'
+- Exclude - 1. Presence of any distant metastasis
+- Exclude - 2. Previous or concomitant malignancy within 5 years prior registration
+  with the exception of adequately treated localized non-melanoma skin cancer or cervical
+  carcinoma in situ. Prior anti-cancer treatment can be accepted except for drugs
+  listed in exclusion criteria (3) to (8)
+- Exclude - 3. Received prior systemic anti-cancer therapy including investigational
+  agents within 4 weeks prior to study treatment Day 1
+- Exclude - 4. Mixed SCLC and NSCLC histology
+- Exclude - 5. Any previous treatment with a PD-1 or PD-L1 or CTLA4 inhibitor, or
+  another agent directed to stimulatory or coinhibitory T-cell receptor (OX40, CD137,
+  etc)
+- Exclude - 6. Any previous treatment with sacituzumab govitecan, topoisomerase inhibitor,
+  or TROP-2 targeted therapy.
+- Exclude - 7. Previous radiotherapy to the chest including radiation to mediastinal
+  tumours (e.g. germ cell tumours and thymic tumours)
+- Exclude - 8. Positive pregnancy test by urine or serum (Appendix V) or women who
+  are breastfeeding
+- Exclude - 9. Known hypersensitivity to pembrolizumab or Sacituzumab govitecan, or
+  their metabolites or formulation excipient
+- Exclude - 10. Requirement for ongoing therapy with or prior use of any prohibited
+  medications listed in Appendix IV
+- Exclude - 11. Absolute contraindications for the use of corticosteroids as premedication
+- Exclude - 12. Concurrent treatment with other experimental drugs or other anticancer
+  therapy, treatment in a clinical trial within 30 days prior to registration
+- Exclude - 13. Have active chronic inflammatory bowel disease (ulcerative colitis,
+  Crohn's disease) or GI perforation within 6 months of enrollment
+- Exclude - 14. Current or prior use of immunosuppressive medication within 28 days
+  before the first dose of pembrolizumab or sacituzumab govitecan, with the exceptions
+  of intranasal and inhaled corticosteroid or systemic corticosteroids at physiological
+  doses (i.e. which must not exceed 10mg/day of prednisone or an equivalent corticosteroid)
+  and the premedication for chemotherapy.
+- Exclude - 15. Severe or uncontrolled cardiac disease, congestive heart failure NYHA
+  class III or IV, unstable angina pectoris, history of myocardial infarction during
+  the last 3 months, serious arrhythmias requiring medication (with the exception
+  of atrial fibrillation or paroxysmal supraventricular tachycardia under medical
+  control); history of QTc interval prolongation
+- Exclude - 16. Clinically severe pulmonary compromise resulting from intercurrent
+  pulmonary illness including, but not limited to, any underlying pulmonary disorder
+  (ie pulmonary embolism within 3 months of enrolment, severe asthma, severe chronic
+  obstructive pulmonary disease, restrictive lung disease, pleural effusion, etc.);
+  history of (non-infectious) pneumonitis that required steroids or recurrent pneumonitis;
+  any autoimmune/connective tissue/inflammatory disorders with pulmonary involvement,
+  or prior pneumonectomy.
+- Exclude - 17. Active autoimmune disease requiring systemic treatment within the
+  past 2 years or a documented history of clinically severe autoimmune disease or
+  a syndrome that requires systemic steroids or immunosuppressive agents with the
+  exception of resolved childhood asthma/atopy, hypothyroidism or adrenal insufficiency
+  on hormone replacement, diabetes mellitus stable on insulin replacement
+- Exclude - 18. Active HBV or HCV infection
+- Exclude - 19. Known history of Human Immunodeficiency Virus (HIV).
+- Exclude - 20. History of primary immunodeficiency
+- Exclude - 21. History of allogeneic organ transplant
+- Exclude - 22. Receipt of live attenuated vaccination any time during trial therapy
+  and within 30 days of receiving the last dose of trial therapy. Seasonal influenza
+  vaccines for injection are generally killed virus vaccines and are allowed. COVID-vaccination
+  is allowed.
+- Exclude - 23. Any concomitant drugs contraindicated for use with pembrolizumab or
+  sacituzumab govitecan including systemic corticosteroid, methotrexate, azathioprine,
+  TNF-alpha blockers.
+- Exclude - 24. Any other serious underlying medical, psychiatric, psychological,
+  familial condition that in the judgement of the investigator, that may interfere
+  with planned staging, treatment and follow up, affect patient compliance, or place
+  the patient at high risk from treatment-related complications.
+- Exclude - 25. Patients who refuse surgical treatment of the lung cancer
+short_title: Neoadjuvant Sacituzumab Govitecan Plus Pembrolizumab in Resectable Non-Small
+  Cell Lung Cancer
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Chinese University of Hong Kong
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The combination of neoadjuvant immunotherapy plus chemotherapy has recently
+  been shown to improve survival outcome compared to chemotherapy alone and was recently
+  approved for resectable non-small cell lung cancer (NSCLC). Despite so, recurrence
+  risk of NSCLC after surgical resection remains high. Sacituzumab govitecan, a novel
+  antibody drug conjugate, was demonstrated to be clinically active in metastatic
+  NSCLC. This study aims to study the clinical efficacy of sacituzumab govitecan plus
+  immunotherapy in resectable NSCLC. This is a open-label, single arm, multicentre,
+  phase II study. Patients with EGFR/ALK negative, stage II-III (AJCC 8th edition),
+  resectable NSCLC are eligible and will receive 4 cycles of neoadjuvant pembrolizumab
+  plus sacituzumab govitecan, followed by surgical resection of tumour, and then 13
+  cycles of maintenance pembrolizumab.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Sacituzumab Govitecan and Pembrolizumab
+      arm_internal_id: 0
+      arm_description: '* Neoadjuvant treatment with pembrolizumab and sacituzumab
+        govitecan is given for a total for 4 cycles. Pembrolizumab is administered
+        first on day 1 every cycle. Sacituzumab govitecan is administered second on
+        day 1 and 8 every cycle. The next cycle should start a minimum 14 days after
+        the Day 8 dose.
+
+        * Surgery is to be performed within 4-8 weeks after day 1 of last cycle of
+        neoadjuvant pembrolizumab/SG.
+
+        * Postoperative radiotherapy is recommended for patients with R1/R2 resection.
+
+        * Maintenance treatment with pembrolizumab alone is given for a total for
+        13 cycles. This is to be started within 4-8 weeks after surgery or within
+        4 weeks after postoperative radiotherapy.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Sacituzumab Govitecan'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - and:
+      - and:
+        - or:
+          - clinical:
+              oncotree_primary_diagnosis: Lung Neuroendocrine Tumor
+          - clinical:
+              oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+          - clinical:
+              oncotree_primary_diagnosis: Combined Small Cell Lung Carcinoma
+          - clinical:
+              oncotree_primary_diagnosis: Sarcomatoid Carcinoma of the Lung
+          - clinical:
+              oncotree_primary_diagnosis: Lung Adenocarcinoma In Situ
+        - clinical:
+            age_numerical: '>=18'
+            disease_status:
+            - Localized
+            - Locally Advanced
+      - and:
+        - genomic:
+            hugo_symbol: EGFR
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: ALK
+            variant_category: '!Mutation'

@@ -1,0 +1,123 @@
+{
+    "nct_id": "NCT06367270",
+    "age": "Adults",
+    "cancer_center_accrual_goal_upper": 0,
+    "data_table4": "Interventional",
+    "drug_list": {
+        "drug": [
+            {
+                "drug_name": "Drug: Pressured Intraperitoneal Aerosol Chemotherapy"
+            }
+        ]
+    },
+    "long_title": "The Application of Pressured Intraperitoneal Aerosol Chemotherapy (PIPAC) for Peritoneal Surface Malignancies",
+    "management_group_list": {
+        "management_group": [
+            {
+                "is_primary": "Y",
+                "management_group_name": "Group1"
+            }
+        ]
+    },
+    "oncology_group_list": {
+        "oncology_group": [
+            {
+                "group_name": "Group1",
+                "is_primary": "N"
+            }
+        ]
+    },
+    "phase": "PHASE2",
+    "principal_investigator": "",
+    "principal_investigator_institution": "The University of Hong Kong",
+    "program_area_list": {
+        "program_area": [
+            {
+                "is_primary": "Y",
+                "program_area_name": "Program1"
+            }
+        ]
+    },
+    "protocol_id": 0,
+    "protocol_no": "",
+    "protocol_target_accrual": 60,
+    "protocol_type": "INTERVENTIONAL",
+    "prior_treatment_requirements": [
+        "Inclusion Criteria:",
+        "1. \u226518 years of old;",
+        "2. WHO performance of status 0-1;",
+        "3. Histologically or cytologically proven PM of a gastric, pancreatic or colorectal carcinoma;",
+        "4. Treatment na\u00efve patients as first-line treatment;",
+        "5. Progression on or intolerance to first-line systemic chemotherapy as second-line treatment;",
+        "6. No symptoms of gastrointestinal obstruction;",
+        "7. No contraindications for the planned systemic therapy or laparoscopy;",
+        "8. No previous PIPAC/IP/HIPEC;",
+        "9. No other concurrent malignancies or any other malignancy within 6 months prior to enrolment;",
+        "10. Able to give written informed consent.",
+        "Exclude - Exclusion Criteria:",
+        "Exclude - 1. A history of allergic reaction to platinum containing compounds or doxorubicin;",
+        "Exclude - 2. Pregnant or breastfeeding;",
+        "Exclude - 3. Any extra-peritoneal metastases;",
+        "Exclude - 4. Renal impairment, defined as GFR less than 40 mL/min;",
+        "Exclude - 5. Impaired liver function defined as bilirubin over 1.5 \u00d7 UNL;",
+        "Exclude - 6. Inadequate haematological function",
+        "Exclude - * Leucocyte \\< 3.00 \u00d7 109/L",
+        "Exclude - * Absolute neutrophil counts \\< 1.50 \u00d7 109/L",
+        "Exclude - * Platelet \\< 100 \u00d7 109/L"
+    ],
+    "short_title": "The Application of Pressured Intraperitoneal Aerosol Chemotherapy (PIPAC) for Peritoneal Surface Malignancies",
+    "site_list": {
+        "site": []
+    },
+    "sponsor_list": {
+        "sponsor": [
+            {
+                "is_principal_sponsor": "Y",
+                "sponsor_name": "The University of Hong Kong",
+                "sponsor_protocol_no": "",
+                "sponsor_roles": "sponsor"
+            }
+        ]
+    },
+    "staff_list": {
+        "protocol_staff": []
+    },
+    "status": "open to accrual",
+    "summary": "Pressurized intraperitoneal aerosol chemotherapy (PIPAC) is a novel minimally invasive drug delivery system for patients with peritoneal metastases (PM). It has been considered as a safe and feasible palliative treatment alternative proven by previous phase I studies. Currently available evidence on feasibility, efficacy and tolerability in Asian populations is limited. In this open-label, single-arm, monocentric clinical trial, investigators aim to evaluate the therapeutic efficacy and complications of PIPAC with oxaliplatin as an alternative on patients of unresectable colorectal cancer with PM and doxorubicin and cisplatin on patients of unresectable gastric and pancreatic cancers with PM. Alternative regimen can be considered multidisciplinary tumour board meeting. Patients will be recruited according to the inclusion criteria and treated for 3 cycles of PIPAC and concurrent systemic chemotherapy. The goal was to repeat PIPAC every 6-8 weeks for at least three procedures, and the delay of the systemic chemotherapy is 2 weeks before and after each PIPAC procedure. If PM was considered to become resectable during PIPAC, patients were discussed at the multidisciplinary tumour board for curative intent cytoreductive surgery (CRS) and hyperthermic intraperitoneal chemotherapy (HIPEC). The primary outcome is the clinical benefit rate (CBR), measured by an independent radiologist according to Response Evaluation Criteria In Solid Tumors (RECIST) and Peritoneal Cancer Index (PCI) assessed by laparoscopy and histopathological tumour response evaluated by pathologists blinded to clinical outcomes. Key secondary outcomes include the major and minor treatment-related adverse events according to the Common Terminology Criteria for Adverse Events (CTACE) up to 4 weeks after the treatment, Cytological tumour response of peritoneal lavage or ascites, treatment-related characteristics, hospital stay, progression-free survival, overall survival and readmission rate. The proposed study duration is 3 years from the start date and the estimated sample size is 51 according to centre capacity.",
+    "treatment_list": {
+        "step": [
+            {
+                "step_internal_id": 111,
+                "step_code": "1",
+                "step_type": "Registration",
+                "arm": [
+                    {
+                        "arm_code": "PIPAC",
+                        "arm_internal_id": 0,
+                        "arm_description": "PIPAC",
+                        "arm_suspended": "N",
+                        "dose_level": [
+                            {
+                                "level_code": "0",
+                                "level_description": "Drug: Pressured Intraperitoneal Aerosol Chemotherapy",
+                                "level_internal_id": 0,
+                                "level_suspended": "N"
+                            }
+                        ]
+                    }
+                ],
+                "match": [
+                    {
+                        "clinical": {
+                            "age_numerical": ">=18",
+                            "disease_status": [
+                                "Metastatic"
+                            ],
+                            "oncotree_primary_diagnosis": "Peritoneal Serous Carcinoma"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

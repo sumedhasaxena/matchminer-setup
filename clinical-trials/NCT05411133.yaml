@@ -1,0 +1,192 @@
+nct_id: NCT05411133
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Cabotamig (ARB202)'
+long_title: A Phase 1, First-in-human Study of Cabotamig (ARB202), Bispecific Antibody
+  to CDH17 and CD3 in Advanced Gastrointestinal Malignancies
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: ''
+principal_investigator_institution: Arbele Limited
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 68
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Histologically confirmed colorectal, pancreatic, gastric adenocarcinoma, primary
+  liver cancer or metastatic liver disease, or cholangiocarcinoma that is metastatic
+  or unresectable and for which standard curative or palliative measures do not exist
+  or are no longer effective.'
+- "* Malignancies should possess with \u226510% expression of CDH17 confirmed by immunohistochemistry\
+  \ except for CRC patients."
+- "* Eastern Cooperative Oncology Group (ECOG) performance status of \u22642."
+- '* Life expectancy \> 3 months.'
+- '* Measurable disease as defined by RECIST 1.1 criteria'
+- '* Blood coagulation parameters:'
+- "* PT INR \u2264 1.5X ULN"
+- "* PTT INR \u22641.2X ULN"
+- '* Patients must have adequate venous peripheral access for apheresis.'
+- '* Satisfactory organ and bone marrow function as defined by:'
+- "* absolute neutrophil count \\> 1,000/\u03BCL"
+- "* platelets \\>100,000/\u03BCL"
+- "* hemoglobin \u22659 g/dL"
+- "* serum ALT and AST \u2264 3X ULN or AST and ALT \u22645X ULN, if liver function\
+  \ abnormalities are thought to be from underlying malignancy"
+- "* total serum bilirubin \u2264 2X ULN"
+- '* Creatinine \<1.5X ULN'
+- '* Stable amylase for 2 weeks'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Prior gene therapy or therapy with any murine monoclonal antibodies
+  or any murine containing product.
+- Exclude - * Concurrent treatment with any anticancer agent including chemotherapy,
+  hormonal therapy or radiation therapy. Must be 5 X half-life or 6 weeks (whichever
+  is shorter) post dosing of previous cancer therapies.
+- Exclude - * History of allergy or hypersensitivity to murine proteins or study product
+  excipients
+- Exclude - * Females who are pregnant, trying to become pregnant, or breastfeeding.
+- Exclude - * Diagnosis of HIV or chronic active viral hepatitis (HBV, HCV, HIV).
+- Exclude - * Active infection requiring systemic treatment.
+- "Exclude - * Active brain, leptomeningeal, or paraspinal metastases, except for\
+  \ asymptomatic metastases and are stable on a steroid dose of \u2264 10mg/day of\
+  \ prednisone or its equivalent for at least 14 days prior to the start of study\
+  \ interventions."
+- Exclude - * Impaired cardiac function (AHA NY Heart Association Grade II-IV) or
+  clinically significant cardiac disease.
+- Exclude - * Lack of recovery of prior CTCAE Grade 3 or above adverse events due
+  to earlier therapies.
+- Exclude - * Chronic use of corticosteroids in excess of \>10mg daily of prednisone
+  or equivalent within 4 weeks prior to alopecia.
+- Exclude - * Concomitant use of complementary or alternative medication or therapy
+  such as Chinese herbal medicine.
+- Exclude - * History of Crohn's disease, inflammatory bowel disease, or ulcerative
+  colitis within the past 5 years
+- Exclude - * Abnormal bowel function which would make assessment of bowel permeability
+  difficult to access
+- Exclude - * Major trauma or major surgery within 4 weeks prior to first dose of
+  study drug
+short_title: Treatment of Cabotamig (ARB202) in Advanced Gastrointestinal Cancer Patients
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Arbele Pty Ltd
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'This study aims to find out:
+
+
+  1. The tolerability of Cabotamig (ARB202) in adults with advanced solid gastrointestinal
+  tumors who failed the standard treatment. People can participate if their tumor
+  has the CDH17 marker.
+
+  2. To find out how study drug is broken down in the body
+
+  3. To know the effects of the study drug on the tumor.'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Phase 1a: Dose Escalation'
+      arm_internal_id: 0
+      arm_description: 'Phase 1a: Dose Escalation'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Cabotamig (ARB202)'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'Phase 1b: Low dose Cabotamig (ARB202)'
+      arm_internal_id: 1
+      arm_description: 'Phase 1b: Low dose Cabotamig (ARB202)'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Cabotamig (ARB202)'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'Phase 1b: High dose Cabotamig (ARB202)'
+      arm_internal_id: 2
+      arm_description: 'Phase 1b: High dose Cabotamig (ARB202)'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Cabotamig (ARB202)'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'Phase 1b: Low dose Cabotamig (ARB202) + Immune Checkpoint Inhibitor'
+      arm_internal_id: 3
+      arm_description: 'Phase 1b: Low dose Cabotamig (ARB202) + Immune Checkpoint
+        Inhibitor'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Cabotamig (ARB202)'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'Phase 1b: High dose Cabotamig (ARB202) + Immune Checkpoint Inhibitor'
+      arm_internal_id: 4
+      arm_description: 'Phase 1b: High dose Cabotamig (ARB202) + Immune Checkpoint
+        Inhibitor'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Cabotamig (ARB202)'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - or:
+        - clinical:
+            oncotree_primary_diagnosis: Adenosquamous Carcinoma of the Pancreas
+        - clinical:
+            oncotree_primary_diagnosis: Acinar Cell Carcinoma of the Pancreas
+        - clinical:
+            oncotree_primary_diagnosis: Intraductal Papillary Neoplasm of the Bile
+              Duct
+        - clinical:
+            oncotree_primary_diagnosis: Pancreatic Adenocarcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Pancreatic Neuroendocrine Tumor
+        - clinical:
+            oncotree_primary_diagnosis: Undifferentiated Carcinoma of the Pancreas
+        - clinical:
+            oncotree_primary_diagnosis: Hepatocellular Carcinoma plus Intrahepatic
+              Cholangiocarcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Fibrolamellar Carcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Hepatocellular Carcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Esophagogastric Adenocarcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Pancreatic Neuroendocrine Carcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Colorectal Adenocarcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Solid Pseudopapillary Neoplasm of the Pancreas
+      - clinical:
+          age_numerical: '>=18'
+          disease_status:
+          - Metastatic
+          - Unresectable

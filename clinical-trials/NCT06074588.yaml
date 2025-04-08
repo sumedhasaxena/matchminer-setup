@@ -1,0 +1,174 @@
+nct_id: NCT06074588
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Biological: Sacituzumab tirumotecan'
+  - drug_name: 'Drug: Docetaxel'
+  - drug_name: 'Drug: Pemetrexed'
+long_title: A Randomized, Open-label, Phase 3 Study of MK-2870 vs Chemotherapy (Docetaxel
+  or Pemetrexed) in Previously Treated Advanced or Metastatic Nonsquamous Non-small
+  Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Medical Director
+principal_investigator_institution: Merck Sharp & Dohme LLC
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 556
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'The main inclusion and exclusion criteria include but are not limited to the following:'
+- 'Inclusion Criteria:'
+- '* Histologically- or cytologically-documented advanced (Stage III not eligible
+  for resection or curative radiation) or metastatic non-squamous NSCLC with specific
+  mutations.'
+- '* Documentation of locally assessed radiological disease progression while on or
+  after last treatment based on Response Evaluation Criteria in Solid Tumors Version
+  (RECIST) 1.1.'
+- '* Participants with genome mutations must have received 1 or 2 prior lines of epidermal
+  growth factor receptor tyrosine kinase inhibitor (EGFR TKI), including a third generation
+  TKI for participants with a T790M mutation; and 1 platinum-based therapy after progression
+  on or after EGFR TKI.'
+- '* Measurable disease per RECIST 1.1 as assessed by the local site investigator.'
+- '* Archival tumor tissue sample or newly obtained core, incisional, or excisional
+  biopsy of a tumor lesion not previously irradiated has been provided'
+- "* Participants who have AEs due to previous anticancer therapies must have recovered\
+  \ to Grade \u22641 or baseline."
+- '* Participants who are hepatitis B surface antigen (HBsAg) positive are eligible
+  if they have received HBV antiviral therapy for at least 4 weeks, and have undetectable
+  HBV viral load prior to randomization.'
+- '* Human immunodeficiency virus (HIV)-infected participants must have well controlled
+  HIV on antiretroviral therapy.'
+- '* Have an ECOG performance status of 0 or 1 within 3 days before randomization.'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Has predominantly squamous cell histology NSCLC.
+- Exclude - * Has mixed tumor(s) with small cell elements.
+- Exclude - * Has active inflammatory bowel disease requiring immunosuppressive medication
+  or previous history of inflammatory bowel disease.
+- "Exclude - * Has Grade \u22652 peripheral neuropathy."
+- Exclude - * Has history of documented severe dry eye syndrome, severe Meibomian
+  gland disease and/or blepharitis, or corneal disease that prevents/delays corneal
+  healing.
+- Exclude - * Has uncontrolled, significant cardiovascular disease or cerebrovascular
+  disease.
+- Exclude - * Has an EGFR T790M mutation and has not received a third generation EGFR
+  TKI (eg, osimertinib).
+- Exclude - * Received prior systemic anticancer therapy including investigational
+  agents within 4 weeks or 5 half-lives (whichever is shorter) before randomization.
+- Exclude - * Received a live or live-attenuated vaccine within 30 days before the
+  first dose of study intervention.
+- Exclude - * Completed palliative radiotherapy within 7 days of the first dose. Participants
+  must have recovered from all radiation-related toxicities and not require corticosteroids.
+- Exclude - * Received radiation therapy to the lung that is \>30 Gy within 6 months
+  of the first dose of study intervention.
+- Exclude - * Received prior treatment with a trophoblast cell-surface antigen 2 (TROP2)-targeted
+  antibody-drug conjugate (ADC).
+- Exclude - * Received prior treatment with a topoisomerase I-containing ADC.
+- Exclude - * Has received an investigational agent or has used an investigational
+  device within 4 weeks prior to study intervention administration.
+- Exclude - * Known additional malignancy that is progressing or has required active
+  treatment within the past 3 years.
+- Exclude - * Active infection requiring systemic therapy.
+- Exclude - * History of noninfectious pneumonitis/ILD that required steroids or has
+  current pneumonitis/ILD.
+- Exclude - * Has known active central nervous system metastases and/or carcinomatous
+  meningitis. Participants with previously treated brain metastases may participate
+  provided they are clinically stable for at least 2 weeks, and are off steroids 3
+  days prior to dosing with study medication.
+- Exclude - * HIV-infected participants with a history of Kaposi's sarcoma and/or
+  Multicentric Castleman's Disease.
+- Exclude - * Concurrent active Hepatitis B (defined as HBsAg positive and/or detectable
+  HBV DNA) and Hepatitis C virus (defined as anti-HCV Ab positive and detectable HCV
+  RNA) infection.
+short_title: Sacituzumab Tirumotecan (MK-2870) Versus Chemotherapy in Previously Treated
+  Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR
+  Mutations or Other Genomic Alterations (MK-2870-004)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Merck Sharp & Dohme LLC
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'The purpose of this study is to evaluate sacituzumab tirumotecan versus
+  chemotherapy (docetaxel or pemetrexed) for the treatment of previously-treated non-small
+  cell lung cancer (NSCLC) with exon 19del or exon 21 L858R EGFR mutations (hereafter
+  referred to as EGFR mutations or EGFR-mutated) or any of the follow genomic alterations:
+  ALK gene rearrangements, ROS1 rearrangements, BRAF V600E mutations, NTRK gene fusions,
+  MET exon 14 skipping mutations, RET rearrangements, or less common EGFR point mutations
+  of exon 20 S768I, exon 21 L861Q, or exon 18 G719X mutations. The primary hypotheses
+  are that sacituzumab tirumotecan is: (1) superior to chemotherapy with respect to
+  progression-free survival (PFS) per RECIST 1.1 as assessed by BICR in NSCLC with
+  EGFR mutations; and (2) superior to chemotherapy with respect to overall survival
+  (OS) in NSCLC with EGFR mutations.'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Sacituzumab tirumotecan
+      arm_internal_id: 0
+      arm_description: Participants will receive 4 mg/kg of sacituzumab tirumotecan
+        via intravenous (IV) infusion on Days 1, 15 and 29 of each 6-week cycle. Additionally,
+        participants receive diphenhydramine (or equivalent), an H2 antagonist of
+        investigator's choice, acetaminophen (or equivalent), and dexamethasone (or
+        equivalent) per each drug's product label prior to the first 4 infusions of
+        sacituzumab tirumotecan. At subsequent infusions, the H2 antagonist and dexamethasone
+        are optional, at the discretion of the investigator.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Biological: Sacituzumab tirumotecan'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Chemotherapy
+      arm_internal_id: 1
+      arm_description: Participants will receive 75 mg/m\^2 of docetaxel or 500 mg/m\^2
+        of pemetrexed by IV infusion on Days 1 and 22 of every 6-week cycle.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Docetaxel'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pemetrexed'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - and:
+      - and:
+        - or:
+          - clinical:
+              oncotree_primary_diagnosis: Sarcomatoid Carcinoma of the Lung
+          - clinical:
+              oncotree_primary_diagnosis: Lung Adenocarcinoma In Situ
+          - clinical:
+              oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+        - clinical:
+            age_numerical: '>=18'
+            disease_status:
+            - Advanced
+            - Metastatic
+      - or:
+        - genomic:
+            hugo_symbol: EGFR
+            variant_category: Mutation

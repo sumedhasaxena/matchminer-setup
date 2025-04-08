@@ -1,0 +1,250 @@
+nct_id: NCT04949256
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Cisplatin'
+  - drug_name: 'Drug: Lenvatinib'
+  - drug_name: 'Biological: Pembrolizumab'
+  - drug_name: 'Drug: Paclitaxel'
+  - drug_name: 'Drug: Levoleucovorin'
+  - drug_name: 'Drug: Oxaliplatin'
+  - drug_name: 'Drug: Leucovorin'
+  - drug_name: 'Drug: 5-FU'
+long_title: A Phase 3, Randomized Study to Evaluate the Efficacy and Safety of Pembrolizumab
+  (MK-3475) + Lenvatinib (E7080/MK-7902) + Chemotherapy Compared With Standard of
+  Care as First-line Intervention in Participants With Metastatic Esophageal Carcinoma
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Medical Director
+principal_investigator_institution: Merck Sharp & Dohme LLC
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 862
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Has a histologically or cytologically confirmed diagnosis of metastatic squamous
+  cell carcinoma of the esophagus'
+- '* Male participants are abstinent from heterosexual intercourse or agree to use
+  contraception during the intervention period and for at least 7 days after the last
+  dose of lenvatinib or 90 days after the last dose of chemotherapy, whichever comes
+  last; 7 days after lenvatinib is stopped, if the participant is on pembrolizumab
+  only and is greater than 90 days post chemotherapy, no male contraception is needed'
+- '* Female participant is not pregnant or breastfeeding and is not a woman of childbearing
+  potential (WOCBP) or is a WOCBP using a contraceptive method that is highly effective
+  or is abstinent from heterosexual intercourse as their preferred and usual lifestyle
+  during the intervention period and for at least 120 days after the last dose of
+  pembrolizumab, 30 days after the last dose of lenvatinib, or 180 days after the
+  last dose of chemotherapy, whichever occurs last, and agrees not to donate eggs
+  during this period'
+- "* Has adequately controlled blood pressure (BP) with or without antihypertensive\
+  \ medications, defined as BP\u2264150/90 millimeters of mercury (mm Hg) with no\
+  \ change in antihypertensive medications within 1 week prior to randomization"
+- '* Has adequate organ function'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Has had previous therapy for locally advanced unresectable or metastatic
+  esophageal cancer
+- Exclude - * Has locally advanced esophageal carcinoma
+- Exclude - * Has metastatic adenocarcinoma of the esophagus
+- Exclude - * Has direct invasion into adjacent organs such as the aorta or trachea
+- Exclude - * Has radiographic evidence of encasement of a major blood vessel, or
+  of intratumoral cavitation
+- Exclude - * Has perforation risks or significant gastrointestinal (GI) bleeding
+- Exclude - * Has had clinically significant hemoptysis within 3 weeks prior to the
+  first dose of study drug or tumor bleeding within 2 weeks prior to the first dose
+  of study intervention
+- Exclude - * Has uncontrollable pleural effusion, pericardial effusion, or ascites
+  requiring frequent drainage or medical intervention
+- Exclude - * Has GI obstruction, poor oral intake, difficulty in taking oral medication,
+  or existing esophageal stent
+- Exclude - * Has had major surgery, open biopsy, or significant traumatic injury
+  within 3 weeks prior to first dose of study interventions
+- Exclude - * Has received prior radiotherapy within 2 weeks of start of study intervention
+  or have had a history of radiation pneumonitis
+- Exclude - * Has received a live or live attenuated vaccine within 30 days prior
+  to the first dose of study intervention; administration of killed vaccines is allowed
+- Exclude - * Has a diagnosis of immunodeficiency or is receiving chronic systemic
+  steroid therapy or any form of immunosuppressive therapy within 7 days prior to
+  the first dose of study intervention, or has a history of organ transplant, including
+  allogeneic stem cell transplant
+- Exclude - * Has a known additional malignancy that is progressing or has required
+  active treatment within the past 3 years
+- Exclude - * Has known active central nervous system (CNS) metastases and/or carcinomatous
+  meningitis
+- Exclude - * Has an active autoimmune disease that has required systemic treatment
+  in past 2 years; replacement therapy is not considered a form of systemic treatment
+  and is allowed
+- Exclude - * Has a history of non-infectious pneumonitis/interstitial lung disease
+  that required steroids or current pneumonitis/interstitial lung disease
+- Exclude - * Has poorly controlled diarrhea
+- Exclude - * Has clinically significant cardiovascular disease within 12 months from
+  first dose of study intervention
+- "Exclude - * Has peripheral neuropathy \u2265Grade 2"
+- Exclude - * Has a known history of human immunodeficiency virus (HIV) infection
+- Exclude - * Has a known history of Hepatitis B or know active Hepatitis C virus
+  infection
+- Exclude - * Has a weight loss of \>20% within the last 3 months
+short_title: Efficacy and Safety of Pembrolizumab (MK-3475) Plus Lenvatinib (E7080/MK-7902)
+  Plus Chemotherapy in Participants With Metastatic Esophageal Carcinoma (MK-7902-014/E7080-G000-320/LEAP-014)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Merck Sharp & Dohme LLC
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'The purpose of this study is to assess the efficacy and safety of pembrolizumab
+  plus lenvatinib plus chemotherapy compared with pembrolizumab plus chemotherapy
+  as first-line intervention in participants with metastatic esophageal carcinoma.
+
+
+  The primary hypotheses are that pembrolizumab plus lenvatinib plus chemotherapy
+  is superior to pembrolizumab plus chemotherapy with respect to overall survival
+  (OS) per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by
+  blinded independent central review (BICR).'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Part 1: Pembrolizumab + Lenvatinib + Chemotherapy'
+      arm_internal_id: 0
+      arm_description: In the induction phase, participants receive pembrolizumab
+        400mg intravenously (IV) every 6 weeks (Q6W) for 2 cycles (each cycle length
+        = 6 weeks) plus Lenvatinib 8 mg orally (PO) once daily (QD) plus chemotherapy
+        with FP (cisplatin 80 mg/m\^2 and 5-FU 400 mg/m\^2 followed by 2400 mg/m\^2)
+        or TP (paclitaxel 175 mg/m\^2 and cisplatin 75 mg/m\^2) IV every 3 weeks for
+        4 administrations at the investigator's discretion (approximately 12 weeks).
+        In the consolidation phase, participants receive pembrolizumab 400 mg IV Q6W
+        for 16 cycles (each cycle length = 6 weeks) and Lenvatinib 20 mg PO until
+        progressive disease or discontinuation (approximately 96 weeks).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Biological: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Lenvatinib'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Cisplatin'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: 5-FU'
+        level_internal_id: 3
+        level_suspended: N
+      - level_code: '4'
+        level_description: 'Drug: Paclitaxel'
+        level_internal_id: 4
+        level_suspended: N
+    - arm_code: 'Part 2: Pembrolizumab + Lenvatinib + Chemotherapy'
+      arm_internal_id: 1
+      arm_description: In the induction phase, participants receive pembrolizumab
+        400mg intravenously (IV) every 6 weeks (Q6W) for 2 cycles (each cycle length
+        = 6 weeks) plus Lenvatinib 8 mg orally (PO) once daily (QD) plus chemotherapy
+        with FP (cisplatin 80 mg/m\^2 and 5-FU 4000 mg/m\^2) or TP (paclitaxel 175
+        mg/m\^2 and cisplatin 75 mg/m\^2) IV every 3 weeks for 4 administrations or
+        mFOLFOX6 (oxaliplatin 85 mg/m\^2, 5-FU 400 mg/m\^2 followed by 2400 mg/m\^2,
+        and leucovorin 400 mg/m\^2 \[or levoleucovorin 200 mg/m\^2\] once every 2
+        weeks \[Q2W\] for 6 administrations at the investigator's discretion (approximately
+        12 weeks). In the consolidation phase, participants receive pembrolizumab
+        400 mg IV Q6W for 16 cycles (each cycle length = 6 weeks) and Lenvatinib 20
+        mg PO until progressive disease or discontinuation (approximately 96 weeks).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Biological: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Lenvatinib'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Cisplatin'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: 5-FU'
+        level_internal_id: 3
+        level_suspended: N
+      - level_code: '4'
+        level_description: 'Drug: Oxaliplatin'
+        level_internal_id: 4
+        level_suspended: N
+      - level_code: '5'
+        level_description: 'Drug: Leucovorin'
+        level_internal_id: 5
+        level_suspended: N
+      - level_code: '6'
+        level_description: 'Drug: Levoleucovorin'
+        level_internal_id: 6
+        level_suspended: N
+      - level_code: '7'
+        level_description: 'Drug: Paclitaxel'
+        level_internal_id: 7
+        level_suspended: N
+    - arm_code: 'Part 2: Pembrolizumab + Chemotherapy'
+      arm_internal_id: 2
+      arm_description: Participants receive pembrolizumab 400 mg IV every 6 weeks
+        for 18 cycles (each cycle length = 6 weeks, approximately 2 years) plus chemotherapy
+        with FP (cisplatin 80 mg/m\^2 IV Q3W for up to 6 administrations \[up to \~18
+        weeks\] and 5-FU 4000 mg/m\^2 IV Q3W for up to 35 administrations \[up to
+        \~2 years\]) or TP (paclitaxel 175 mg/m\^2 and cisplatin 75 mg/m\^2 Q3W for
+        up 6 administrations \[up to \~18 weeks\]) or in combination with mFOLFOX6
+        (oxaliplatin 85 mg/m\^2, 5-FU 400 mg/m\^2 followed by 2400 mg/m\^2 and leucovorin
+        400 mg/m\^2 \[or levoleucovorin 200 mg/m\^2\] IV Q2W for up to 52 administrations
+        \[approximately 2 years\]).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Biological: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: 5-FU'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Oxaliplatin'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Leucovorin'
+        level_internal_id: 3
+        level_suspended: N
+      - level_code: '4'
+        level_description: 'Drug: Levoleucovorin'
+        level_internal_id: 4
+        level_suspended: N
+      - level_code: '5'
+        level_description: 'Drug: Paclitaxel'
+        level_internal_id: 5
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        disease_status:
+        - Metastatic
+        oncotree_primary_diagnosis: Esophageal Squamous Cell Carcinoma

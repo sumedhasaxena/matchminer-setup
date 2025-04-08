@@ -1,0 +1,212 @@
+nct_id: NCT04852887
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Endocrine Therapy (Tamoxifen, Anastrozol, Letrozole, Exemestane)'
+  - drug_name: 'Other: Radiation and Endocrine Therapy (Tamoxifen, Anastrozol, Letrozole,
+      Exemestane)'
+long_title: A Phase III Clinical Trial Evaluating De-Escalation of Breast Radiation
+  for Conservative Treatment of Stage I, Hormone Sensitive, HER-2 Negative, Oncotype
+  Recurrence Score Less Than or Equal to 18 Breast Cancer
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: ''
+principal_investigator_institution: NRG Oncology
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 1670
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- "* \u2022 The patient or a legally authorized representative must provide study-specific\
+  \ informed consent prior to pre-entry/Step 1 and, for patients treated in the U.S.,\
+  \ authorization permitting release of personal health information."
+- '* The patient must have an ECOG performance status of 0 or 1.'
+- '* The patient must have undergone a lumpectomy and the margins of the resected
+  specimen or re-excision must be histologically free of invasive tumor and DCIS with
+  no ink on tumor as determined by the local pathologist. If pathologic examination
+  demonstrates tumor at the line of resection, additional excisions may be performed
+  to obtain clear margins. (Patients with margins positive for LCIS are eligible without
+  additional resection.)'
+- '* The tumor must be unilateral invasive adenocarcinoma of the breast on histologic
+  examination.'
+- '* Patient must have undergone axillary staging (sentinel node biopsy and/or axillary
+  node dissection).'
+- '* The following staging criteria must be met postoperatively according to AJCC
+  8th edition criteria:'
+- '* By pathologic evaluation, primary tumor must be pT1 (less than or equal to 2
+  cm).'
+- '* By pathologic evaluation, ipsilateral nodes must be pN0. (Patients with pathologic
+  staging of pN0(i+) or pN0(mol+) are NOT eligible.)'
+- '* Oncotype DX Recurrence Score of less than or equal to 18 on diagnostic core biopsy
+  or resected specimen.'
+- \*\* For patients with a T1a tumor (less than or equal to 0.5 cm in size) or patients
+  at Canadian provinces or approved international sites where Oncotype DX Recurrence
+  Score testing would not be covered, who do not already have an Oncotype DX Recurrence
+  Score at pre-entry/Step 1, a specimen (unstained blocks or slides) must be sent
+  to the Genomic Health centralized laboratory. Tumor size sample must be greater
+  than or equal to 0.2 cm for analysis.
+- \*\*\* The Oncotype RS can be run on the biopsy core or surgical specimen. The patient
+  cannot have initiated endocrine therapy prior to tissue collection.
+- '* An Oncotype RS is required for eligibility, however, for a patient whose tumor
+  has already had a MammaPrint test completed as part of usual care when being considered
+  for enrollment and is in the binary "Low" category will meet this eligibility criteria
+  and an Oncotype RS does not need to be performed.'
+- '* The tumor must have been determined to be ER and/or PgR positive assessed by
+  current ASCO/CAP Guideline Recommendations for hormone receptor testing. Patients
+  with greater than or equal to 1% ER or PgR staining by IHC are considered positive.'
+- '* The tumor must have been determined to be HER2-negative by current ASCO/CAP guidelines.'
+- '* Patients may be premenopausal or postmenopausal at the time of pre-entry/Step
+  1. For study purposes, postmenopausal is defined as:'
+- '* Age 56 or older with no spontaneous menses for at least 12 months prior to pre-entry/Step
+  1; or a documented hysterectomy; or'
+- '* Age 55 or younger with no spontaneous menses for at least 12 months prior to
+  pre-entry/Step 1 (e.g., spontaneous or secondary to hysterectomy) and with a documented
+  estradiol level in the postmenopausal range according to local institutional/laboratory
+  standard; or Documented bilateral oophorectomy.'
+- '* The interval between the last surgery for breast cancer (including re-excision
+  of margins) and pre-entry/Step 1 must be no more than 70 days.'
+- '* The patient must have recovered from surgery with the incision completely healed
+  and no signs of infection.'
+- '* Bilateral mammogram or MRI within 6 months prior to pre-entry/Step 1. HIV-infected
+  patients on effective anti-retroviral therapy with undetectable viral load within
+  6 months are eligible for this trial. Patients must be intending to take endocrine
+  therapy for a minimum 5 years duration (tamoxifen or aromatase inhibitor). The specific
+  regimen of endocrine therapy is at the treating physician''s discretion.'
+- 'Exclude - Exclusion Criteria:'
+- "Exclude - * \u2022 Definitive clinical or radiologic evidence of metastatic disease."
+- Exclude - * pT1 mi and pT2 - pT4 tumors including inflammatory breast cancer.
+- Exclude - * Pathologic staging of pN0(i+) or pN0(mol+), pN1, pN2, or pN3 disease.
+- Exclude - * Patient had a mastectomy.
+- Exclude - * Palpable or radiographically suspicious ipsilateral or contralateral
+  axillary, supraclavicular, infraclavicular, or internal mammary nodes, unless there
+  is histologic confirmation that these nodes are negative for tumor.
+- Exclude - * Suspicious microcalcifications, densities, or palpable abnormalities
+  (in the ipsilateral or contralateral breast) unless biopsied and found to be benign.
+- Exclude - * Non-epithelial breast malignancies such as sarcoma or lymphoma.
+- Exclude - * Proven multicentric carcinoma (invasive cancer or DCIS) in more than
+  one quadrant or separated by 4 or more centimeters. (Patients with multifocal carcinoma
+  are eligible.)
+- Exclude - * Paget's disease of the nipple.
+- Exclude - * Any history, not including the index cancer, of ipsilateral invasive
+  breast cancer or ipsilateral DCIS treated or not treated. (Patients with synchronous
+  or previous ipsilateral LCIS are eligible.)
+- Exclude - * Synchronous or previous contralateral invasive breast cancer or DCIS.
+  (Patients with synchronous and/or previous contralateral LCIS are eligible.)
+- Exclude - * Surgical margins that cannot be microscopically assessed or are positive
+  at pathologic evaluation. (If surgical margins are rendered free of disease by re-
+  excision, the patient is eligible.)
+- Exclude - * Treatment plan that includes regional nodal irradiation.
+- Exclude - * Any treatment with radiation therapy, chemotherapy, or biotherapy, administered
+  for the currently diagnosed breast cancer prior to pre-entry/Step 1.
+- Exclude - * History of non-breast malignancies (except for in situ cancers treated
+  only by local excision and basal cell and squamous cell carcinomas of the skin)
+  within 5 years prior to pre-entry/Step 1.
+- "Exclude - * Current therapy with any endocrine therapy such as raloxifene (Evista\xAE\
+  ), tamoxifen, or other selective estrogen receptor modulators (SERMs), either for\
+  \ osteoporosis or breast cancer prevention."
+- 'Exclude - \*\* Patients are eligible for BR007 if they receive a short course of
+  preoperative endocrine therapy of less than 6 weeks duration (prior to randomization/Step
+  2) for this diagnosis after the core biopsy (and can continue postoperatively if:'
+- Exclude - * the Oncotype DX Recurrence Score is assessed on the biopsy core and
+  is less than or equal to 18, AND
+- Exclude - * the patient had not initiated endocrine therapy prior to core biopsy
+  tissue collection.
+- Exclude - \*\*\* This does not apply to adjuvant endocrine therapy recommended for
+  this diagnosis which may start any time after surgery including prior to registration
+  (Pre-entry/Step 1).
+- Exclude - * Patients intending to continue on oral, transdermal, or subdermal estrogen
+  replacement (including all estrogen only and estrogen-progesterone formulas) are
+  not eligible. Patients that discontinue oral, transdermal, or subdermal estrogen
+  replacement prior to registration are eligible.
+- Exclude - * Prior breast or thoracic RT for any condition.
+- Exclude - * Active collagen vascular disease, specifically dermatomyositis with
+  a CPK level above normal or with an active skin rash, systemic lupus erythematosis,
+  or scleroderma.
+- 'Exclude - * Pregnancy or lactation at the time of pre-entry/Step 1 or intention
+  to become pregnant during treatment. (Note: Pregnancy testing according to institutional
+  standards for women of childbearing potential must be performed within 2 weeks prior
+  to pre-entry/Step 1.)'
+- Exclude - * Any other disease, metabolic dysfunction, physical examination finding,
+  or clinical laboratory finding giving reasonable suspicion of a disease or condition
+  that contraindicates the use of study therapy or that may affect the interpretation
+  of the results or render the patient at high risk from treatment complications.
+- Exclude - * Psychiatric or addictive disorders or other conditions that, in the
+  opinion of the investigator, would preclude the patient from meeting the study requirements
+  or interfere with interpretation of study results.
+- Exclude - * Use of any investigational product within 30 days prior to pre-entry/Step
+  1.
+short_title: De-Escalation of Breast Radiation Trial for Hormone Sensitive, HER-2
+  Negative, Oncotype Recurrence Score Less Than or Equal to 18 Breast Cancer (DEBRA)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: NRG Oncology
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This Phase III Trial evaluates whether breast conservation surgery and endocrine
+  therapy results in a non-inferior rate of invasive or non-invasive ipsilateral breast
+  tumor recurrence (IBTR) compared to breast conservation with breast radiation and
+  endocrine therapy.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Arm 1: Breast Radiation Therapy + Endocrine Therapy'
+      arm_internal_id: 0
+      arm_description: Radiation therapy to the breast and hormonal drug for at least
+        5 years. Tamoxifen 20 mg daily Anastrozole 1 mg daily Letrozole 2.5 mg daily
+        Exemestane 25 mg daily
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Other: Radiation and Endocrine Therapy (Tamoxifen, Anastrozol,
+          Letrozole, Exemestane)'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'Arm 2: No Breast Radiation Therapy + Endocrine Therapy'
+      arm_internal_id: 1
+      arm_description: No radiation therapy, only hormonal drug for at least 5 years.
+        Tamoxifen 20 mg daily Anastrozole 1 mg daily Letrozole 2.5 mg daily Exemestane
+        25 mg daily
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Endocrine Therapy (Tamoxifen, Anastrozol, Letrozole,
+          Exemestane)'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+        - and:
+            - clinical:
+                age_numerical: '>=50'
+                her2_status: Negative
+                disease_status:
+                  - Early Stage
+                  - Localized
+                oncotree_primary_diagnosis: Invasive Breast Carcinoma
+            - or:
+                - clinical:
+                    er_status: Positive
+                - clinical:
+                    pr_status: Positive

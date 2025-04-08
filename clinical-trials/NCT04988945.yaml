@@ -1,0 +1,262 @@
+nct_id: NCT04988945
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Radiation: SBRT'
+  - drug_name: 'Procedure: TACE'
+  - drug_name: 'Drug: Tremelimumab'
+  - drug_name: 'Drug: Durvalumab'
+long_title: Sequential TransArterial Chemoembolization and Stereotactic RadioTherapy
+  Followed by Durvalumab (MEDI4736) and Tremelimumab for Downstaging Hepatocellular
+  Carcinoma for Hepatectomy
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE2
+principal_investigator: ''
+principal_investigator_institution: The University of Hong Kong
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 33
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- 'For inclusion in the study, patients should fulfill the following criteria:'
+- 1. Capable of giving signed informed consent which includes compliance with the
+  requirements and restrictions listed in the informed consent form (ICF) and in this
+  protocol. Written informed consent and any locally required authorization obtained
+  from the patient/legal representative prior to performing any protocol-related procedures,
+  including screening evaluations.
+- 2. Diagnosis of unresectable HCC confirmed pathologically or made according to
+- 'American Association for the Study of Liver Diseases (AASLD) practice guideline
+  2010:'
+- patients with cirrhosis of any etiology and patients with chronic hepatitis B (HBV)
+  who may not have fully developed cirrhosis, the presence of liver nodule \>1cm and
+  demonstrated in a single contrast-enhanced dynamic imaging \[either computed tomography
+  (CT) or magnetic resonance imaging (MRI)\] of intense arterial uptake and "washout"
+  in portal venous and delayed phases.
+- 3. Adult male or female aged \>18 years at time of study entry
+- 4. Eastern Cooperative Oncology Group (ECOG) performance status score of 0 or 1
+- 5. Body weight \>30kg
+- '6. Evidence of post-menopausal status or negative urinary or serum pregnancy test
+  for female pre-menopausal patients. Women will be considered post-menopausal if
+  they have been amenorrheic for 12 months without an alternative medical cause. The
+  following age-specific requirements apply:'
+- 7. Women \<50 years of age would be considered post-menopausal if they have been
+  amenorrheic for 12 months or more following cessation of exogenous hormonal treatments
+  and if they have luteinizing hormone and follicle-stimulating hormone levels in
+  the post-menopausal range for the institution or underwent surgical sterilization
+  (bilateral oophorectomy or hysterectomy).
+- "8. Women \u226550 years of age would be considered post-menopausal if they have\
+  \ been amenorrheic for 12 months or more following cessation of all exogenous hormonal\
+  \ treatments, had radiation-induced menopause with last menses \\>1 year ago, had\
+  \ chemotherapy-induced menopause with last menses \\>1 year ago, or underwent surgical\
+  \ sterilization (bilateral oophorectomy, bilateral salpingectomy or hysterectomy)."
+- 9. Must have a life expectancy of at least 12 weeks
+- 10. Patient is willing and able to comply with the protocol for the duration of
+  the study including undergoing treatment and scheduled visits and examinations including
+  follow up.
+- "11. Tumor size 5-25cm and number of lesions \u22643"
+- '12. Portal vein involvement (Vp1-3) is allowed: Vp1, presence of a tumor thrombus
+  distal to, but not within, the second-order branches of the portal vein; Vp2, presence
+  of a tumor thrombus in the second-order branches of the portal vein; Vp3, presence
+  of a tumor thrombus in the first-order branches of the portal vein.'
+- 13. Liver volume minus gross tumor volume (GTV) \> 700cc
+- 14. Child-Pugh liver function class A-B7
+- 15. No prior immunotherapy
+- 16. Subjects with confirmed concomitant HBV infection (defined as HBsAg positive
+  or HBV DNA detectable) that are eligible for inclusion must be treated with antiviral
+  therapy (per local institutional practice) prior to enrollment to ensure adequate
+  viral suppression (HBV DNA \< 2000 IU/mL), must remain on antiviral therapy for
+  the study duration, and continue therapy for 6 months after the last dose of investigational
+  product(s)
+- 17. At least one measurable lesion according to RECIST v1.1.
+- 'Adequate normal organ and marrow function as defined below:'
+- "* Haemoglobin \u2265 9.0 g/dL"
+- "* Absolute neutrophil count (ANC \u22651.5 (or 1.0) x (\\> 1500 per mm\\^3)"
+- "* Platelet count \u2265 75 x 109/L (\\>75,000 per mm\\^3)"
+- "* Serum bilirubin \u22641.5 x institutional upper limit of normal (ULN)."
+- "* AST (SGOT)/ALT (SGPT) \u22642.5 x institutional upper limit of normal unless\
+  \ liver metastases are present, in which case it must be \u22645x ULN"
+- '* Measured creatinine clearance (CL) \>45 mL/min or Calculated creatinine clearance
+  CL\>45 mL/min by the Cockcroft-Gault formula (Cockcroft and Gault 1976) or by 24-hour
+  urine collection for determination of creatinine clearance:'
+- 'Exclude - Exclusion Criteria:'
+- 'Exclude - Patients should not enter the study if any of the following exclusion
+  criteria are fulfilled:'
+- Exclude - 1. Participation in another clinical study with an investigational product
+  within 4 weeks prior to the first dose of study treatment
+- Exclude - 2. Concurrent enrolment in another clinical study, unless it is an observational
+  (noninterventional) clinical study or during the follow-up period of an interventional
+  study
+- "Exclude - 3. Any unresolved toxicity NCI CTCAE Grade \u22652 from previous anticancer\
+  \ therapy with the exception of alopecia, vitiligo, and the laboratory values defined\
+  \ in the inclusion criteria"
+- "Exclude - * Patients with Grade \u22652 neuropathy will be evaluated on a case-by-case\
+  \ basis after consultation with the Study Physician."
+- Exclude - * Patients with irreversible toxicity not reasonably expected to be exacerbated
+  by treatment with Durvalumab or Tremelimumab may be included only after consultation
+  with the Study Physician.
+- Exclude - 4. Any concurrent chemotherapy, IP, biologic, or hormonal therapy for
+  cancer treatment.
+- Exclude - Concurrent use of hormonal therapy for non-cancer-related conditions (e.g.,
+  hormone replacement therapy) is acceptable.
+- Exclude - 5. Prior radiotherapy to the region of liver or selective internal radiotherapy
+- 'Exclude - 6. Major surgical procedure (as defined by the Investigator) within 28
+  days prior to the first dose of IP. Note: Local surgery of isolated lesions for
+  palliative intent is acceptable.'
+- Exclude - 7. History of primary immunodeficiency or allogenic organ transplantation.
+- 'Exclude - 8. Active or prior documented autoimmune or inflammatory disorders (including
+  inflammatory bowel disease \[e.g., colitis or Crohn''s disease\], diverticulitis
+  \[with the exception of diverticulosis\], systemic lupus erythematosus, Sarcoidosis
+  syndrome, or Wegener syndrome \[granulomatosis with polyangiitis, Graves'' disease,
+  rheumatoid arthritis, hypophysitis, uveitis, etc\]). The following are exceptions
+  to this criterion:'
+- Exclude - * Patients with vitiligo or alopecia
+- Exclude - * Patients with hypothyroidism (e.g., following Hashimoto syndrome) stable
+  on hormone replacement
+- Exclude - * Any chronic skin condition that does not require systemic therapy
+- Exclude - * Patients without active disease in the last 5 years may be included
+  but only after consultation with the study physician
+- Exclude - * Patients with celiac disease controlled by diet alone
+- Exclude - 9. Uncontrolled intercurrent illness, including but not limited to, ongoing
+  or active infection, symptomatic congestive heart failure, uncontrolled hypertension,
+  unstable angina pectoris, cardiac arrhythmia, interstitial lung disease, serious
+  chronic gastrointestinal conditions associated with diarrhea, or psychiatric illness/social
+  situations that would limit compliance with study requirement, substantially increase
+  risk of incurring AEs or compromise the ability of the patient to give written informed
+  consent
+- Exclude - 10. History of another primary malignancy except for
+- "Exclude - * Malignancy treated with curative intent and with no known active disease\
+  \ \u22655 years before the first dose of IP and of low potential risk for recurrence"
+- Exclude - * Adequately treated non-melanoma skin cancer or lentigo maligna without
+  evidence of disease
+- Exclude - * Adequately treated carcinoma in situ without evidence of disease
+- Exclude - 11. History of leptomeningeal carcinomatosis
+- Exclude - 12. Presence of extra-hepatic metastases (M1). Patients with suspected
+  brain metastases at screening should have an MRI (preferred) or CT each preferably
+  with IV contrast of the brain prior to study entry.
+- Exclude - 13. Has untreated central nervous system (CNS) metastases and/or carcinomatous
+  meningitis identified either on the baseline brain imaging (RECIST)) for details
+  on the imaging modality) obtained during the screening period or identified prior
+  to signing the ICF.
+- Exclude - 14. History of active primary immunodeficiency
+- Exclude - 15. Active infection including tuberculosis (clinical evaluation that
+  includes clinical history, physical examination and radiographic findings, and TB
+  testing in line with local practice), hepatitis B (known positive HBV surface antigen
+  (HBsAg) result), hepatitis C, or human immunodeficiency virus (positive HIV 1/2
+  antibodies). Patients with a past or resolved HBV infection (defined as the presence
+  of hepatitis B core antibody \[anti-HBc\] and absence of HBsAg) are eligible. Patients
+  positive for hepatitis C (HCV) antibody are eligible only if polymerase chain reaction
+  is negative for HCV RNA.
+- 'Exclude - 16. Current or prior use of immunosuppressive medication within 14 days
+  before the first dose of Durvalumab or Tremelimumab. The following are exceptions
+  to this criterion:'
+- Exclude - * Intranasal, inhaled, topical steroids, or local steroid injections (e.g.,
+  intra articular injection)
+- Exclude - * Systemic corticosteroids at physiologic doses not to exceed 10 mg/day
+  of prednisone or its equivalent
+- Exclude - * Steroids as premedication for hypersensitivity reactions (e.g., CT scan
+  premedication)
+- 'Exclude - 17. Receipt of live attenuated vaccine within 30 days prior to the first
+  dose of IP. Note:'
+- Exclude - Patients, if enrolled, should not receive live vaccine whilst receiving
+  IP and up to 30 days after the last dose of IP.
+- Exclude - 18. Female patients who are pregnant or breastfeeding or male or female
+  patients of reproductive potential who are not willing to employ effective birth
+  control from screening to 90 days after the last dose of Durvalumab monotherapy
+  or180 days after the last dose of Durvalumab + Tremelimumab combination therapy.
+- Exclude - 19. Known allergy or hypersensitivity to any of the study drugs or any
+  of the study drug excipients.
+- Exclude - 20. Prior randomisation or treatment in a previous Durvalumab and/or Tremelimumab
+  clinical study regardless of treatment arm assignment.
+- 'Exclude - 21. Patients who have received prior anti-PD-1, anti-PD-L1 or anti-CTLA-4:'
+- Exclude - * Must not have experienced a toxicity that led to permanent discontinuation
+  of prior immunotherapy.
+- Exclude - * All AEs while receiving prior immunotherapy must have completely resolved
+  or resolved to baseline prior to screening for this study.
+- "Exclude - * Must not have experienced a \u2265Grade 3 immune related AE or an immune\
+  \ related neurologic or ocular AE of any grade while receiving prior immunotherapy.\
+  \ NOTE: Patients with endocrine AE of \u2264Grade 2 are permitted to enroll if they\
+  \ are stably maintained on appropriate replacement therapy and are asymptomatic."
+- Exclude - * Must not have required the use of additional immunosuppression other
+  than corticosteroids for the management of an AE, not have experienced recurrence
+  of an AE if re-challenged, and not currently require maintenance doses of \> 10
+  mg prednisone or equivalent per day.
+- 'Exclude - 22. Contraindicated of SBRT:'
+- Exclude - * Any one hepatocellular carcinoma \> 25 cm
+- Exclude - * Total maximal sum of hepatocellular carcinoma \> 30 cm
+- Exclude - * More than 3 discrete hepatic nodule
+- Exclude - * Direct tumor extension into the stomach, duodenum, small bowel, large
+  bowel, common or main branch of biliary tree
+- Exclude - 23. Main portal vein, contralateral portal vein, (Vp4) or inferior vena
+  cava (IVC) thrombosis / involvement
+- Exclude - 24. Presence of clinically meaningful ascites as ascites requiring non
+  pharmacologic intervention (eg, paracentesis) or escalation in pharmacologic intervention
+  to maintain symptomatic control
+- Exclude - 25. Hepatic encephalopathy
+- Exclude - 26. Active or prior documented gastrointestinal variceal bleeding
+short_title: TACE and SBRT Followed by Double Immunotherapy for Downstaging Hepatocellular
+  Carcinoma
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: The University of Hong Kong
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This study is a prospective phase II, single arm mono-institutional study
+  conducted in Queen Mary Hospital (Hong Kong) assessing the efficacy and safety of
+  the sequential administration of trans-arterial chemo-embolization (TACE) and stereotactic
+  body radiotherapy (SBRT) with immune checkpoint inhibitors in unresectable hepatocellular
+  carcinoma (HCC) patients.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Durvalumab + Tremelimumab
+      arm_internal_id: 0
+      arm_description: 1500mg Durvalumab administered IV over 60 minutes on Day 1
+        of each immunotherapy treatment every 4 weeks until disease progression (PD)
+        and 300mg Tremelimumab administered over 60 minutes on Day 1 of cycle 1.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Procedure: TACE'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Radiation: SBRT'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Durvalumab'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Tremelimumab'
+        level_internal_id: 3
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        disease_status:
+        - Unresectable
+        oncotree_primary_diagnosis: Hepatocellular Carcinoma

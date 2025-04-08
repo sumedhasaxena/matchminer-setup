@@ -1,0 +1,146 @@
+{
+    "nct_id": "NCT03839914",
+    "age": "Adults",
+    "cancer_center_accrual_goal_upper": 0,
+    "data_table4": "Interventional",
+    "drug_list": {
+        "drug": [
+            {
+                "drug_name": "Drug: Vancomycin powder"
+            }
+        ]
+    },
+    "long_title": "Randomized, Controlled, Single-blinded Trial to Evaluate the Efficacy and Safety of Intra-wound Administration of Vancomycin Powder as Add-on Prophylactic Intraoperative Antibiotic in Patients at High Risk for Surgical Site Infections After Receiving Open Posterior Spinal Surgery",
+    "management_group_list": {
+        "management_group": [
+            {
+                "is_primary": "Y",
+                "management_group_name": "Group1"
+            }
+        ]
+    },
+    "oncology_group_list": {
+        "oncology_group": [
+            {
+                "group_name": "Group1",
+                "is_primary": "N"
+            }
+        ]
+    },
+    "phase": "NA",
+    "principal_investigator": "",
+    "principal_investigator_institution": "The University of Hong Kong",
+    "program_area_list": {
+        "program_area": [
+            {
+                "is_primary": "Y",
+                "program_area_name": "Program1"
+            }
+        ]
+    },
+    "protocol_id": 0,
+    "protocol_no": "",
+    "protocol_target_accrual": 76,
+    "protocol_type": "INTERVENTIONAL",
+    "prior_treatment_requirements": [
+        "Inclusion Criteria:",
+        "1. Female or male adult with age \u226518 years",
+        "2. Undergoing open posterior spinal surgery with instrumentation indicated for spinal deformity, trauma and tumor",
+        "3. Able to understand the nature, scope and possible consequences of participation in the study",
+        "4. Appropriate voluntary written informed consent have been provided by patients",
+        "Exclude - Exclusion Criteria:",
+        "Exclude - 1. Has been treated with antibiotics due to primary spinal infection (i.e. spondylodiscitis) within 1 year prior to surgery",
+        "Exclude - 2. Ongoing treatment with antibiotics for other infections",
+        "Exclude - 3. Undergoing minimally invasive surgery or anterior-only surgical approaches or deformity correction surgery for adolescent idiopathic scoliosis (inherent low-risk for surgical site infections18)",
+        "Exclude - 4. Undergoing decompression-only surgery for cervical spine, spinal deformity, trauma and tumors",
+        "Exclude - 5. Has known history of allergy to vancomycin, penicillin and other glycopeptides (teicoplanin)",
+        "Exclude - 6. Has history of vancomycin resistance",
+        "Exclude - 7. Pregnancy"
+    ],
+    "short_title": "Evaluating the Efficacy and Safety of Intra-wound Vancomycin Powder in High Risk Patients",
+    "site_list": {
+        "site": []
+    },
+    "sponsor_list": {
+        "sponsor": [
+            {
+                "is_principal_sponsor": "Y",
+                "sponsor_name": "The University of Hong Kong",
+                "sponsor_protocol_no": "",
+                "sponsor_roles": "sponsor"
+            }
+        ]
+    },
+    "staff_list": {
+        "protocol_staff": []
+    },
+    "status": "open to accrual",
+    "summary": "Surgical site infections (SSI) are not uncommon, especially in specific high-risk groups including spinal deformity and tumor (i.e. metastatic spine surgery) surgery. Well-recognized measures have been adopted to reduce surgical site infection, and the use of topical vancomycin powder has gained popularity in recent years. Given the lack of high-quality evidence for the use of topical vancomycin to reduce surgical site infections in open posterior spine surgery, which is currently the most common approach to spine surgery, it is crucial to study the use of vancomycin powder in reducing surgical site infections. This study is a prospective, single-blinded open label randomized controlled trial, with one arm of patients having local administration of 1g vancomycin powder which will be placed in the deep wound and subcutaneous layer prior to closure of surgical site by the orthopaedic surgeon, whereas the control arm will be without such application of vancomycin. Both arms of patients will still be undergoing the same operation procedures, as well as postoperative local wound drainage and wound care. This study will provide insights on the reduction rate in superficial and/or deep surgical site infection, and also assess the cost-effectiveness of using topical vancomycin in reducing surgical site infection between different disease groups, as well as any postoperative serum vancomycin toxicity and renal impairment. These proposed findings will provide valuable information for clinicians and institutions on future measures for surgical site infection of open posterior spine surgery.",
+    "treatment_list": {
+        "step": [
+            {
+                "step_internal_id": 111,
+                "step_code": "1",
+                "step_type": "Registration",
+                "arm": [
+                    {
+                        "arm_code": "Intervention - Vancomycin",
+                        "arm_internal_id": 0,
+                        "arm_description": "Intervention: 1g vancomycin powder locally applied to the deep wound and subcutaneous layer prior to closure.",
+                        "arm_suspended": "N",
+                        "dose_level": [
+                            {
+                                "level_code": "0",
+                                "level_description": "Drug: Vancomycin powder",
+                                "level_internal_id": 0,
+                                "level_suspended": "N"
+                            }
+                        ]
+                    },
+                    {
+                        "arm_code": "Control - No vancomycin application",
+                        "arm_internal_id": 1,
+                        "arm_description": "No intervention, control group All other wound closure procedure and wound care and monitoring are the same",
+                        "arm_suspended": "N",
+                        "dose_level": []
+                    }
+                ],
+                "match": [
+                    {
+                        "and": [
+                            {
+                                "or": [
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Osteosarcoma"
+                                        }
+                                    },
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Giant Cell Tumor of Bone"
+                                        }
+                                    },
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Ewing Sarcoma"
+                                        }
+                                    },
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Chordoma"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "clinical": {
+                                    "age_numerical": ">=18"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

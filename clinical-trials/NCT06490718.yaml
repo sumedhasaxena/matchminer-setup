@@ -1,0 +1,112 @@
+nct_id: NCT06490718
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Intravenous Infusion'
+  - drug_name: 'Drug: USG ESPB'
+long_title: 'Quality of Recovery After Major Breast Cancer Surgery: a Prospective
+  Multicentre Randomized Triple Blinded Trial Comparing Erector Spinae Plane Block
+  and Intravenous Lidocaine Infusion'
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: NA
+principal_investigator: ''
+principal_investigator_institution: Chinese University of Hong Kong
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 80
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* ASA I-III patients'
+- '* 18 to 75 years of age'
+- '* Patients scheduled for primary breast cancer surgery-mastectomy, modified radical
+  mastectomy and breast conservation surgery with sentinel lymph node biopsy +/- axillary
+  dissection will be included in this study.'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Patient refusal,
+- Exclude - * Local skin site infection,
+- Exclude - * Coagulopathy,
+- Exclude - * History of allergy to local anaesthetics, and
+- Exclude - * Patients with hepatic, renal and cardiac dysfunction
+short_title: Comparing Quality of Recovery Between ESPB and IV Lidocaine After Major
+  Breast Cancer Surgery
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Chinese University of Hong Kong
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The erector spinae plane block (ESPB) is gaining popularity as a regional
+  anesthetic technique for major breast cancer surgery. Although there is controversy
+  about its mechanism of action, emerging evidence suggests that clinical analgesia
+  observed after ESPB in breast surgery may be due to rapid and sustained local anesthetic
+  absorption from the injection site. Hence intravenous LA infusion (IVLI) during
+  the perioperative period could offer an effective alternative to invasive ESPB.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Group ESPB
+      arm_internal_id: 0
+      arm_description: 'For USG ESPB, 25 ml of 0.5% ropivacaine with 1:200,000 adrenaline
+        will be drawn in a 25 ml syringe with a sterile label (available in a sterile
+        package) displaying ''study drug for ESPB''.
+
+
+        For IV infusion, 30 ml 0.9% saline will be drawn in a 50 ml syringe with a
+        sterile label displaying ''study drug for IVI''. Both these syringes will
+        be stored under strict aseptic precautions in a sterile tray until administration.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: USG ESPB'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Group IVLI
+      arm_internal_id: 1
+      arm_description: 'For USG ESPB, 25 ml of 0.9% saline will be drawn in a 25 ml
+        syringe with a sterile label (available in a sterile package) displaying ''study
+        drug for ESPB''.
+
+
+        For IV infusion, 30 ml 2% lidocaine will be drawn in a 50 ml syringe with
+        a sterile label displaying ''study drug for IVI''. Both these syringes will
+        be stored under strict aseptic precautions in a sterile tray until administration.
+        The 30 ml volume for 2% lidocaine is decided as it can cover for a 70kg patient
+        for a 3-hour surgical period.'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Intravenous Infusion'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - or:
+        - clinical:
+            oncotree_primary_diagnosis: Breast Neoplasm, NOS
+        - clinical:
+            oncotree_primary_diagnosis: Breast Fibroepithelial Neoplasms
+      - clinical:
+          age_numerical: '>=18'
+          gender: Female

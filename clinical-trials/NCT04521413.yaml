@@ -1,0 +1,221 @@
+nct_id: NCT04521413
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: CFI-402411'
+  - drug_name: 'Drug: Pembrolizumab'
+long_title: A First-In-Human, Phase 1/2 Study Of CFI-402411, a Hematopoietic Progenitor
+  Kinase-1 (HPK1) Inhibitor, as a Single Agent and in Combination With Pembrolizumab
+  in Subjects With Advanced Solid Malignancies
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: ''
+principal_investigator_institution: Treadwell Therapeutics, Inc
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 170
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Key Inclusion Criteria: Study-Wide Eligibility (Across All Study Parts):'
+- 1. Age \> 18 years old
+- "2. Have progressed after \u2265 1, but no more than 3 regimens of systemic therapies\
+  \ for recurrent / metastatic disease."
+- 3. Subjects must have measurable disease.
+- 4. Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+- 'Part A1: Monotherapy Dose Escalation Inclusion Criteria'
+- 1. Histological or cytological confirmation of advanced solid malignancy that is
+  refractory to or not a candidate for current standard treatment(s) and for whom
+  no standard therapy is available.
+- 'Part A2: Biomarker-Focused Monotherapy Backfills Inclusion Criteria'
+- 1. Histological or cytological confirmation of one of the advanced cancers listed
+  below;
+- '* NSCLC'
+- '* SCLC'
+- '* cutaneous melanoma'
+- '* Merkel cell carcinoma'
+- '* squamous cell carcinoma of head and neck, anal canal, or skin'
+- '* urothelial cancer'
+- '* clear cell or non-clear cell renal cell carcinoma'
+- '* triple negative breast cancer'
+- '* endometrial cancer (regardless of MSI status)'
+- '* cervical cancer'
+- '* gastroesophageal cancer'
+- '* hepatocellular cancer'
+- '* any histology if known to be microsatellite-instability high (MSI-H)'
+- 2. Tumors must be refractory to or not a candidate for current standard treatment(s)
+  and for whom no standard therapy exists.
+- 'Part A3: Monotherapy Expansion Inclusion Criteria'
+- 1. Histological or cytological confirmation of one of the advanced cancers listed
+  below;
+- '* NSCLC cancer any histology'
+- '* SCLC'
+- '* cutaneous melanoma'
+- '* Merkel cell carcinoma'
+- '* squamous cell carcinoma of head and neck, anal canal, or skin'
+- '* urothelial cancer'
+- '* clear cell or non-clear cell renal cell carcinoma'
+- '* triple negative breast cancer'
+- '* endometrial cancer (regardless of MSI status)'
+- '* cervical cancer'
+- '* gastroesophageal cancer'
+- '* hepatocellular'
+- '* any histology if known to be microsatellite-instability high (MSI-H)'
+- 2. Tumors must be refractory to or subjects intolerant of current standard treatment(s)
+  and for whom no standard therapies are available.
+- '3. Optional biopsies: Subjects that consent to optional fresh tumor biopsies must
+  have at least one non-target soft tissue tumor lesion that can be biopsied.'
+- 'Part B1: CFI-402411 in Combination with Pembrolizumab Dose Escalation Inclusion
+  Criteria'
+- 1. Subjects must be deemed eligible by the Investigator to receive pembrolizumab.
+- 2. Histological or cytological confirmation of one of the advanced cancers listed
+  below (list may vary in each country, USA shown here);
+- '* NSCLC cancer any histology'
+- '* SCLC'
+- '* cutaneous melanoma'
+- '* Merkel cell carcinoma'
+- '* squamous cell carcinoma of head and neck, anal canal, or skin'
+- '* urothelial cancer'
+- '* clear cell or non-clear cell renal cell carcinoma'
+- '* triple negative breast cancer'
+- '* endometrial cancer (regardless of MSI status)'
+- '* cervical cancer'
+- '* gastroesophageal cancer'
+- '* hepatocellular cancer'
+- '* any histology if known to be microsatellite-instability high (MSI-H)'
+- Tumors must be refractory to or subjects intolerant of current standard treatment(s)
+  or for whom no standard therapy is available.
+- 'Part B2: CFI-402411 in Combination with Pembrolizumab Expansion Inclusion Criteria'
+- 1. Subjects must be deemed eligible by the Investigator to receive pembrolizumab
+- 2. Histological or cytological confirmation of one of the advanced cancers listed
+  below (list may vary in each country, USA shown here);
+- '* non-small cell lung cancer any histology'
+- '* SCLC'
+- '* cutaneous melanoma'
+- '* Merkel Cell carcinoma'
+- '* squamous cell carcinoma of head and neck, anal canal, or skin'
+- '* urothelial cancer'
+- '* clear cell or non-clear cell renal cell carcinoma'
+- '* triple negative breast cancer'
+- '* endometrial cancer (regardless of MSI status)'
+- '* gastroesophageal cancer'
+- '* hepatocellular cancer'
+- '* any histology if known to be microsatellite-instability high (MSI-H)'
+- 3. Tumors must be refractory to or subjects intolerant of current standard non-IO
+  treatment(s) or for whom no standard therapy is available.
+- 'Exclude - Key Exclusion Criteria: Study-Wide Eligibility (Across All Study Parts)'
+- Exclude - Subjects will be excluded from the study if any of the following criteria
+  is met;
+- Exclude - 1. Previous treatment with an HPK1 inhibitor in other clinical trials.
+- Exclude - 2. Diagnosis of autoimmune-based disease or clinically significant auto-immune
+  disorders.
+- Exclude - 3. Have symptomatic congestive heart failure, active angina pectoris or
+  recent myocardial infarction (within 6 mos).
+- Exclude - 4. Have chronic atrial fibrillation.
+- Exclude - 5. Known central nervous system metastasis.
+- Exclude - 6. Stroke or transient ischemic attack, or other ischemic events or thromboembolic
+  events within 3 months of study enrollment.
+- Exclude - 7. A history of QTc prolongation or a marked baseline prolongation of
+  QT/QTc interval or a history of additional risk factors for TdP (e.g., heart failure,
+  hypokalemia, family history of Long QT Syndrome).
+short_title: Safety and Efficacy Study of CFI-402411 in Subjects With Advanced Solid
+  Malignancies
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Treadwell Therapeutics, Inc
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The purpose of this study is to test the safety of an investigational drug
+  called CFI-402411 alone and in combination with pembrolizumab and to study its effects
+  in patients with advanced solid tumors who have progressed following previous therapies.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'A1: Monotherapy Escalation'
+      arm_internal_id: 0
+      arm_description: Dose escalation arm with CFI-402411. CFI-402411 is administered
+        orally once daily.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-402411'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'A2: Monotherapy Biomarker'
+      arm_internal_id: 1
+      arm_description: Dose escalation biomarker arm with CFI-402411. CFI-402411 is
+        administered orally once daily.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-402411'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'A3: Monotherapy Expansion'
+      arm_internal_id: 2
+      arm_description: Dose expansion arm with CFI-402411 at its recommended phase
+        2 dose.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-402411'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: 'B1: Combination Escalation'
+      arm_internal_id: 3
+      arm_description: Dose escalation arm with CFI-402411 in combination with pembrolizumab
+        (at its labeled dose and schedule).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-402411'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: 'B2: Combination Expansion'
+      arm_internal_id: 4
+      arm_description: Dose expansion arm with the recommended phase 2 dose of CFI-402411
+        in combination with pembrolizumab (at its labeled dose and schedule).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-402411'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        disease_status:
+        - Recurrent
+        - Metastatic
+        - Refractory
+        - Advanced
+        oncotree_primary_diagnosis: _SOLID_

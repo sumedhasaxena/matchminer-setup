@@ -1,0 +1,218 @@
+nct_id: NCT05215340
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Datopotamab Deruxtecan'
+  - drug_name: 'Drug: Pembrolizumab'
+long_title: "A Randomized, Open-label, Phase 3 Trial of Dato-DXd Plus Pembrolizumab\
+  \ vs Pembrolizumab Alone in Treatment-na\xEFve Subjects With Advanced or Metastatic\
+  \ PD-L1 High (TPS \u226550%) Non-small Cell Lung Cancer Without Actionable Genomic\
+  \ Alterations (TROPION-Lung08)"
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Global Clinical Leader
+principal_investigator_institution: Daiichi Sankyo
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 740
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- Participants eligible for inclusion in the study must meet all inclusion criteria
+  within 28 days of randomization into the study.
+- '* Sign and date the Tissue Screening and Main Informed Consent Forms, prior to
+  the start of any study-specific qualification procedures.'
+- "* Adults \u226518 years or the minimum legal adult age (whichever is greater) at\
+  \ the time of informed consent."
+- '* Histologically documented non-squamous NSCLC that meets all of the following
+  criteria (Note: Subjects with squamous histology were eligible prior to Protocol
+  Version 5.0. After Protocol Version 5.0, subjects with squamous histology are not
+  eligible. Subjects with mixed histology, including those with a squamous component,
+  remain eligible the study even after Protocol Version 5.0):'
+- 1. Stage IIIB or IIIC disease and not candidates for surgical resection or definitive
+  chemoradiation, or Stage IV NSCLC disease at the time of randomization (based on
+  the American Joint Committee on Cancer, Eighth Edition). Participants with early-stage
+  NSCLC who have relapsed should be restaged during screening to ensure their eligibility
+  for the study.
+- 2. Documented negative test results for epidermal growth factor receptor (EGFR),
+  lymphoma kinase (ALK), and proto-oncogene1 (ROS1) actionable genomic alterations
+  (AGAs) based on analysis of tumor tissue. If test results for EGFR, ALK, and ROS1
+  are not available, subjects are required to undergo testing performed locally for
+  these genomic alterations.
+- 3. No known AGAs in neurotrophic tyrosine receptor kinase (NTRK), proto-oncogene
+  B-raf (BRAF), rearranged during transfection (RET), mesenchymal-epithelial transition
+  factor (MET), or other actionable driver kinases with locally approved therapies.
+  (Testing for genomic alterations besides EGFR, ALK, and ROS1 is not required prior
+  to randomization). Subjects whose tumors harbor KRAS mutations are eligible for
+  the study.
+- '* Has provided a formalin-fixed tumor tissue sample for the measurement of trophoblast
+  cell surface protein 2 (TROP2) protein expression and for the assessment of other
+  exploratory biomarkers.'
+- "* Tumor has high programmed death receptor-1 (PD-L1) expression (TPS \u226550%)\
+  \ as determined by PD-L1 immunohistochemistry (IHC) 22C3 pharmDx assay by central\
+  \ testing (minimum of 6 slides)."
+- '* Has an adequate treatment washout period before Cycle 1 Day 1.'
+- '* Measurable disease based on local imaging assessment using RECIST Version 1.1.'
+- "* Has left ventricular ejection fraction (LVEF) \u226550% by either an echocardiogram\
+  \ (ECHO) or multigated acquisition scan (MUGA) within 28 days before randomization."
+- '* Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0 or 1 at
+  screening.'
+- '* Has a life expectancy of at least 3 months.'
+- '* Adequate bone marrow function within 7 days before randomization.'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Has received prior systemic treatment for advanced or metastatic NSCLC.
+- 'Exclude - * Has received prior treatment for NSCLC with any of the following, including
+  in the adjuvant/neoadjuvant setting:'
+- Exclude - 1. Any agent, including an antibody-drug conjugate, containing a chemotherapeutic
+  agent targeting topoisomerase I.
+- Exclude - 2. TROP2-targeted therapy.
+- Exclude - 3. Any anti-programmed death receptor-1 (PD-1), anti-PD-L1, or anti-PD-ligand
+  2 (L2) agent or with an agent directed to another stimulatory or co-inhibitory T-cell
+  receptor (eg, CTLA-4, OX40, CD137).
+- Exclude - 4. Any other immune checkpoint inhibitors. Participants who received adjuvant
+  or neoadjuvant therapy OTHER than those listed above, are eligible if the adjuvant/neoadjuvant
+  therapy was completed at least 6 months prior to the diagnosis of advanced/metastatic
+  disease.
+- Exclude - * Has spinal cord compression or active and untreated central nervous
+  system (CNS) metastases and/or carcinomatous meningitis. Participants with previously
+  treated brain metastases and who are asymptomatic may participate provided they
+  are radiologically stable.
+- Exclude - * Has received prior radiotherapy \< 4 weeks of start of study intervention
+  or more than 30 Gy (unit of ionizing radiation dose in the International System
+  of Units) to the lung within 6 months of Cycle 1 Day 1.
+- 'Exclude - * History of another primary malignancy (beyond NSCLC) except for:'
+- "Exclude - 1. Malignancy treated with curative intent and with no known active disease\
+  \ \u22653 years before the first dose of study treatment and of low potential risk\
+  \ for recurrence."
+- Exclude - 2. Adequately treated non-melanoma skin cancer or lentigo maligna without
+  evidence of disease.
+- Exclude - 3. Adequately treated carcinoma in situ without evidence of disease.
+- "Exclude - 4. Participants with a history of prostate cancer (tumor/node/metastasis\
+  \ stage) of Stage \u2264T2cN0M0 without biochemical recurrence or progression and\
+  \ who in the opinion of the Investigator are not deemed to require active intervention."
+- Exclude - * Has a history of (non-infectious) interstitial lung disease (ILD)/pneumonitis
+  including radiation pneumonitis that required steroids, has current ILD/pneumonitis,
+  or where suspected ILD/pneumonitis cannot be ruled out by imaging at screening.
+- Exclude - * Clinically severe pulmonary compromise, as judged by the investigator,
+  resulting from intercurrent pulmonary illnesses including, but not limited to, any
+  underlying pulmonary disorder, or any autoimmune, connective tissue or inflammatory
+  disorders with pulmonary involvement or prior complete pneumonectomy.
+- 'Exclude - * Uncontrolled or significant cardiovascular disease, including:'
+- Exclude - 1. Mean QT interval corrected for heart rate using Fridericia's formula
+  (QTcF) interval \>470 ms regardless of sex (based on the average of the 12-lead
+  electrocardiogram determination at screening).
+- Exclude - 2. Myocardial infarction within 6 months prior to randomization.
+- Exclude - 3. Uncontrolled angina pectoris within 6 months prior to randomization.
+- Exclude - 4. LVEF \<50% by ECHO or MUGA scan within 28 days before randomization.
+- Exclude - 5. New York Heart Association Class 2 to 4 congestive heart failure (CHF)
+  at screening.
+- Exclude - 6. Uncontrolled hypertension (resting systolic blood pressure \>180 mmHg
+  or diastolic blood pressure \>110 mmHg) within 28 days before randomization.
+- "Exclude - Participants with a history of Class 2 to 4 CHF prior to screening, must\
+  \ have returned to Class 1 CHF and have LVEF \u226550% (by either an ECHO or MUGA\
+  \ scan within 28 days before randomization) in order to be eligible."
+- Exclude - * Clinically significant corneal disease.
+- Exclude - * Has received a live vaccine or live-attenuated vaccine (messenger ribonucleic
+  acid and replication-incompetent adenoviral vaccines are not considered attenuated
+  live vaccines) within 30 days prior to the first dose of study drug. For any participant
+  receiving an approved severe acute respiratory syndrome coronavirus 2 (SARS-CoV2)
+  vaccine, please follow the vaccine label and/or local guidance.
+- Exclude - * Active, known, or suspected autoimmune disease (has an active autoimmune
+  disease that has required systemic treatment in the past 2 years).
+- "Exclude - * Has a diagnosis of immunodeficiency or is receiving chronic systemic\
+  \ steroid therapy (in dosage \\>10 mg daily of prednisone equivalent) or any other\
+  \ form of immunosuppressive therapy \u22647 days prior to the first dose of study\
+  \ drug."
+- Exclude - * Has known human immunodeficiency virus (HIV) infection that is not well
+  controlled.
+- Exclude - * Has an active hepatitis or uncontrolled hepatitis B or active hepatitis
+  C infection.
+- Exclude - * Has an uncontrolled infection requiring IV antibiotics, antivirals,
+  or antifungals.
+- Exclude - * Had an allogeneic tissue/solid organ transplant.
+- Exclude - * Has a history of severe hypersensitivity reactions to either the drug
+  or inactive ingredients (including but not limited to polysorbate 80) of Dato-DXd
+  or pembrolizumab.
+short_title: Study of Dato-DXd Plus Pembrolizumab vs Pembrolizumab Alone in the First-line
+  Treatment of Subjects With Advanced or Metastatic NSCLC Without Actionable Genomic
+  Alterations
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Daiichi Sankyo
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This study is designed to assess the efficacy and safety of datopotamab deruxtecan
+  (Dato-DXd) in combination with pembrolizumab versus pembrolizumab alone in participants
+  with advanced or metastatic non-small cell lung cancer (NSCLC) of non-squamous histology.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Pembrolizumab + Datopotamab Deruxtecan (Dato-DXd)
+      arm_internal_id: 0
+      arm_description: Participants will be randomized to receive 200 mg pembrolizumab
+        followed by 6.0mg/kg Dato-DXd.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Datopotamab Deruxtecan'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: Pembrolizumb
+      arm_internal_id: 1
+      arm_description: Participants will be randomized to receive 200 mg pembrolizumab.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          pdl1_status: High
+          disease_status:
+          - Metastatic
+          - Advanced
+          - Early Stage
+          oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+      - and:
+        - genomic:
+            hugo_symbol: KRAS
+            variant_category: Mutation
+        - and:
+          - genomic:
+              hugo_symbol: EGFR
+              variant_category: '!Mutation'
+          - genomic:
+              hugo_symbol: ALK
+              variant_category: '!Mutation'
+          - genomic:
+              hugo_symbol: ROS1
+              variant_category: '!Mutation'

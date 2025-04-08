@@ -1,0 +1,108 @@
+nct_id: NCT05920356
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Sotorasib'
+  - drug_name: 'Drug: Pembrolizumab'
+long_title: A Phase 3, Multicenter, Randomized, Open-label Study Evaluating Efficacy
+  of Sotorasib Platinum Doublet Combination Versus Pembrolizumab Platinum Doublet
+  Combination as a Front-Line Therapy in Subjects With Stage IV or Advanced Stage
+  IIIB/C Nonsquamous Non-Small Cell Lung Cancers, Negative for PD-L1, and Positive
+  for KRAS p.G12C (CodeBreaK 202)
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: MD
+principal_investigator_institution: Amgen
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 750
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Histologically or cytologically confirmed diagnosis of nonsquamous stage IV or
+  advanced Stage IIIB or IIIC NSCLC with KRAS p. G12C mutation and negative for PD-L1
+  expression by central testing or local laboratory testing confirmed through central
+  testing'
+- '* No history of systemic anticancer therapy in metastatic/non-curable settings'
+- "* Eastern Cooperative Oncology Group (ECOG) \u2264 1"
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Mixed histology NSCLC with either small-cell or large-cell neuroendocrine
+  cell component or predominant squamous cell histology
+- Exclude - * Participants with tumors known to harbor molecular alterations for which
+  targeted therapy is locally approved
+- Exclude - * Symptomatic (treated or untreated) brain metastases
+- Exclude - * Gastrointestinal (GI) tract disease causing the inability to take oral
+  medication
+- Exclude - * Myocardial infarction within 6 months of randomization, unstable arrhythmias,
+  or unstable angina
+- Exclude - * Prior therapy with a KRAS G12C inhibitor
+short_title: A Study Evaluating Sotorasib Platinum Doublet Combination Versus Pembrolizumab
+  Platinum Doublet Combination as a Front-Line Therapy in Participants With Stage
+  IV or Advanced Stage IIIB/C Nonsquamous Non-Small Cell Lung Cancers (CodeBreaK 202)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Amgen
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The primary objective of this study is to compare progression-free survival
+  (PFS) in participants who receive sotorasib with platinum doublet chemotherapy versus
+  participants who receive pembrolizumab with platinum doublet chemotherapy.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Sotorasib combined with carboplatin and pemetrexed
+      arm_internal_id: 0
+      arm_description: Sotorasib administered in combination with carboplatin and
+        pemetrexed.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Sotorasib'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Pembrolizumab combined with carboplatin and pemetrexed
+      arm_internal_id: 1
+      arm_description: Pembrolizumab administered in combination with carboplatin
+        and pemetrexed.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          pdl1_status: Low
+          disease_status:
+          - Metastatic
+          - Advanced
+          - Locally Advanced
+          oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+      - or:
+        - genomic:
+            hugo_symbol: KRAS
+            variant_category: Mutation

@@ -1,0 +1,216 @@
+nct_id: NCT03899428
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Lenvatinib'
+  - drug_name: 'Drug: Cabozantinib'
+  - drug_name: 'Drug: Regorafenib'
+  - drug_name: 'Drug: Durvalumab'
+  - drug_name: 'Drug: Sorafenib'
+long_title: A Randomized, Open-label Trial Comparing Immune Checkpoint Therapy vs
+  Target Therapy in Reducing Serum HBsAg Levels in Patients With HBeAg-positive Advanced
+  Stage Hepatocellular Carcinoma (VICI-5)
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE2
+principal_investigator: ''
+principal_investigator_institution: Humanity & Health Medical Group Limited
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 30
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- "1. HBsAg positive with serum HBsAg levels \u2265 2 log IU/ml"
+- "2. Age \u2265 18 years old on the day of consent"
+- 3. Capable of understanding and complying with the protocol requirements and signed
+  informed consent
+- 4. Documented histological or cytological diagnosis of HCC within 1 year
+- 5. Barcelona Clinic Liver Cancer (BCLC) stage B (that is not eligible for locoregional
+  therapy) or stage C
+- 6. Child-Pugh Score class A or B
+- 7. ECOG performance status of 0 or 1 at enrollment.
+- 8. Treated with either entecavir or tenofovir or TAF before initiation of anti-PDL1
+  or TKI
+- "9. At least 1 measurable lesion, not previously irradiated, that can be accurately\
+  \ measured at baseline as \u226510 mm in the longest diameter (except lymph nodes,\
+  \ which must have a short axis \u226515 mm) with computerized tomography (CT) or\
+  \ magnetic resonance imaging (MRI), and that is suitable for accurate repeated measurements\
+  \ as per RECIST 1.1 guidelines. A lesion which progressed after previous ablation\
+  \ or TACE could be measurable if it meets these criteria"
+- 10. Adequate organ and marrow function, as defined below. Criteria "a," "b," "c,"
+  and "f" cannot be met with transfusions, infusions, or growth factor support administered
+  within 14 days of starting the first dose.
+- "1. Hemoglobin \u22659 g/dL"
+- "2. Absolute neutrophil count \u22651000/\u03BCL"
+- "3. Platelet count \u226575000/\u03BCL"
+- "4. Total bilirubin (TBL) \u22642.0\xD7 upper limit of normal (ULN)"
+- "5. AST and ALT \u22645\xD7ULN"
+- "6. Albumin \u22652.8 g/dL"
+- "7. International normalized ratio (INR) \u22641.6"
+- "8. Calculated creatinine clearance \u226550 mL/minute as determined by Cockcroft-Gault\
+  \ (using actual body weight) or 24-hour urine creatinine clearance"
+- 'Exclude - Exclusion Criteria:'
+- Exclude - 1. Fibrolamellar carcinoma or mixed hepatocellular cholangiocarcinoma
+- Exclude - 2. Radiation therapy within 4 weeks (2 weeks for radiation for bone metastases)
+  or radionuclide treatment (eg, I-131 or Y-90) within 6 weeks of starting treatment.
+  Subject is excluded if there are any clinically relevant ongoing complications from
+  prior radiation therapy
+- Exclude - 3. Prior interferon treatment
+- "Exclude - 4. Concomitant anticoagulation, at therapeutic doses, with anticoagulants\
+  \ such as warfarin or warfarin-related agents, low molecular weight heparin (LMWH),\
+  \ thrombin or coagulation factor X (FXa) inhibitors, or antiplatelet agents (eg,\
+  \ clopidogrel). Low-dose aspirin for cardioprotection (per local applicable guidelines),\
+  \ low-dose warfarin (\u2264 1 mg/day), and low-dose LMWH are permitted."
+- 'Exclude - 5. The subject has uncontrolled, significant intercurrent or recent illness
+  including, but not limited to, the following conditions:'
+- 'Exclude - a. Cardiovascular disorders including i. Symptomatic congestive heart
+  failure, unstable angina pectoris, or serious cardiac arrhythmias ii. Uncontrolled
+  hypertension defined as sustained BP \> 150 mm Hg systolic, or \> 100 mm Hg diastolic
+  despite optimal antihypertensive treatment iii. Stroke (including TIA), myocardial
+  infarction, or other ischemic event within 6 months before starting treatment iv.
+  Thromboembolic event within 3 months before starting treatment. Subjects with thromboses
+  of portal/hepatic vasculature attributed to underlying liver disease and/or liver
+  tumor are eligible b. Gastrointestinal (GI) disorders including those associated
+  with a high risk of perforation or fistula formation: i. Tumors invading the GI
+  tract, active peptic ulcer disease, inflammatory bowel disease, diverticulitis,
+  cholecystitis, symptomatic cholangitis or appendicitis, acute pancreatitis or acute
+  obstruction of the pancreatic duct or common bile duct, or gastric outlet obstruction
+  ii. Abdominal fistula, GI perforation, bowel obstruction, intra-abdominal abscess
+  within 6 months before starting treatment, Note: Complete healing of an intra-abdominal
+  abscess must be confirmed prior to starting treatment c. Major surgery within 2
+  months before starting treatment. Complete healing from major surgery must have
+  occurred 1 month before starting treatment. Complete healing from minor surgery
+  (eg, simple excision, tooth extraction) must have occurred at least 7 days before
+  starting treatment. Subjects with clinically relevant complications from prior surgery
+  are not eligible d. Cavitating pulmonary lesion(s) or endobronchial disease e. Lesion
+  invading a major blood vessel (eg, pulmonary artery or aorta) f. Clinically significant
+  bleeding risk including the following within 3 months of starting treatment: hematuria,
+  hematemesis, hemoptysis of \>0.5 teaspoon (\>2.5 mL) of red blood, or other signs
+  indicative of pulmonary hemorrhage, or history of other significant bleeding if
+  not due to reversible external factors g. Other clinically significant disorders
+  such as: i. known infection with human immunodeficiency virus (HIV) or known acquired
+  immunodeficiency syndrome (AIDS)-related illness requiring systemic treatment ii.
+  Serious non-healing wound/ulcer/bone fracture iii. Malabsorption syndrome iv. Uncompensated/symptomatic
+  hypothyroidism v. Requirement for hemodialysis or peritoneal dialysis'
+- 'Exclude - 6. Subjects with untreated or incompletely treated varices with bleeding
+  or high risk for bleeding are excluded with the following clarification: subjects
+  with history of prior variceal bleeding must have been treated with adequate endoscopic
+  therapy without any evidence of recurrent bleeding for at least 6 months prior to
+  study entry and must be stable on optimal medical management (e.g. non-selective
+  beta blocker, proton pump inhibitor) at study entry.'
+- Exclude - 7. Moderate or severe ascites
+- "Exclude - 8. Corrected QT interval calculated by the Fridericia formula (QTcF)\
+  \ \\> 500 ms within 7 days before starting treatment Note: If the QTcF is \\> 500\
+  \ ms in first ECG, a total of 3 ECGs should be performed. If the average of these\
+  \ 3 consecutive results for QTcF is \u2264 500 ms, the subject meets eligibility\
+  \ in this regard."
+- Exclude - 9. Inability to swallow tablets
+- Exclude - 10. Previously identified allergy or hypersensitivity to components of
+  the study treatment formulations
+- Exclude - 11. Pregnant or lactating females
+- Exclude - 12. Diagnosis of another malignancy within 2 years before starting treatment,
+  except for superficial skin cancers, or localized, low-grade tumors deemed cured
+  and not treated with systemic therapy
+short_title: Immune Checkpoint Therapy vs Target Therapy in Reducing Serum HBsAg Levels
+  in Patients With HBsAg+ Advanced Stage HCC
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Humanity & Health Medical Group Limited
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'It is estimated that over 50% of HCC cases worldwide are related to chronic
+  HBV. There are approximately 350-400 million people across the world infected with
+  HBV, the majority reside in or originate from Asia. Each year HBV accounts for 749,000
+  new cases of HCC and 692,000 HCC-related deaths. The annual incidence of HCC is
+  estimated to be \<1% for non-cirrhotic HBV infected patients and 2-3% for those
+  with cirrhosis.
+
+
+  While the most approved nucleos(t)ide analogues (NA) suppress HBV replication through
+  inhibition of HBV-DNA polymerase and are reported to reduce the risk of HCC incidence,
+  however, such risk is not completely eliminated under NA treatment. The recent availability
+  of commercial quantitative assays of serum hepatitis B surface antigen (HBsAg) has
+  enabled quantitative HBsAg to be used as a biomarker for prognosis and treatment
+  response in CHB. It has been suggested that HBsAg decline during lamivudine or entecavir
+  therapy is slower and less pronounced compared to interferon treatment, despite
+  a higher effect on HBV DNA suppression. Based on HBsAg kinetics, it has been estimated
+  that the predicted median time to HBsAg loss in patients treated with lamivudine
+  or entecavir is more than 30 years. Thus, treatment that can induce rapid decline
+  of HBsAg would have clear advantage in reducing the treatment duration required
+  to achieve HBsAg-loss.
+
+
+  Interestingly, in a recent preliminary study, 12-weeks of treatment with nivolumab
+  has showed the modest effect on HBsAg decline in HBeAg negative CHB patients. Thus,
+  in this clinical trial, the investigator will investigate whether immune checkpoint
+  therapy is more effective in inducing HBsAg decline compared with target therapy
+  in HBsAg-positive patients with advanced stage HCC.'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Immune Checkpoint Therapy
+      arm_internal_id: 0
+      arm_description: The subjects will receive durvalumab 1500 mg Q4W
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Durvalumab'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Target Therapy
+      arm_internal_id: 1
+      arm_description: The subjects will receive tyrosine kinase inhibitors, including
+        sorafenib, lenvatinib, regorafenib, or cabozantinib, daily
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Sorafenib'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Lenvatinib'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Regorafenib'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Cabozantinib'
+        level_internal_id: 3
+        level_suspended: N
+    match:
+    - and:
+      - or:
+        - clinical:
+            oncotree_primary_diagnosis: Fibrolamellar Carcinoma
+        - clinical:
+            oncotree_primary_diagnosis: Hepatocellular Carcinoma
+      - clinical:
+          age_numerical: '>=18'
+          disease_status:
+          - Locally Advanced
+          - Metastatic
+          - Recurrent

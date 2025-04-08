@@ -1,0 +1,108 @@
+nct_id: NCT04730258
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: CFI-400945'
+  - drug_name: 'Drug: Azacitidine'
+long_title: Phase 1b/2 Clinical Study of the Safety, Tolerability, and Pharmacokinetic
+  and Pharmacodynamic Profiles of CFI-400945 as a Single Agent or in Combination With
+  Azacitidine in Patients With AML, MDS or CMML
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: ''
+principal_investigator_institution: Treadwell Therapeutics, Inc
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 72
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- 1. Patients must be \>18 years of age
+- '2. For Parts 1A and 1B, the following malignancy types will be included:'
+- 1. Relapsed or refractory AML.
+- 2. MDS, after prior hypomethylating agents.
+- 3. CMML, with progressive disease/lack of response after hypomethylating agents
+- For Parts 1A and 1B, Patients may have relapsed or refractory disease.
+- '3. For Parts 2A and 2B, the following malignancy types will be included:'
+- 1. Relapsed or Refractory AML.
+- 2. MDS patients should be limited to high risk disease
+- 3. MDS or CMML should be previously untreated and patients with AML may have relapsed
+  or refractory disease;
+- 4. Have clinically acceptable laboratory screening results (i.e., clinical chemistry,
+  hematology, and urinalysis) within certain limits per protocol.
+- 5. Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or
+  1.
+- 'Exclude - Exclusion Criteria:'
+- Exclude - 1. Patients who have received investigational therapy, radiotherapy, immunotherapy,
+  monoclonal antibodies, or chemotherapy within 14 days or 5 half-lives (whichever
+  is shorter)
+- Exclude - 2. Allogeneic or autologous transplant for AML with infusion of stem cells
+  within 90 days before Cycle 1 Day 1, or on active immunosuppressive therapy for
+  graft-versus-host disease (GVHD) or GVHD prophylaxis within 2 weeks of Cycle 1 Day
+  1.
+- "Exclude - 3. Any Grade \u2265 2 persistent non-hematological toxicity related to\
+  \ allogeneic transplant, such as those requiring systemic immunosuppressive therapy."
+short_title: A Study of CFI-400945 With or Without Azacitidine in Patients With AML,
+  MDS or CMML
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Treadwell Therapeutics, Inc
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The purpose of this study is to test the safety of an investigational drug
+  called CFI-400945 alone and in combination with azacitidine.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: '1A: Monotherapy escalation and expansion'
+      arm_internal_id: 0
+      arm_description: Dose escalation and expansion arm with CFI-400945
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-400945'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: '2A: Combination escalation and expansion'
+      arm_internal_id: 1
+      arm_description: Dose escalation and expansion arm with CFI-400945 and azacitidine
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: CFI-400945'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Azacitidine'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        disease_status:
+        - Recurrent
+        - Refractory
+        - Untreated
+        oncotree_primary_diagnosis: Myeloid Neoplasm

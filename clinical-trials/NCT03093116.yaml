@@ -1,0 +1,214 @@
+nct_id: NCT03093116
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Oral repotrectinib (TPX-0005)'
+long_title: A Phase 1/2, Open-Label, Multi-Center, First-in-Human Study of the Safety,
+  Tolerability, Pharmacokinetics, and Anti-Tumor Activity of TPX-0005 in Patients
+  With Advanced Solid Tumors Harboring ALK, ROS1, or NTRK1-3 Rearrangements (TRIDENT-1)
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: Bristol-Myers Squibb
+principal_investigator_institution: Bristol-Myers Squibb
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 500
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- PHASE 1
+- 'Key Inclusion Criteria:'
+- 1. Histologically or cytologically confirmed diagnosis of locally advanced, or metastatic
+  solid tumor (including primary CNS tumors) (Stage IV, American Joint Committee on
+  Cancer v.7) that harbors an ALK, ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement
+  by protocol specified tests.
+- 2. ECOG PS 0-1.
+- "3. Age \u226518 (or age \u2265 20 of age as required by local regulation)."
+- 4. Capability to swallow capsules intact (without chewing, crushing, or opening).
+- 5. At least 1 measurable target lesion according to RECIST version 1.1. CNS-only
+  measurable disease as defined by RECIST version 1.1 is allowed.
+- 6. Prior cytotoxic chemotherapy is allowed.
+- 7. Prior immunotherapy is allowed.
+- 8. Resolution of all acute toxic effects (excluding alopecia) of any prior anti-cancer
+  therapy to National Cancer Institute Common Terminology Criteria for Adverse Events
+  (NCI CTCAE) Version 4.03 Grade less than or equal to 1.
+- 9. Patients with asymptomatic CNS metastases (treated or untreated) and/or asymptomatic
+  leptomeningeal carcinomatosis are eligible to enroll if they satisfy the protocol
+  specified criteria.
+- "10. Baseline laboratory values fulfilling the following requirements:Absolute neutrophils\
+  \ count (ANC) \u22651500/mm3 (1.5 \xD7 109/L); Platelets (PLTs) \u2265100,000/mm3\
+  \ (100 \xD7 109/L); Hemoglobin \u2265 9.0 g/dL transfusions are allowed; Serum creatinine\
+  \ or creatinine clearance Within normal limits or \\> 40 mL/min; Total serum bilirubin\
+  \ \\< 1.5 \xD7 ULN; Liver transaminases (ASTs/ALTs) \\< 2.5 \xD7 ULN; \\< 5 \xD7\
+  \ ULN if liver metastases are present Alkaline phosphatase (ALP); \\< 2.5 \xD7 ULN;\
+  \ \\< 5 \xD7 ULN if liver and/or bone metastasis are present; Serum calcium, magnesium,\
+  \ and potassium Normal or CTCAE grade \u2264 1 with or without supplementation"
+- "11. Life expectancy \u2265 3 months."
+- PHASE 2 Key Inclusion Criteria
+- 1. Histologically or cytologically confirmed diagnosis of locally advanced, or metastatic
+  solid tumor (including primary CNS tumors) that harbors a ROS1, or NTRK1-3 gene
+  fusion.
+- '2. Subject must have a documented ROS1 or NTRK1-3 gene fusion determined by tissue-based
+  local testing using either:'
+- 1. a next-generation sequencing (NGS) or quantitative polymerase chain reaction
+  (qPCR) test will be accepted to determine molecular eligibility.
+- "\u2022 Adequate tumor tissue needs to be sent to the Sponsor designated central\
+  \ diagnostic laboratory for retrospective confirmation by a central diagnostic laboratory\
+  \ test selected by the Sponsor."
+- OR
+- 2. a fluorescence in situ hybridization (FISH) test AND prospective confirmation
+  of fusion status by a central diagnostic laboratory test selected by the Sponsor
+  PRIOR to enrollment will be accepted to determine molecular eligibility.
+- '* Adequate tumor tissue must be sent to the Sponsor designated central diagnostic
+  laboratory for prospective confirmation by a central diagnostic laboratory test
+  selected by the Sponsor PRIOR to enrollment.'
+- 3. Eastern Cooperative Oncology Group (ECOG) Performance Status 0-1.
+- "4. Age \u226512 (or age \u2265 20 as required by local regulation)."
+- 5. Willing and able to provide written institutional review board (IRB)/institutional
+  ethics committee-approved Informed Consent or an Assent signed by a parent or legal
+  guardian for subjects age 12 to 17.
+- "6. At least 1 measurable target lesion according to RECIST (v1.1) prospectively\
+  \ confirmed by Blinded Independent Central Radiology Review (BICR), selected by\
+  \ Sponsor, PRIOR to enrollment. Subjects with CNS-only measurable disease \u2265\
+  10 mm as defined by RECIST (v1.1) are eligible."
+- 7. Subjects with advanced solid tumors harboring ROS1, NTRK1, NTRK2, or NTRK3 rearrangement
+  will be assigned into 6 distinct expansion (EXP) cohorts provided all inclusion
+  and exclusion criteria are met.
+- "i. EXP-1: ROS1 TKI-na\xEFve ROS1+ NSCLC ii. EXP-2: 1 Prior ROS1 TKI and 1 Platinum\
+  \ based chemo ROS1+ NSCLC iii. EXP-3: 2 Prior ROS1 TKIs ROS1+ NSCLC (No Chemo or\
+  \ IO) iv. EXP-4: 1 Prior ROS1 TKI ROS1+ NSCLC (No Chemo or IO) v. EXP-5: TRK TKI-na\xEF\
+  ve NTRK+ solid tumors vi. EXP-6: TRK TKI-pretreated NTRK+ solid tumors"
+- 8. Subjects with asymptomatic CNS metastases (treated or untreated) and/or asymptomatic
+  leptomeningeal carcinomatosis are eligible to enroll if they satisfy the protocol
+  specified criteria.
+- "9. Baseline laboratory values fulfilling the following requirements:Absolute neutrophils\
+  \ count (ANC) \u22651500/mm3 (1.5 \xD7 109/L); Platelets (PLTs) \u2265100,000/mm3\
+  \ (100 \xD7 109/L); Hemoglobin \u2265 9.0 g/dL transfusions are allowed; Serum creatinine\
+  \ or creatinine clearance \\> 40 mL/min; Total serum bilirubin \\< 1.5 \xD7 ULN;\
+  \ Liver transaminases (ASTs/ALTs) \\< 2.5 \xD7 ULN; \\< 5 \xD7 ULN if liver metastases\
+  \ are present Alkaline phosphatase (ALP); \\< 2.5 \xD7 ULN; \\< 5 \xD7 ULN if liver\
+  \ and/or bone metastasis are present; Serum calcium, magnesium, and potassium Normal\
+  \ or CTCAE grade \u2264 1 with or without supplementation"
+- "10. Life expectancy \u2265 3 months."
+- Exclude - Key Exclusion Criteria PHASE 1 and PHASE 2
+- Exclude - 1. Concurrent participation in another therapeutic clinical trial.
+- Exclude - 2. Symptomatic brain metastases or leptomeningeal involvement.
+- Exclude - 3. History of previous cancer, except for squamous cell or basal-cell
+  carcinoma of the skin, or any in situ carcinoma that has been completely resected,
+  requiring therapy within the previous 2 years.
+- "Exclude - 4. Major surgery within 4 weeks of start of repotrectinib treatment.\
+  \ Radiation therapy (except palliative to relieve bone pain) within 2 weeks of study\
+  \ entry. Palliative radiation (\u226410 fractions) must have been completed at least\
+  \ 48 hours prior to study entry"
+- "Exclude - 5. Clinically significant cardiovascular disease (either active or within\
+  \ 6 months prior to enrollment): myocardial infarction, unstable angina, coronary/peripheral\
+  \ artery bypass graft, symptomatic congestive heart failure (New York Heart Association\
+  \ Classification Class \u2265 II), cerebrovascular accident or transient ischemic\
+  \ attack, symptomatic bradycardia, requirement for anti-arrhythmic medication. Ongoing\
+  \ cardiac dysrhythmias of NCI CTCAE grade \u22652"
+- 'Exclude - 6. Any of the following cardiac criteria:'
+- Exclude - Mean resting corrected QT interval (ECG interval measured from the onset
+  of the QRS complex to the end of the T wave) for heart rate (QTcF) \> 470 msec obtained
+  from 3 ECGs, using the screening clinic ECG machine-derived QTc value Any clinically
+  important abnormalities in rhythm, conduction or morphology of resting ECG (e.g.,
+  complete left bundle branch block, third degree heart block, second degree heart
+  block, PR interval \> 250 msec) Any factors that increase the risk of QTc prolongation
+  or risk of arrhythmic events such as heart failure, hypokalemia, congenital long
+  QT syndrome, family history of long QT syndrome, or any concomitant medication known
+  to prolong the QT interval.
+- Exclude - 7. Known active infections (bacterial, fungal, viral including HIV positivity).
+- Exclude - 8. Gastrointestinal disease (e.g., Crohn's disease, ulcerative colitis,
+  or short gut syndrome) or other malabsorption syndromes that would impact drug absorption.
+- "Exclude - 9. Peripheral neuropathy of CTCAE \u2265grade 2."
+- Exclude - 10. History of extensive, disseminated, bilateral, or presence of CTCAE
+  grade 3 or 4 interstitial fibrosis or interstitial lung disease including a history
+  of pneumonitis, hypersensitivity pneumonitis, interstitial pneumonia, interstitial
+  lung disease, obliterative bronchiolitis, and pulmonary fibrosis. Subjects with
+  history of prior radiation pneumonitis are not excluded.
+short_title: A Study of Repotrectinib (TPX-0005) in Patients With Advanced Solid Tumors
+  Harboring ALK, ROS1, or NTRK1-3 Rearrangements
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Turning Point Therapeutics, Inc.
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'Phase 1 dose escalation will determine the first cycle dose-limiting toxicities
+  (DLTs), the maximum tolerated dose (MTD), the biologically effective dose and recommended
+  Phase 2 dose (RP2D) of repotrectinib given to adult subjects with advanced solid
+  malignancies harboring an ALK, ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement.
+
+
+  Midazolam DDI substudy will examine effect of of repotrectinib on CYP3A induction.
+
+
+  Phase 2 will determine the confirmed Overall Response Rate (ORR) as assessed by
+  Blinded Independent Central Review (BICR) of repotrectinib in each subject population
+  expansion cohort of advanced solid tumors that harbor a ROS1, NTRK1, NTRK2, or NTRK3
+  gene rearrangement. The secondary objective will include the duration of response
+  (DOR), time to response (TTR), progression-free survival (PFS), overall survival
+  (OS) and clinical benefit rate (CBR) of repotrectinib in each expansion cohort of
+  advanced solid tumors that harbor a ROS1, NTRK1, NTRK2, or NTRK3 gene rearrangement.'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Repotrectinib (TPX-0005)
+      arm_internal_id: 0
+      arm_description: "Phase 1\n\nOral repotrectinib (TPX-0005):\n\nPhase 1a dose\
+        \ escalation, Phase 1b food-effect sub-study, and Phase 1c dose escalation\
+        \ with food, and Midazolam drug-drug interaction sub-study.\n\nPhase 2\n\n\
+        Oral repotrectinib (TPX-0005): 6 distinct expansion cohorts\n\n* EXP-1: ROS1\
+        \ TKI-na\xEFve ROS1+ NSCLC\n* EXP-2: 1 Prior ROS1 TKI and 1 Platinum based\
+        \ chemo ROS1+ NSCLC\n* EXP-3: 2 Prior ROS1 TKIs ROS1+ NSCLC (No Chemo or IO)\n\
+        * EXP-4: 1 Prior ROS1 TKI ROS1+ NSCLC (No Chemo or IO)\n* EXP-5: TRK TKI-na\xEF\
+        ve NTRK+ solid tumors\n* EXP-6: TRK TKI-pretreated NTRK+ solid tumors"
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Oral repotrectinib (TPX-0005)'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=12'
+          disease_status:
+          - Locally Advanced
+          - Metastatic
+          oncotree_primary_diagnosis: _SOLID_
+      - or:
+        - genomic:
+            hugo_symbol: ALK
+            variant_category: Structural Variation
+        - genomic:
+            hugo_symbol: ROS1
+            variant_category: Structural Variation
+        - genomic:
+            hugo_symbol: NTRK1
+            variant_category: Structural Variation
+        - genomic:
+            hugo_symbol: NTRK2
+            variant_category: Structural Variation
+        - genomic:
+            hugo_symbol: NTRK3
+            variant_category: Structural Variation

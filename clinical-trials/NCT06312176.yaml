@@ -1,0 +1,162 @@
+nct_id: NCT06312176
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Biological: Pembrolizumab'
+  - drug_name: 'Drug: Paclitaxel'
+  - drug_name: 'Drug: Liposomal doxorubicin'
+  - drug_name: 'Drug: Nab-paclitaxel'
+  - drug_name: 'Drug: Capecitabine'
+  - drug_name: 'Drug: Sacituzumab tirumotecan'
+long_title: An Open-label, Randomized Phase 3 Study of MK-2870 as a Single Agent and
+  in Combination With Pembrolizumab Versus Treatment of Physician's Choice in Participants
+  With HR+/HER2- Unresectable Locally Advanced or Metastatic Breast Cancer
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Medical Director
+principal_investigator_institution: Merck Sharp & Dohme LLC
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 1200
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Has unresectable locally advanced or metastatic centrally-confirmed hormone receptor
+  positive (HR+)/human epidermal growth factor receptor 2 negative (HER2-) breast
+  cancer'
+- '* Has radiographic disease progression on one or more lines of endocrine therapy
+  for unresectable locally advanced/metastatic HR+/HER2- breast cancer, with one in
+  combination with a CDK4/6 inhibitor'
+- '* Is a chemotherapy candidate'
+- '* Has an eastern cooperative oncology group (ECOG) performance status of 0 to 1
+  assessed within 7 days before randomization'
+- '* Has adequate organ function'
+- '* Human immunodeficiency virus (HIV)-infected participants must have well controlled
+  HIV on antiretroviral therapy'
+- '* Participants who are Hepatitis B surface antigen (HBsAg) positive are eligible
+  if they have received HBV antiviral therapy for at least 4 weeks, and have undetectable
+  HBV viral load'
+- '* Participants with a history of Hepatitis C virus (HCV) infection are eligible
+  if HCV viral load is undetectable'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Has breast cancer amenable to treatment with curative intent
+- Exclude - * Has experienced an early recurrence (\<6 months after completing adjuvant/neoadjuvant
+  chemotherapy) and therefore is eligible to receive second-line (2L) treatment
+- Exclude - * Has symptomatic advanced/metastatic visceral spread at risk of rapidly
+  evolving into life-threatening complications
+- Exclude - * Has received prior chemotherapy for unresectable locally advanced or
+  metastatic breast cancer
+- Exclude - * Active autoimmune disease that has required systemic treatment in the
+  past 2 years
+- Exclude - * History of (noninfectious) pneumonitis/interstitial lung disease that
+  requires steroids, or has current pneumonitis/interstitial lung disease
+- Exclude - * Has an active infection requiring systemic therapy
+short_title: A Study of Sacituzumab Tirumotecan (MK-2870) as a Single Agent and in
+  Combination With Pembrolizumab (MK-3475) Versus Treatment of Physician's Choice
+  in Participants With HR+/HER2- Unresectable Locally Advanced or Metastatic Breast
+  Cancer (MK-2870-010)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Merck Sharp & Dohme LLC
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'The purpose of this study is to compare sacituzumab tirumotecan as a single
+  agent, and in combination with pembrolizumab, versus Treatment of Physician''s Choice
+  (TPC) in participants with hormone receptor positive/human epidermal growth factor
+  receptor-2 negative (HR+/HER2-) unresectable locally advanced, or metastatic, breast
+  cancer.
+
+
+  The primary hypotheses are that sacituzumab tirumotecan as a single agent and sacituzumab
+  tirumotecan plus pembrolizumab are superior to TPC with respect to progression-free
+  survival (PFS) per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST
+  1.1) by blinded independent central review (BICR) in all participants.'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Arm A: Sacituzumab tirumotecan'
+      arm_internal_id: 0
+      arm_description: Participants receive 4 mg/kg of sacituzumab tirumotecan once
+        every 2 weeks (Q2W) via intravenous (IV) infusion until progressive disease
+        or discontinuation.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Sacituzumab tirumotecan'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Arm B:Pembrolizumab + Sacituzumab tirumotecan
+      arm_internal_id: 1
+      arm_description: Participants receive 4 mg/kg of sacituzumab tirumotecan Q2W
+        via IV infusion until progressive disease or discontinuation PLUS 400 mg of
+        pembrolizumab once every 6 weeks (Q6W) via IV infusion for up to 18 administrations
+        (up to \~2 years).
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Sacituzumab tirumotecan'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Biological: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: 'Arm C: Treatment of Physician''s Choice (TPC)'
+      arm_internal_id: 2
+      arm_description: At the physician's discretion, participants receive chemotherapy
+        of 80 mg/m\^2 of paclitaxel once every week (Q1W) via IV infusion OR 90 mg/m\^2
+        of paclitaxel once every 4 weeks (Q4W) via IV infusion OR 100 mg/m\^2 of nab-paclitaxel
+        Q4W via IV infusion OR 1000 mg/m\^2 of capecitabine every 3 weeks (Q3W) orally
+        OR 50 mg/m\^2 of liposomal doxorubicin once every 4 weeks (Q4W) via IV infusion,
+        until progressive disease or discontinuation.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Paclitaxel'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Nab-paclitaxel'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Capecitabine'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Liposomal doxorubicin'
+        level_internal_id: 3
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        her2_status: Negative
+        er_status: Positive
+        pr_status: Positive
+        disease_status:
+        - Unresectable
+        - Locally Advanced
+        - Metastatic
+        oncotree_primary_diagnosis: Breast Neoplasm, NOS

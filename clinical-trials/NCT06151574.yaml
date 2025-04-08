@@ -1,0 +1,178 @@
+nct_id: NCT06151574
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: carboplatin'
+  - drug_name: 'Drug: cisplatin'
+  - drug_name: 'Drug: zongertinib'
+  - drug_name: 'Drug: pembrolizumab'
+  - drug_name: 'Drug: pemetrexed'
+long_title: 'Beamion LUNG 2: A Phase III, Open-label, Randomized, Active-controlled,
+  Multi-centre Trial Evaluating Orally Administered Zongertinib (BI 1810631) Compared
+  With Standard of Care as First-line Treatment in Patients With Unresectable, Locally
+  Advanced or Metastatic Non-squamous Non-small Cell Lung Cancer Harbouring HER2 Tyrosine
+  Kinase Domain Mutations'
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: ''
+principal_investigator_institution: Boehringer Ingelheim
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 270
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion criteria:'
+- 1. Signed and dated written informed consent form (ICF) in accordance with International
+  Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human
+  Use - Good Clinical Practice (ICH-GCP) and local legislation prior to admission
+  to the trial.
+- "2. Patients \u226518 years of age or over the legal age of consent in countries\
+  \ where that is greater than 18 years at the time of signature of the ICF."
+- 3. Histologically or cytologically confirmed diagnosis of an advanced and/or metastatic
+  non-squamous Non-small cell lung cancer (NSCLC).
+- 4. Documented Human epidermal growth factor receptor 2 (HER2) mutation in the Tyrosine
+  kinase domain (TKD) as per local lab results.
+- 5. An archival tumor tissue sample must be submitted to the central laboratory after
+  inclusion of the patient to retrospectively confirm the HER2 status. If no archival
+  tissue is available, this may be acceptable in exceptional cases after written agreement
+  with the sponsor.
+- 6. Patients who have not received any systemic treatment for unresectable, locally
+  advanced or metastatic disease and are not eligible for curative therapy.
+- 7. Presence of at least one measurable lesion according to Response evaluation criteria
+  in solid tumors (RECIST) 1.1, as determined by the local site investigator/radiology
+  assessment.
+- 8. Eligible to receive treatment with the selected platinum-based doublet-chemotherapy
+  (i.e. cisplatin/pemetrexed or carboplatin/pemetrexed) and pembrolizumab in accordance
+  with the Summaries of Product Characteristics (SmPC)/Product Information.
+- Further inclusion criteria apply.
+- 'Exclusion criteria:'
+- 1. Previous or concomitant malignancies other than the one treated in this trial
+  within the last 5 years, except;
+- '* effectively treated non-melanoma skin cancers'
+- '* effectively treated carcinoma in situ of the cervix'
+- '* effectively treated ductal carcinoma in situ'
+- '* other effectively treated malignancy that is considered cured by local treatment'
+- 2. Tumors with targetable alterations with approved available therapy.
+- 3. Lung-specific intercurrent clinically significant severe illness based on investigators
+  assessment.
+- 4. Patients who must or wish to continue the intake of restricted medications or
+  any drug considered likely to interfere with the safe conduct of the trial.
+- 5. Major surgery (major according to the investigator's assessment) performed within
+  4 weeks prior to randomization or planned within 6 months after screening, e.g.
+  hip replacement.
+- 6. Any history of or concomitant condition that, in the opinion of the investigator,
+  would compromise the patient's ability to comply with the trial or interfere with
+  the evaluation of the safety and efficacy of the test drug.
+- "7. History or presence of cardiovascular abnormalities such as uncontrolled hypertension,\
+  \ congestive heart failure New York Heart Association (NYHA) classification of \u2265\
+  \ III or IV, unstable angina or poorly controlled arrhythmia which are considered\
+  \ as clinically relevant by the investigator. Myocardial infarction, stroke, or\
+  \ pulmonary embolism within 6 months prior to randomization."
+- 8. Any clinically important abnormalities (as assessed by the investigator) in rhythm,
+  conduction, or morphology of resting electrocardiograms, e.g. complete left bundle
+  branch block, third degree heart block.
+- Further exclusion criteria apply.
+short_title: 'Beamion LUNG-2: A Study to Test Whether Zongertinib (BI 1810631) Helps
+  People With Advanced Non-small Cell Lung Cancer With HER2 Mutations Compared With
+  Standard Treatment'
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Boehringer Ingelheim
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: 'This study is open to adults 18 years and older with advanced or metastatic
+  non-small cell lung cancer. People can join the study if they have tumours with
+  HER2 mutations and have not yet received any systemic therapy including chemotherapy
+  for advanced or metastatic lung cancer. The purpose of this study is to find out
+  whether a medicine called zongertinib (BI 1810631) can slow down the worsening of
+  advanced non-small cell lung cancer better than the standard treatment available.
+  Zongertinib may slow cancer cell growth by inhibiting HER2. This would prolong cancer
+  re-occurrence and increase survival. Current standard treatment is pembrolizumab
+  plus platinum-pemetrexed chemotherapy.
+
+
+  Participants are put into 2 groups by chance. One group receives zongertinib at
+  regular times throughout the study and the other group receives infusions of pembrolizumab,
+  pemetrexed and cisplatin or carboplatin (pembrolizumab plus platinum-pemetrexed
+  chemotherapy) into a vein.
+
+
+  Participants may be in the study up to a maximum of 70 months. During this time,
+  they visit the study site about every 3 weeks for study procedures. The doctors
+  regularly check the size of the tumour with a CT or MRI scan, at the beginning of
+  the study and every 6 weeks. After 18 months they check the tumour size every 12
+  weeks. Doctors regularly check whether the cancer has spread to other parts of the
+  body. The doctors also regularly check participants'' health and take note of any
+  unwanted effects. The time it takes for the cancer to worsen is compared between
+  the 2 groups to see whether the treatment works. The participants also fill in questionnaires
+  about their symptoms and quality of life.'
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Experimental treatment arm
+      arm_internal_id: 0
+      arm_description: zongertinib only
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: zongertinib'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Comparator arm
+      arm_internal_id: 1
+      arm_description: pembrolizumab plus platinum-pemetrexed chemotherapy
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: cisplatin'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: carboplatin'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: pemetrexed'
+        level_internal_id: 3
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          her2_status: Positive
+          disease_status:
+          - Advanced
+          - Metastatic
+          - Unresectable
+          - Locally Advanced
+          oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+      - or:
+        - genomic:
+            hugo_symbol: ERBB2
+            variant_category: Mutation

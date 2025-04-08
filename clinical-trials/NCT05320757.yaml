@@ -1,0 +1,109 @@
+nct_id: NCT05320757
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Olaparib'
+long_title: Effects of PARP Inhibitor on Tumor Microenvironment in High-risk Endometrial
+  Cancer Patients
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: EARLY_PHASE1
+principal_investigator: ''
+principal_investigator_institution: The University of Hong Kong
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 20
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- 1. Patients must be capable of giving signed informed consent
+- 2. Patients must be at least 18 years old
+- '3. Patients must have newly diagnosed and histologically confirmed high-risk endometrial
+  cancer, including:'
+- 1. G3 endometrioid, any stage
+- 2. Type 2 (such as serous, clear cell, carcinosarcoma), any stage
+- 3. G1 endometrioid, stage 2 or beyond
+- 4. The endometrial cancer should be visible on pre-treatment ultrasound, or endometrial
+  lining should be 5mm or above
+- 5. An archived FFFE sample of endometrial biopsy or at least 8 unstained slides
+  should be available
+- 6. Patients should have Eastern Cooperative Oncology Group (ECOG) performance score
+  0 to 1
+- 7. Patients must have adequate bone marrow, renal, hepatic, thyroid and neurological
+  function within 28 days prior to administration of study treatment
+- 8. Patients must be able to swallow oral medication
+- "9. Patients must have a life expectancy of \u2265 16 weeks"
+- 10. Patients must either be postmenopausal or show evidence of non-childbearing
+  status for women of childbearing potential
+- 'Exclude - Exclusion Criteria:'
+- Exclude - 1. Patients with other malignancy unless curatively treated with no evidence
+  of disease for \>= 5 years, are excluded.
+- Exclude - 2. Patients whose resting ECG indicating uncontrolled, potentially reversible
+  cardiac conditions, or patients with congenital long QT syndrome, are excluded.
+- Exclude - 3. Patients with myelodysplastic syndrome/acute myeloid leukaemia or with
+  features suggestive of MDS/AML, other hematological diseases such as venous or arterial
+  thrombosis and thrombocytopenia are excluded.
+- Exclude - 4. Patients with symptomatic uncontrolled brain metastases are excluded.
+- Exclude - 5. Patients who are unable to swallow orally administered medication and
+  gastrointestinal disorders are excluded.
+- Exclude - 6. Patients with immunocompromised condition, active hepatitis, or persistent
+  toxicities caused by previous cancer therapy, are excluded.
+- Exclude - 9. Concomitant use of known strong CYP3A inhibitors or inducer are excluded.
+  10. Patients who have major surgery within 2 weeks, previous allogenic bone marrow
+  transplant, are excluded.
+- Exclude - 11. Patients with a known hypersensitivity to olaparib or any of the excipients
+  of the product are excluded.
+- Exclude - 12. Use of an investigational drug within 30 days or 5 half-lives, whichever
+  is longer, proceeding the first dose of study drug is not allowed.
+- Exclude - 13. Pregnant or breastfeeding women are excluded. 14. Patients who are
+  judged by the investigator to be unlikely to comply with study procedures, restrictions
+  and requirements are excluded.
+short_title: Effects of PARP Inhibitor on Tumor Microenvironment in High-risk Endometrial
+  Cancer Patients
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: The University of Hong Kong
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: "This is a window study where treatment-na\xEFve patients will receive olaparib\
+  \ before definitive treatment. The aim is to evaluate the DNA damage and inflammatory\
+  \ response after PARP inhibitor."
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Olaparib
+      arm_internal_id: 0
+      arm_description: 'Olaparib: 300mg BID orally for 10 - 28 days (stop 3 - 4 days
+        before definitive treatment)'
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Olaparib'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        gender: Female
+        oncotree_primary_diagnosis: Endometrial Carcinoma

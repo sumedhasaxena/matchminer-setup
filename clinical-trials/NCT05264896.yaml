@@ -1,0 +1,117 @@
+nct_id: NCT05264896
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: XELOX'
+  - drug_name: 'Drug: 5-FU, Leucovorin, Oxaliplatin, Docetaxel'
+long_title: Perioperative FLOT Versus Adjuvant XELOX for Locally Advanced Gastric
+  Cancer - a Randomized Controlled Study
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: ''
+principal_investigator_institution: Chinese University of Hong Kong
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 110
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- "1. Locally advanced adenocarcinoma of stomach or esophagogastric junction (Siewert\
+  \ type II and III), defined by clinical stage \u2265T3 and/or \u2265N1, in the absence\
+  \ of distant metastasis"
+- 2. Surgically resectable disease based on clinical staging
+- 3. No previous gastrectomy or chemotherapy
+- 4. Age 18 or above but less than 80, and
+- "5. ECOG \u22642"
+- 6. Hemoglobin \>/= 8.0 g/dL
+- "7. Neutrophils \\>/= 1.500/\xB5l"
+- "8. Platelets \u2265 100.000/\xB5l"
+- "9. Creatinine clearance \u2265 50 ml/min"
+- 10. Serum albumin \>25 g/L
+- 'Exclusion criteria:'
+- 1. Distant metastases, direct tumor invasion to organs not resectable by surgery
+- 2. Hypersensitivity or contraindication against Capacitabine, 5-FU, Leucovorin,
+  Oxaliplatin, Docetaxel
+- 3. Active CHD, Cardiomyopathy or cardiac insufficiency stage III-IV according to
+  NYHA
+- "4. Peripheral polyneuropathy \u2265 NCI grade II"
+- 5. Severe liver dysfunction (i) ALT \>3 x upper limit of normal, and/ or (ii) total
+  bilirubin \>1.5 x upper limit of normal (subjects with Gilbert Syndrome with total
+  bilirubin level of \>/= 3.0 x upper limit of normal)
+- 6. Pregnancy or lactation
+- 7. Malignant secondary disease, dated back \<5 years (except in-situ carcinoma of
+  cervix uteri, adequately treated skin basal cell carcinoma)
+- 8. Serious uncontrolled infection or cocomitant severe medical conditions
+short_title: Perioperative FLOT vs Adjuvant XELOX for CA Stomach
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Chinese University of Hong Kong
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This is a single centre randomised controlled trial, comparing perioperative
+  FLOT versus adjuvant XELOX for locally advanced gastric and esophagogastric junction
+  cancers. Patients with operable clinical T3 or above and N1 or above gastric and
+  esophagastric junction cancer would be recruited. Participants would be randomised
+  to perioperative FLOT versus adjuvant XELOX with curative radical gastrectomy. Primary
+  outcome would be 3 year Disease Free Survival. It was calculated that 110 patients
+  would be required to demonstrate the study hypothesis.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: FLOT
+      arm_internal_id: 0
+      arm_description: "Patients randomized to the FLOT arm would receive perioperative\
+        \ FLOT\n\nRegimen:\n\n* Docetaxel 50mg/m2, d1\n* 5-FU 2600 mg/m\xB2, d1\n\
+        * Leucovorin 200 mg/m\xB2, d1\n* Oxaliplatin 85 mg/m\xB2, d1\n* Every two\
+        \ weeks 4 cycles pre-op and 4 cycles post-op\n\nGranulocyte colony stimulating\
+        \ factor (GCSF) at 30 mu s.c. daily from Day 4 to Day 7 is recommended.\n\n\
+        Two weeks after completion of the 4 cycles of pre-op chemotherapy, reassessment\
+        \ endoscopy and CT scan would be performed. Surgery would be performed 4 weeks\
+        \ after pre-op chemotherapy if no distant metastasis was found on CT scan.\n\
+        \nPost-op adjuvant FLOT (x 4 cycles) will be started within 10 weeks after\
+        \ surgery."
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: 5-FU, Leucovorin, Oxaliplatin, Docetaxel'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: XELOX
+      arm_internal_id: 1
+      arm_description: "Patients randomized to adjuvant XELOX arm would receive chemotherapy\
+        \ after surgery.\n\n* Capecitabine - 1,000 mg/m\xB2 twice daily.\n* Oxaliplatin\
+        \ - IV infusion, 130mg/m\xB2"
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: XELOX'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        disease_status:
+        - Locally Advanced
+        oncotree_primary_diagnosis: Esophagogastric Adenocarcinoma

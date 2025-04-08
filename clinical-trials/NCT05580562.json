@@ -1,0 +1,201 @@
+{
+    "nct_id": "NCT05580562",
+    "age": "Adults",
+    "cancer_center_accrual_goal_upper": 0,
+    "data_table4": "Interventional",
+    "drug_list": {
+        "drug": [
+            {
+                "drug_name": "Other: Placebo"
+            },
+            {
+                "drug_name": "Drug: Dordaviprone (ONC201)"
+            },
+            {
+                "drug_name": "Drug: Dordaviprone (ONC201) + Placebo"
+            }
+        ]
+    },
+    "long_title": "ONC201 for the Treatment of Newly Diagnosed H3 K27M-mutant Diffuse Glioma Following Completion of Radiotherapy: A Randomized, Double-Blind, Placebo-Controlled, Multicenter Study",
+    "management_group_list": {
+        "management_group": [
+            {
+                "is_primary": "Y",
+                "management_group_name": "Group1"
+            }
+        ]
+    },
+    "oncology_group_list": {
+        "oncology_group": [
+            {
+                "group_name": "Group1",
+                "is_primary": "N"
+            }
+        ]
+    },
+    "phase": "PHASE3",
+    "principal_investigator": "",
+    "principal_investigator_institution": "Chimerix",
+    "program_area_list": {
+        "program_area": [
+            {
+                "is_primary": "Y",
+                "program_area_name": "Program1"
+            }
+        ]
+    },
+    "protocol_id": 0,
+    "protocol_no": "",
+    "protocol_target_accrual": 450,
+    "protocol_type": "INTERVENTIONAL",
+    "prior_treatment_requirements": [
+        "Inclusion Criteria:",
+        "1. Able to understand the study procedures and agree to participate in the study by providing written informed consent (by participant or legally authorized representative), and assent when applicable.",
+        "2. Body weight \u2265 10 kg at time of randomization.",
+        "3. Histologically diagnosed H3 K27M-mutant diffuse glioma (new diagnosis). Detection of a missense K27M mutation in any histone H3-encoding gene detected by testing of tumor tissue (immunohistochemistry \\[IHC\\] or next-generation sequencing \\[NGS\\] in a Clinical Laboratory Improvement Amendments \\[CLIA\\]-certified or equivalent laboratory). \\[Site to provide (as available): \u2265 10 unstained formalin-fixed paraffin-embedded (FFPE) slides from tumor tissue.\\]",
+        "4. At least one, high-quality, contrast-enhanced MRI of the brain obtained prior to starting radiotherapy for submission to sponsor's imaging vendor for central read. For participants who had a surgical resection, this scan must be post-resection; for participants who did not have a resection, this scan may be pre- or post-biopsy.",
+        "5. At least one, high-quality, contrast-enhanced MRI of the brain obtained 2 to 6 weeks after completion of frontline radiotherapy. If unable to obtain contrast-enhanced imaging due to lack of venous access after multiple attempts, a patient may still be eligible after collection of a nonenhanced MRI of the brain. \\[Site to also provide all available MRIs completed prior to initiating treatment with study intervention.\\]",
+        "6. Received frontline radiotherapy",
+        "1. Initiated radiotherapy within 12 weeks from the initial diagnosis of H3 K27M-mutant diffuse glioma.",
+        "2. Completed radiotherapy within 2 to 6 weeks prior to randomization",
+        "3. Completed standard fractionated radiotherapy (eg. 54 to 60 Gy in 28 to 33 fractions given over approximately 6 weeks or hypofractionated radiotherapy (eg. 40 Gy in 15 fractions given over approximately 3 weeks).",
+        "7. Karnofsky Performance Status or Lansky Performance Status \u2265 70 at time of randomization.",
+        "8. Stable or decreasing dose of corticosteroids and anti-seizure medications for 7 days prior to randomization, if applicable. Stable steroid dose is defined as \u2264 2 mg/day increase (based on dexamethasone dose or equivalent dose of an alternative steroid).",
+        "Exclude - Exclusion Criteria:",
+        "Exclude - 1. Primary spinal tumor.",
+        "Exclude - 2. Diffuse intrinsic pontine glioma (DIPG), defined as tumors with a pontine epicenter and diffuse involvement of the pons.",
+        "Exclude - 3. Evidence of leptomeningeal spread of disease or cerebrospinal fluid dissemination.",
+        "Exclude - 4. Any known concurrent malignancy.",
+        "Exclude - 5. New lesion(s) outside of the radiation field.",
+        "Exclude - 6. Received whole-brain radiotherapy.",
+        "Exclude - 7. Received proton therapy for glioma.",
+        "Exclude - 8. Use of any of the following treatments within the specified time periods prior to randomization:",
+        "Exclude - 1. ONC201 or ONC206 at any time.",
+        "Exclude - 2. Systemic bevacizumab (includes biosimilars) at any time since the initial diagnosis of H3 K27M-mutant diffuse glioma.",
+        "Exclude - 3. Temozolomide within past 3 weeks.",
+        "Exclude - 4. Tumor treating fields at any time.",
+        "Exclude - 5. DRD2 antagonist within past 2 weeks.",
+        "Exclude - 6. Any investigational therapy within past 4 weeks.",
+        "Exclude - 7. Strong CYP3A4 inhibitors within 3 days.",
+        "Exclude - 8. Strong CYP3A4 inducers (includes enzyme-inducing antiepileptic drugs) within 2 weeks.",
+        "Exclude - 9. Laboratory test results meeting any of the following parameters within 2 weeks prior to randomization:",
+        "Exclude - 1. Absolute neutrophil count \\< 1.0 \u00d7 109/L or platelets \\< 75 \u00d7 109/L.",
+        "Exclude - 2. Total bilirubin \\> 1.5 \u00d7 upper limit of normal (ULN) (participants with Gilbert's syndrome may be included with total bilirubin \\> 1.5 \u00d7 ULN if direct bilirubin is \u2264 1.5 \u00d7 ULN).",
+        "Exclude - 3. Aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \\> 2.5 \u00d7 ULN.",
+        "Exclude - 4. Creatinine clearance \u2264 60 mL/min as calculated by the Cockcroft Gault equation (or estimated glomerular filtration rate \\< 60 mL/min/1.73 m2).",
+        "Exclude - 10. QTc \\> 480 msec (based on mean from triplicate electrocardiograms) during screening.",
+        "Exclude - 11. Known hypersensitivity to any excipients used in the study intervention formulation.",
+        "Exclude - 12. Pregnant, breastfeeding, or planning to become pregnant while receiving study intervention or within 3 months after the last dose. Participants of childbearing potential must have a negative serum pregnancy test within 72 hours prior to receiving the first dose of study intervention.",
+        "Exclude - 13. Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection requiring systemic therapy or psychiatric illness/social situations that would limit compliance with study requirements.",
+        "Exclude - 14. Any other condition (eg, medical, psychiatric, or social) that, in the opinion of the investigator, may interfere with participant safety or the ability to complete the study according to the protocol."
+    ],
+    "short_title": "ONC201 in H3 K27M-mutant Diffuse Glioma Following Radiotherapy (the ACTION Study)",
+    "site_list": {
+        "site": []
+    },
+    "sponsor_list": {
+        "sponsor": [
+            {
+                "is_principal_sponsor": "Y",
+                "sponsor_name": "Chimerix",
+                "sponsor_protocol_no": "",
+                "sponsor_roles": "sponsor"
+            }
+        ]
+    },
+    "staff_list": {
+        "protocol_staff": []
+    },
+    "status": "open to accrual",
+    "summary": "This is a randomized, double-blind, placebo-controlled, parallel-group, international, Phase 3 study in patients with newly diagnosed H3 K27M-mutant diffuse glioma to assess whether treatment with ONC201 following frontline radiotherapy will extend overall survival and progression-free survival in this population. Eligible participants will have histologically diagnosed H3 K27M-mutant diffuse glioma and have completed standard frontline radiotherapy.",
+    "treatment_list": {
+        "step": [
+            {
+                "step_internal_id": 111,
+                "step_code": "1",
+                "step_type": "Registration",
+                "arm": [
+                    {
+                        "arm_code": "ONC201 Twice Weekly Group",
+                        "arm_internal_id": 0,
+                        "arm_description": "ONC201 Twice Weekly Group",
+                        "arm_suspended": "N",
+                        "dose_level": [
+                            {
+                                "level_code": "0",
+                                "level_description": "Drug: Dordaviprone (ONC201)",
+                                "level_internal_id": 0,
+                                "level_suspended": "N"
+                            }
+                        ]
+                    },
+                    {
+                        "arm_code": "ONC201 Once Weekly Group",
+                        "arm_internal_id": 1,
+                        "arm_description": "ONC201 Once Weekly Group",
+                        "arm_suspended": "N",
+                        "dose_level": [
+                            {
+                                "level_code": "0",
+                                "level_description": "Drug: Dordaviprone (ONC201) + Placebo",
+                                "level_internal_id": 0,
+                                "level_suspended": "N"
+                            }
+                        ]
+                    },
+                    {
+                        "arm_code": "Placebo Group",
+                        "arm_internal_id": 2,
+                        "arm_description": "Placebo Group",
+                        "arm_suspended": "N",
+                        "dose_level": [
+                            {
+                                "level_code": "0",
+                                "level_description": "Other: Placebo",
+                                "level_internal_id": 0,
+                                "level_suspended": "N"
+                            }
+                        ]
+                    }
+                ],
+                "match": [
+                    {
+                        "and": [
+                            {
+                                "or": [
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Miscellaneous Neuroepithelial Tumor"
+                                        }
+                                    },
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Diffuse Glioma"
+                                        }
+                                    },
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Encapsulated Glioma"
+                                        }
+                                    },
+                                    {
+                                        "clinical": {
+                                            "oncotree_primary_diagnosis": "Ependymomal Tumor"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "clinical": {
+                                    "disease_status": [
+                                        "Localized"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

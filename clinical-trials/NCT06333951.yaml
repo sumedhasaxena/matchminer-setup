@@ -1,0 +1,204 @@
+nct_id: NCT06333951
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Sotorasib'
+  - drug_name: 'Drug: Pemetrexed'
+  - drug_name: 'Drug: AMG 193'
+  - drug_name: 'Drug: Paclitaxel'
+  - drug_name: 'Drug: Pembrolizumab'
+  - drug_name: 'Drug: Carboplatin'
+long_title: A Phase 1b Study Evaluating the Safety, Tolerability, Pharmacokinetics,
+  and Efficacy of AMG 193 Alone or in Combination With Other Therapies in Subjects
+  With Advanced Thoracic Tumors With Homozygous MTAP-deletion (Master Protocol)
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE1
+principal_investigator: MD
+principal_investigator_institution: Amgen
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 500
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- Inclusion Criteria
+- Subprotocol A, B, and C
+- "* Age \u2265 18 years (or \u2265 legal age within the country if it is older than\
+  \ 18 years)."
+- '* Tumor tissue (formalin-fixed, paraffin-embedded sample) or an archival block
+  must be available. Participants without archived tumor tissue available may be allowed
+  to enroll by undergoing tumor biopsy before AMG 193 dosing.'
+- '* Homozygous MTAP-deletion'
+- '* Able to swallow and retain PO administered study treatment.'
+- '* Disease measurable as defined by RECIST v1.1.'
+- Subprotocol A - Histologically or cytologically confirmed diagnosis of NSCLC.
+- 'Arm A (AMG 193 + carboplatin + paclitaxel + pembrolizumab):'
+- '- Predominantly squamous histology.'
+- 'Arm B (AMG 193 + carboplatin + pemetrexed + pembrolizumab):'
+- '- Predominantly non-squamous histology.'
+- 'Arm C (AMG 193 + pembrolizumab):'
+- '- PD-L1 positive.'
+- Subprotocol B - Histologically confirmed NSCLC with homozygous MTAP-deletion and
+  KRAS p.G12C mutation.
+- Subprotocol C
+- '* Histologically or cytologically confirmed diagnosis of NSCLC with brain metastases.'
+- '* Brain lesion meeting RANO-BM criteria for measurable disease.'
+- Exclude - Exclusion Criteria
+- Exclude - Subprotocol A, B, and C
+- Exclude - * Cardiovascular and pulmonary exclusion criteria as defined in the protocol.
+- Exclude - * Gastrointestinal tract disease causing the inability to take PO medication,
+  malabsorption syndrome, requirement for IV alimentation, gastric/jejunal tube feeds,
+  uncontrolled inflammatory gastrointestinal disease (eg, Crohn's disease, ulcerative
+  colitis).
+- Exclude - * History of solid organ transplant.
+- Exclude - * Major surgery within 28 days of first dose of AMG 193.
+- Exclude - * Prior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.
+- Exclude - * Radiation therapy within 28 days of first dose.
+- Exclude - Subprotocol A
+- Exclude - - Autoimmune disease or immunodeficiency disease as defined in the protocol'
+short_title: AMG 193 Alone or in Combination With Other Therapies in Subjects With
+  Advanced Thoracic Tumors With Homozygous MTAP-deletion (Master Protocol)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Amgen
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The study aims to determine maximum tolerated dose (MTD) or recommended combination
+  dose of the MTA-cooperative PRMT5 inhibitor AMG 193 administered in combination
+  with other therapies in adult participants with metastatic or locally advanced methylthioadenosine
+  phosphorylase (MTAP)-deleted thoracic tumors. The study also aims to determine the
+  safety profile of AMG 193 administered in combination with other therapies in adult
+  participants with metastatic or locally advanced MTAP-deleted thoracic tumors.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Subprotocol A: Non-Small Cell Lung Cancer (NSCLC) Arm A'
+      arm_internal_id: 0
+      arm_description: Participants with MTAP-deleted NSCLC will receive a regimen
+        of AMG 193 orally (PO) and carboplatin, paclitaxel, and pembrolizumab intravenously
+        (IV)
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Carboplatin'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Paclitaxel'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 3
+        level_suspended: N
+    - arm_code: 'Subprotocol A: NSCLC Arm B'
+      arm_internal_id: 1
+      arm_description: Participants with MTAP-deleted NSCLC will receive a regimen
+        of AMG 193 PO and carboplatin, pemetrexed, and pembrolizumab IV
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Carboplatin'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Pemetrexed'
+        level_internal_id: 3
+        level_suspended: N
+    - arm_code: 'Subprotocol A: NSCLC Arm C'
+      arm_internal_id: 2
+      arm_description: Participants with MTAP-deleted NSCLC will receive a combination
+        of AMG 193 PO and pembrolizumab IV
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Pembrolizumab'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: 'Subprotocol B: NSCLC With KRasG12C Mutation'
+      arm_internal_id: 3
+      arm_description: Participants with MTAP-deleted NSCLC and KRasG12C mutation
+        will receive a combination of AMG 193 and sotorasib PO
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Sotorasib'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: 'Subprotocol C: NSCLC With Brain Metastases'
+      arm_internal_id: 4
+      arm_description: Participants with MTAP-deleted NSCLC with brain metastases
+        will receive AMG 193 PO
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: AMG 193'
+        level_internal_id: 0
+        level_suspended: N
+    match:
+    - and:
+      - and:
+        - or:
+          - clinical:
+              oncotree_primary_diagnosis: Lung Neuroendocrine Tumor
+          - clinical:
+              oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+          - clinical:
+              oncotree_primary_diagnosis: Pleuropulmonary Blastoma
+          - clinical:
+              oncotree_primary_diagnosis: Sarcomatoid Carcinoma of the Lung
+          - clinical:
+              oncotree_primary_diagnosis: Lung Adenocarcinoma In Situ
+        - clinical:
+            age_numerical: '>=18'
+            pdl1_status: High
+            disease_status:
+            - Metastatic
+      - or:
+        - genomic:
+            hugo_symbol: MTAP
+            variant_category: Copy Number Variation
+        - genomic:
+            hugo_symbol: KRAS
+            variant_category: Mutation

@@ -1,0 +1,144 @@
+nct_id: NCT05211895
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Durvalumab'
+  - drug_name: 'Other: Placebo'
+  - drug_name: 'Drug: Domvanalimab'
+long_title: A Phase III, Randomised, Double-blind, Placebo-controlled, Multicentre,
+  International Study of Durvalumab Plus Domvanalimab(AB154) in Participants With
+  Locally Advanced (Stage III), Unresectable Non-small Cell Lung Cancer Whose Disease
+  Has Not Progressed Following Definitive Platinum-based Concurrent Chemoradiation
+  Therapy
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: ''
+principal_investigator_institution: AstraZeneca
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 860
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'INCLUSION CRITERIA:'
+- "1. Participant must be \u2265 18 years at the time of screening."
+- 2. Histologically- or cytologically-documented NSCLC and have been treated with
+  concurrent CRT for locally advanced, unresectable (Stage III) disease
+- 3. Provision of a tumour tissue sample obtained prior to CRT
+- "4. Documented tumour PD-L1 status \u2265 1% by central lab"
+- 5. Documented EGFR and ALK wild-type status (local or central).
+- 6. Patients must not have progressed following definitive, platinum-based, concurrent
+  chemoradiotherapy
+- 7. Participants must have received at least 2 cycles of platinum-based chemotherapy
+  concurrent with radiation therapy
+- "8. Participants must have received a total dose of radiation of 60 Gy \xB110% (54\
+  \ Gy to 66 Gy) as part of the chemoradiation therapy, to be randomised. Radiation\
+  \ therapy should be administered by intensity modulated RT (preferred) or 3D-conforming\
+  \ technique."
+- 9. WHO performance status of 0 or 1 at randomization
+- 10. Adequate organ and marrow function
+- 'EXCLUSION CRITERIA:'
+- '1. History of another primary malignancy, except for:'
+- '* Malignancies treated with curative intent and adequate follow-up with no known
+  active disease and have not required active treatment within the past 3 years before
+  the first dose of study intervention and of low potential risk of recurrence.'
+- '* Adequately resected non melanoma skin cancer or lentigo maligna without evidence
+  of disease .'
+- '* Adequately treated carcinoma in situ, including Ta tumors without evidence of
+  disease.'
+- 2. Mixed small cell and non-small cell lung cancer histology.
+- 3. Participants who receive sequential (not inclusive of induction) chemoradiation
+  therapy for locally advanced (Stage III) unresectable NSCLC.
+- 4. Participants with locally advanced (Stage III) unresectable NSCLC who have progressed
+  during platinum-based cCRT.
+- 5. Any unresolved toxicity CTCAE \>Grade 2 from the prior chemoradiation therapy
+  (excluding alopecia).
+- "6. Participants with \u2265 grade 2 pneumonitis from prior chemoradiation therapy."
+- "7. History of idiopathic pulmonary fibrosis, drug-induced pneumonitis, or idiopathic\
+  \ pneumonitis - regardless of time of onset prior to randomisation. Evidence of\
+  \ active non-CRT induced pneumonitis (\u2265 Grade 2), active pneumonia, active\
+  \ ILD, active or recently treated pleural effusion, or current pulmonary fibrosis"
+- 8. Active or prior documented autoimmune or inflammatory disorders (with exceptions)
+- 9. Active EBV infection, or known or suspected chronic active EBV infection at screening
+- 10. Current or prior use of immunosuppressive medication within 14 days before the
+  first dose of durvalumab.
+short_title: A Global Study to Assess the Effects of Durvalumab + Domvanalimab Following
+  Concurrent Chemoradiation in Participants With Stage III Unresectable NSCLC
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: AstraZeneca
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This is a Phase III, randomised, double-blind, placebo-controlled, multicentre,
+  international study assessing the efficacy and safety of durvalumab (MEDI4736) and
+  domvanalimab (AB154) compared with durvalumab plus placebo in adults with locally
+  advanced (Stage III), unresectable NSCLC whose disease has not progressed following
+  definitive platinum-based cCRT.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: 'Arm A: Durvalumab + Domvanalimab'
+      arm_internal_id: 0
+      arm_description: Durvalumab and domvanalimab as an IV infusion q4w, starting
+        on Day 1 for up to a maximum of 12 months
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Durvalumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Domvanalimab'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: 'Arm B: Durvalumab + Placebo'
+      arm_internal_id: 1
+      arm_description: Durvalumab + placebo as an IV infusion q4w starting on Day
+        1 for up to a maximum of 12 months
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Durvalumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Other: Placebo'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - and:
+      - clinical:
+          age_numerical: '>=18'
+          pdl1_status: High
+          disease_status:
+          - Locally Advanced
+          - Unresectable
+          oncotree_primary_diagnosis: Non-Small Cell Lung Cancer
+      - and:
+        - genomic:
+            hugo_symbol: EGFR
+            variant_category: '!Mutation'
+        - genomic:
+            hugo_symbol: ALK
+            variant_category: '!Mutation'

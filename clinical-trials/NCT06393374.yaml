@@ -1,0 +1,196 @@
+nct_id: NCT06393374
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Biological: Sacituzumab tirumotecan'
+  - drug_name: 'Biological: Pembrolizumab'
+  - drug_name: 'Drug: Capecitabine'
+long_title: A Phase 3, Randomized, Open-label, Study to Compare the Efficacy and Safety
+  of Adjuvant MK-2870 in Combination With Pembrolizumab (MK-3475) Versus Treatment
+  of Physician's Choice (TPC) in Participants With Triple-Negative Breast Cancer (TNBC)
+  Who Received Neoadjuvant Therapy and Did Not Achieve a Pathological Complete Response
+  (pCR) at Surgery
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Medical Director
+principal_investigator_institution: Merck Sharp & Dohme LLC
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 1530
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Has centrally confirmed TNBC, as defined by the most recent American Society
+  of Clinical Oncology/College of American Pathologists (ASCO/CAP) guidelines'
+- '* Has no evidence of locoregional or distant relapse, as assessed by the treating
+  physician'
+- '* Had neoadjuvant treatment based on the KEYNOTE-522 regimen (pembrolizumab with
+  carboplatin/taxanes and pembrolizumab with anthracycline-based chemotherapy) followed
+  by surgery according to National Comprehensive Cancer Network (NCCN) treatment guidelines
+  for TNBC'
+- '* Had adequate excision and surgical removal of all clinically evident disease
+  in the breast and/or lymph nodes and have adequately recovered from surgery'
+- '* Has non-pathologic complete response at surgery'
+- '* Is able to continue on adjuvant pembrolizumab'
+- '* Randomization must be conducted within 12 weeks from surgical resection'
+- '* Completed adjuvant radiation therapy (if indicated) and recovered before randomization'
+- '* Has provided tissue from the surgical resection for central laboratory determination
+  of trophoblast cell surface antigen 2 (TROP2) status'
+- '* If capable of producing sperm, the participant agrees to the following during
+  the intervention period and for at least the time needed to eliminate each study
+  intervention after the last dose of study intervention (120 days for sacituzumab
+  tirumotecan and 95 days for capecitabine \[no restriction for pembrolizumab\]):
+  agrees to refrain from donating sperm AND is either abstinent and agrees to remain
+  abstinent or uses highly effective contraception'
+- "* For females (assigned at birth), is not pregnant or breastfeeding and \u2265\
+  1 of the following applies: is not a participant of childbearing potential (POCBP)\
+  \ OR is a POCBP and uses highly effective contraception after the last dose of study\
+  \ intervention (210 days for sacituzumab tirumotecan, 120 days for pembrolizumab,\
+  \ and 185 days for capecitabine). Abstains from breastfeeding during the study intervention\
+  \ period and for at least 120 days after study intervention"
+- "* Participants who have AEs due to previous anticancer therapies must have recovered\
+  \ to \u2264Grade 1 or baseline (except alopecia)"
+- '* Human immunodeficiency virus (HIV)-infected participants must have well controlled
+  HIV on antiretroviral therapy (ART)'
+- '* An Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1 assessed
+  within 7 days before first dose of study treatment'
+- '* Participants who are hepatitis B surface antigen (HBsAg) positive are eligible
+  if they have received hepatitis B birus (HBV) antiviral therapy for at least 4 weeks,
+  and have undetectable HBV viral load prior to randomization'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Has a known germline breast cancer gene (BRCA) mutation (deleterious
+  or suspected deleterious) and is eligible for adjuvant therapy with olaparib where
+  olaparib is approved and available
+- Exclude - * Has Grade \>2 peripheral neuropathy
+- Exclude - * History of documented severe dry eye syndrome, severe Meibomian gland
+  disease and/or blepharitis, or corneal disease that prevents/delays corneal healing
+- Exclude - * Has active inflammatory bowel disease requiring immunosuppressive medication
+  or previous history of inflammatory bowel disease (eg, Crohn's disease, ulcerative
+  colitis, or chronic diarrhea)
+- Exclude - * Has uncontrolled, significant cardiovascular disease or cerebrovascular
+  disease including New York Heart Association Class III or IV congestive heart failure,
+  unstable angina, myocardial infarction, uncontrolled symptomatic arrhythmia, prolongation
+  of QTcF interval to \>480 ms, and/or other serious cardiovascular and cerebrovascular
+  diseases within 6 months prior to study intervention
+- Exclude - * Received prior treatment with a trophoblast cell-surface antigen 2 (TROP2)-directed
+  antibody drug conjugate (ADC) or a topoisomerase I inhibitor-containing ADC
+- Exclude - * Received anticancer therapy in the adjuvant phase including but not
+  limited to chemotherapy, small molecule anticancer drugs, poly (adenosine diphosphate
+  ribose) polymerase (PARP) inhibitors, ADCs, and/or immunotherapy, with the exception
+  of adjuvant radiation therapy
+- Exclude - * Is currently receiving a strong inducer/inhibitor of cytochrome P450
+  3A4 (CYP3A4) that cannot be discontinued for the duration of the study. The required
+  washout period before starting sacituzumab tirumotecan is 2 weeks
+- 'Exclude - * Except for pembrolizumab as neoadjuvant therapy for early-stage TNBC:
+  received prior therapy with an anti-programmed cell death 1 protein (anti-PD-1),
+  anti-programmed cell death ligand 1 (anti-PD-L1), or anti-PD-L2 agent, or with an
+  agent directed to another stimulatory or coinhibitory T-cell receptor (eg, cytotoxic
+  T-lymphocyte-associated protein-4 \[CTLA-4\], OX-40 \[cluster of differentiation
+  (CD) 134\], or CD137)'
+- 'Exclude - * Except for chemotherapy as neoadjuvant therapy for early-stage TNBC:
+  Received prior systemic anticancer therapy including investigational agents within
+  4 weeks before randomization'
+- Exclude - * Received prior radiotherapy within 3 weeks of start of study intervention
+  or required corticosteroids for radiation related toxicities that cannot be discontinued
+  before the first dose of study intervention
+- Exclude - * Received a live or live-attenuated vaccine within 30 days before the
+  first dose of study intervention. Administration of killed vaccines are allowed
+- Exclude - * Has received an investigational agent or has used an investigational
+  device within 4 weeks prior to study intervention administration
+- Exclude - * Has known additional malignancy that is progressing or has required
+  active treatment within the past 5 years
+- Exclude - * Has diagnosis of immunodeficiency or is receiving chronic systemic steroid
+  therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other
+  form of immunosuppressive therapy within 7 days prior the first dose of study medication
+- Exclude - * Has active autoimmune disease that has required systemic treatment in
+  the past 2 years. Replacement therapy (eg, thyroxine, insulin, or physiologic corticosteroid)
+  is allowed
+- Exclude - * Has history of (noninfectious) pneumonitis/interstitial lung disease
+  that required steroids or has current pneumonitis/interstitial lung disease
+- Exclude - * Has active infection requiring systemic therapy
+- Exclude - * HIV-infected participants with a history of Kaposi's sarcoma and/or
+  Multicentric Castleman's Disease
+- Exclude - * Has concurrent active hepatitis B and hepatitis C virus infection
+- Exclude - * Has history of allogeneic tissue/solid organ transplant
+short_title: Sacituzumab Tirumotecan (MK-2870) Plus Pembrolizumab Versus TPC in TNBC
+  Who Did Not Achieve pCR (MK-2870-012)
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Merck Sharp & Dohme LLC
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: This is a randomized, open-label study comparing the efficacy and safety
+  of adjuvant sacituzumab tirumotecan (MK-2870) in combination with pembrolizumab
+  compared to treatment of physician's choice (TPC) in participants with triple-negative
+  breast cancer (TNBC) who received neoadjuvant therapy and did not achieve a pathological
+  complete response (pCR) at surgery. The primary objective is to compare sacituzumab
+  tirumotecan plus pembrolizumab to TPC (pembrolizumab or pembrolizumab plus capecitabine)
+  with respect to invasive disease-free survival (iDFS) per investigator assessment.
+  It is hypothesized that sacituzumab tirumotecan plus pembrolizumab is superior to
+  TPC with respect to iDFS per investigator assessment.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Pembrolizumab + sacituzumab tirumotecan
+      arm_internal_id: 0
+      arm_description: Participants receive pembrolizumab every 6 weeks (q6w) in combination
+        with sacituzumab tirumotecan every 2 weeks (q2w) for 24 weeks. In addition,
+        participants receive an antihistamine, an H2 antagonist of investigator's
+        choice, acetaminophen (or equivalent), and dexamethasone (or equivalent) per
+        each drug's product label prior to sacituzumab tirumotecan infusions.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Biological: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Biological: Sacituzumab tirumotecan'
+        level_internal_id: 1
+        level_suspended: N
+    - arm_code: Treatment of Physician's Choice
+      arm_internal_id: 1
+      arm_description: Participants receive pembrolizumab q6w or pembrolizumab q6w
+        in combination with capecitabine (twice daily \[BID\] on Days 1 to 14 and
+        22 to 35 every 42 days x 4 \[2 weeks 1, 1 week off\]) for 24 weeks.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Biological: Pembrolizumab'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Capecitabine'
+        level_internal_id: 1
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        her2_status: Negative
+        er_status: Negative
+        pr_status: Negative
+        disease_status:
+        - Early Stage
+        oncotree_primary_diagnosis: Invasive Breast Carcinoma

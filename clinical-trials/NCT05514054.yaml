@@ -1,0 +1,130 @@
+nct_id: NCT05514054
+age: Adults
+cancer_center_accrual_goal_upper: 0
+data_table4: Interventional
+drug_list:
+  drug:
+  - drug_name: 'Drug: Tamoxifen'
+  - drug_name: 'Drug: Anastrozole'
+  - drug_name: 'Drug: Exemestane'
+  - drug_name: 'Drug: Letrozole'
+  - drug_name: 'Drug: Imlunestrant'
+long_title: 'EMBER-4: A Randomized, Open-Label, Phase 3 Study of Adjuvant Imlunestrant
+  vs Standard Adjuvant Endocrine Therapy in Patients Who Have Previously Received
+  2 to 5 Years of Adjuvant Endocrine Therapy for ER+, HER2- Early Breast Cancer With
+  an Increased Risk of Recurrence'
+management_group_list:
+  management_group:
+  - is_primary: Y
+    management_group_name: Group1
+oncology_group_list:
+  oncology_group:
+  - group_name: Group1
+    is_primary: N
+phase: PHASE3
+principal_investigator: Call 1-877-CTLILLY (1-877-285-4559) or 1-317-615-4559 Mon
+  - Fri 9 AM - 5 PM Eastern time (UTC/GMT - 5 hours, EST)
+principal_investigator_institution: Eli Lilly and Company
+program_area_list:
+  program_area:
+  - is_primary: Y
+    program_area_name: Program1
+protocol_id: 0
+protocol_no: ''
+protocol_target_accrual: 8000
+protocol_type: INTERVENTIONAL
+prior_treatment_requirements:
+- 'Inclusion Criteria:'
+- '* Have a diagnosis of ER+, HER2- early-stage, resected, invasive breast cancer
+  without evidence of distant metastasis.'
+- '* Participants must have received at least 24 months but not more than 60 months
+  of any adjuvant ET, from time of adjuvant ET initiation.'
+- '* Participants may have received (neo) adjuvant chemotherapy and/or targeted therapy
+  with a CDK4/6- or PARP- inhibitor.'
+- '* Must have an increased risk of disease recurrence based on clinical-pathological
+  risk features.'
+- '* Have a Performance Status of 0 or 1 on the Eastern Cooperative Oncology Group
+  scale.'
+- '* Have adequate organ function.'
+- 'Exclude - Exclusion Criteria:'
+- Exclude - * Have any evidence of metastatic disease (including contralateral ALN)
+  or inflammatory breast cancer at primary breast cancer diagnosis.
+- Exclude - * Participants with more than a 6-month consecutive gap in therapy during
+  the course of prior adjuvant ET.
+- Exclude - * Participants who have completed or discontinued prior adjuvant ET \>6
+  months prior to screening.
+- "Exclude - * Participants with a history of previous breast cancer are excluded,\
+  \ with the exception of ipsilateral DCIS treated by locoregional therapy alone \u2265\
+  5 years ago."
+- Exclude - * Pregnant, breastfeeding, or expecting to conceive or father children
+  within the projected duration of the trial, starting with the screening visit through
+  180 days after the last dose of study intervention.
+- Exclude - * Participant has previously received ET of any duration for breast cancer
+  prevention (tamoxifen or AIs) or raloxifene.
+- Exclude - * Participants with a history of any other cancer.
+- Exclude - * Have serious preexisting medical conditions that, in the judgment of
+  the investigator, would preclude participation in this study.
+short_title: A Study of Imlunestrant Versus Standard Endocrine Therapy in Participants
+  With Early Breast Cancer
+site_list:
+  site: []
+sponsor_list:
+  sponsor:
+  - is_principal_sponsor: Y
+    sponsor_name: Eli Lilly and Company
+    sponsor_protocol_no: ''
+    sponsor_roles: sponsor
+staff_list:
+  protocol_staff: []
+status: open to accrual
+summary: The main purpose of this study is to measure how well imlunestrant works
+  compared to standard hormone therapy in participants with early breast cancer that
+  is estrogen receptor positive (ER+) and human epidermal receptor 2 negative (HER2-).
+  Participants must have already taken endocrine therapy for two to five years and
+  must have a higher-than-average risk for their cancer to return. Study participation
+  could last up to 10 years.
+treatment_list:
+  step:
+  - step_internal_id: 111
+    step_code: '1'
+    step_type: Registration
+    arm:
+    - arm_code: Imlunestrant
+      arm_internal_id: 0
+      arm_description: Imlunestrant administered orally.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Imlunestrant'
+        level_internal_id: 0
+        level_suspended: N
+    - arm_code: Investigator's Choice of Endocrine Therapy
+      arm_internal_id: 1
+      arm_description: Investigator's choice of tamoxifen, anastrozole, letrozole,
+        or exemestane administered per local approved label.
+      arm_suspended: N
+      dose_level:
+      - level_code: '0'
+        level_description: 'Drug: Tamoxifen'
+        level_internal_id: 0
+        level_suspended: N
+      - level_code: '1'
+        level_description: 'Drug: Anastrozole'
+        level_internal_id: 1
+        level_suspended: N
+      - level_code: '2'
+        level_description: 'Drug: Letrozole'
+        level_internal_id: 2
+        level_suspended: N
+      - level_code: '3'
+        level_description: 'Drug: Exemestane'
+        level_internal_id: 3
+        level_suspended: N
+    match:
+    - clinical:
+        age_numerical: '>=18'
+        her2_status: Negative
+        er_status: Positive
+        disease_status:
+        - Early Stage
+        oncotree_primary_diagnosis: Breast Neoplasm, NOS

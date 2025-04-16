@@ -1,0 +1,138 @@
+[  
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": true,
+        "TRUE_HUGO_SYMBOL": "IDH"       
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "ARFRP1",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
+        "TRUE_PROTEIN_CHANGE": "p.R177H",
+        "CHROMOSOME":"chr20"
+    }, {
+        "CLINICAL_ID": "",
+         "SAMPLE_ID": "ORD_2065357_01",
+         "WILDTYPE": false,
+         "TRUE_HUGO_SYMBOL": "CREBBP",
+         "VARIANT_CATEGORY": "MUTATION",         
+         "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Ins",
+         "TRUE_PROTEIN_CHANGE": "p.N435Kfs*4",
+         "CHROMOSOME":"chr16"
+     },
+     {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "FLCN",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Del",
+        "TRUE_PROTEIN_CHANGE": "p.H429Tfs*39",
+         "CHROMOSOME":"chr17"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "MRE11",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
+        "TRUE_PROTEIN_CHANGE": "p.Q582*",
+         "CHROMOSOME":"chr11"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "MSH2",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Ins",
+        "TRUE_PROTEIN_CHANGE": "p.Y408Lfs*9",
+         "CHROMOSOME":"chr2"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "MSH2",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Del",
+        "TRUE_PROTEIN_CHANGE": "p.S271Rfs*2",
+         "CHROMOSOME":"chr2"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "PDGFRA",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
+        "TRUE_PROTEIN_CHANGE": "p.A916T",
+         "CHROMOSOME":"chr4"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "QKI",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Del",
+        "TRUE_PROTEIN_CHANGE": "p.K134Rfs*14",
+         "CHROMOSOME":"chr6"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "ROS1",
+        "VARIANT_CATEGORY": "SV",
+        "STRUCTURAL_VARIANT_TYPE": "fusion",
+        "LEFT_PARTNER_GENE":"GOPC",
+        "LEFT_PARTNER_EXON_INTRON_NUM": "8",
+        "RIGHT_PARTNER_GENE": "ROS1",
+        "RIGHT_PARTNER_EXON_INTRON_NUM": "35"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "SETD2",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Splice_Site",
+         "CHROMOSOME":"chr3"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "SUFU",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
+        "TRUE_PROTEIN_CHANGE": "p.R146*",
+         "CHROMOSOME":"chr10"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "TP53",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
+        "TRUE_PROTEIN_CHANGE": "p.R337C",
+         "CHROMOSOME":"chr17"
+    },
+    {
+       "CLINICAL_ID": "",
+        "SAMPLE_ID": "ORD_2065357_01",
+        "WILDTYPE": false,
+        "TRUE_HUGO_SYMBOL": "TP53",
+        "VARIANT_CATEGORY": "MUTATION",         
+        "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Del",
+        "TRUE_PROTEIN_CHANGE": "p.L93Cfs*30",
+         "CHROMOSOME":"chr17"
+    }
+]

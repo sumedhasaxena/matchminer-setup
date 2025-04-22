@@ -1,156 +1,20 @@
-
-{   "GENDER" : "Female",
-    "SAMPLE_ID" : "2025040901-1",
+{   
+    "SAMPLE_ID":"ORD_2065357_1",   
+    "GENDER" : "Female",
     "VITAL_STATUS" : "alive",
     "BIRTH_DATE": "Mon, 01 Jan 1973 10:00:00 GMT",
     "ONCOTREE_PRIMARY_DIAGNOSIS_NAME" : "Glioblastoma",   
-    "FIRST_NAME": "ORD-2065357-01",
-    "LAST_NAME": "test",
-    "MRN": "2025040901",
+    "FIRST_NAME": "NA",
+    "LAST_NAME": "NA",
+    "MRN": "ORD-2065357",
     "ONCOTREE_PRIMARY_DIAGNOSIS": "Glioblastoma",
-    "ORD_PHYSICIAN_EMAIL": "",
-    "PANEL_VERSION": "3",
-    "PATHOLOGIST_NAME": "Pathologist 1",
+    "MMR_STATUS":"Deficient (MMR-D / MSI-H)",
+    "MGMT_PROMOTER_STATUS": "Unmethylated",
+    "ORD_PHYSICIAN_EMAIL": "NA",
+    "PANEL_VERSION": 0,
+    "PATHOLOGIST_NAME": "NA",
     "REPORT_DATE": "Mon, 01 Mar 2025 10:00:00 GMT",
     "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": 29,
-    "REPORT_VERSION": "1",
+    "REPORT_VERSION": "0",
     "TEST_NAME": "oncopanel"
-},
-
-H3G34 mutation not detected 
-gene: HIST1H3B 
-variant: !Mutaion
-add idh wildtype
-
-Add MSI
-
-[  
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "ARFRP1",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.R177H",
-        "CHROMOSOME":"chr20"
-    }, {
-         "CLINICAL_ID": "",
-         "SAMPLE_ID": "",
-         "WILDTYPE": false,
-         "TRUE_HUGO_SYMBOL": "CREBBP",
-         "VARIANT_CATEGORY": "MUTATION",         
-         "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-         "TRUE_PROTEIN_CHANGE": "p.N435K",
-         "CHROMOSOME":"chr16"
-     },
-     {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "FLCN",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.H429T",
-         "CHROMOSOME":"chr17"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "MRE11",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.Q582",
-         "CHROMOSOME":"chr11"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "MSH2",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.Y408L",
-         "CHROMOSOME":"chr2"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "MSH2",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.S271R",
-         "CHROMOSOME":"chr2"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "PDGFRA",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.A916T",
-         "CHROMOSOME":"chr4"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "QKI",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.K134R",
-         "CHROMOSOME":"chr6"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "ROS1",
-        "VARIANT_CATEGORY": "SV"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "SETD2",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Splice_Site",
-         "CHROMOSOME":"chr3"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "SUFU",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Nonsense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.R146*",
-         "CHROMOSOME":"chr10"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "TP53",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_PROTEIN_CHANGE": "p.R337C",
-         "CHROMOSOME":"chr17"
-    },
-    {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "TP53",
-        "VARIANT_CATEGORY": "MUTATION",         
-        "TRUE_VARIANT_CLASSIFICATION": "Frame_Shift_Del",
-        "TRUE_PROTEIN_CHANGE": "p.L93C",
-         "CHROMOSOME":"chr17"
-    }
-]
-
-
-ARFRP1 -> not in the gene list
+}

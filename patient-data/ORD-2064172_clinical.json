@@ -1,19 +1,20 @@
 
 {   
-    "SAMPLE_ID":"ORD_2064172_01",   
+    "SAMPLE_ID":"ORD_2064172_1",   
     "GENDER" : "Male",
     "VITAL_STATUS" : "alive",
     "BIRTH_DATE": "Mon, 01 Jan 1988 10:00:00 GMT",
     "ONCOTREE_PRIMARY_DIAGNOSIS_NAME" : "Glioblastoma",   
-    "FIRST_NAME": "Unknown",
-    "LAST_NAME": "Unknown",
+    "FIRST_NAME": "NA",
+    "LAST_NAME": "NA",
     "MRN": "ORD-2064172",
+    "MGMT_PROMOTER_STATUS": "Methylated",
     "ONCOTREE_PRIMARY_DIAGNOSIS": "Glioblastoma",
-    "ORD_PHYSICIAN_EMAIL": "",
-    "PANEL_VERSION": "3",
-    "PATHOLOGIST_NAME": "QMH",
+    "ORD_PHYSICIAN_EMAIL": "NA",
+    "PANEL_VERSION": 0,
+    "PATHOLOGIST_NAME": "NA",
     "REPORT_DATE": "Mon, 01 Mar 2025 10:00:00 GMT",    
     "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": 4,
-    "REPORT_VERSION": "1",
+    "REPORT_VERSION": "0",
     "TEST_NAME": "oncopanel"
 }

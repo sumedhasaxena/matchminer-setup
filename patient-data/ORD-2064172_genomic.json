@@ -1,27 +1,29 @@
 [  
     {
         "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
+        "SAMPLE_ID": "ORD_2064172_1",
         "WILDTYPE": true,
         "TRUE_HUGO_SYMBOL": "IDH"       
     },
     {
         "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
+        "SAMPLE_ID": "ORD_2064172_1",
         "WILDTYPE": false,
         "TRUE_HUGO_SYMBOL": "CDK4",
-        "VARIANT_CATEGORY": "CNV"
+        "VARIANT_CATEGORY": "CNV",
+        "CNV_CALL":"High level amplification"
     }, 
     {
          "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
+        "SAMPLE_ID": "ORD_2064172_1",
         "WILDTYPE": false,
         "TRUE_HUGO_SYMBOL": "FGFR3",
-        "VARIANT_CATEGORY": "CNV"
+        "VARIANT_CATEGORY": "CNV",
+        "CNV_CALL":"High level amplification"
      },
      {
         "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
+        "SAMPLE_ID": "ORD_2064172_1",
         "WILDTYPE": false,
         "TRUE_HUGO_SYMBOL": "FGFR3",
         "VARIANT_CATEGORY": "SV",
@@ -33,82 +35,27 @@
     }, 
     {
         "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
+        "SAMPLE_ID": "ORD_2064172_1",
         "WILDTYPE": false,
         "TRUE_HUGO_SYMBOL": "MDM2",
-        "VARIANT_CATEGORY": "CNV"
+        "VARIANT_CATEGORY": "CNV",
+        "CNV_CALL":"High level amplification"
      }, 
      {
          "CLINICAL_ID": "",
-         "SAMPLE_ID": "ORD_2064172_01",
+         "SAMPLE_ID": "ORD_2064172_1",
          "WILDTYPE": false,
          "TRUE_HUGO_SYMBOL": "SOX2",
-         "VARIANT_CATEGORY": "CNV"
+         "VARIANT_CATEGORY": "CNV",
+        "CNV_CALL":"High level amplification"
       }, 
       {
           "CLINICAL_ID": "",
-          "SAMPLE_ID": "ORD_2064172_01",
+          "SAMPLE_ID": "ORD_2064172_1",
           "WILDTYPE": false,
           "TRUE_HUGO_SYMBOL": "TERT",
           "VARIANT_CATEGORY": "MUTATION",
           "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-          "TRUE_CDNA_CHANGE":"c.-124C>T",
-         "CHROMOSOME":"chr5"
-       },
-       {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "ALK",
-        "VARIANT_CATEGORY": "MUTATION",
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_CDNA_CHANGE":"c.3257C>T",
-        "TRUE_PROTEIN_CHANGE":"p.S1086L",
-        "CHROMOSOME":"chr2"
-     },
-     {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "FANCL",
-        "VARIANT_CATEGORY": "MUTATION",
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_CDNA_CHANGE":"c.246C>G",
-        "TRUE_PROTEIN_CHANGE":"p.S82R",
-       "CHROMOSOME":"chr2"
-     },
-     {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "FGF4",
-        "VARIANT_CATEGORY": "MUTATION",
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_CDNA_CHANGE":"c.320C>T",
-        "TRUE_PROTEIN_CHANGE":"p.A10V",
-       "CHROMOSOME":"chr11"
-     },
-     {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "KDM5A",
-        "VARIANT_CATEGORY": "MUTATION",
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_CDNA_CHANGE":"c.4463G>C",
-        "TRUE_PROTEIN_CHANGE":"p.S1488T",
-       "CHROMOSOME":"chr12"
-     },
-     {
-        "CLINICAL_ID": "",
-        "SAMPLE_ID": "ORD_2064172_01",
-        "WILDTYPE": false,
-        "TRUE_HUGO_SYMBOL": "MSH2",
-        "VARIANT_CATEGORY": "MUTATION",
-        "TRUE_VARIANT_CLASSIFICATION": "Missense_Mutation",
-        "TRUE_CDNA_CHANGE":"c.2537A>G",
-        "TRUE_PROTEIN_CHANGE":"p.Q846R",
-       "CHROMOSOME":"chr2"
-     }
-
+          "TRUE_CDNA_CHANGE":"c.-124C>T"
+       }
 ]

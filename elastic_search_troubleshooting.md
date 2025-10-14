@@ -31,17 +31,60 @@ This error occurs when Elasticsearch indices enter a read-only state, preventing
 
 ### Commands to diagnose the root cause:
 
- 1. Check cluster health:
+ 1.Check cluster allocation
+
+ ```curl -XGET 'localhost:9200/_cluster/allocation/explain?pretty'```
+
+ Sample response in case of issues:
+
+ ```
+ {
+  "index" : "matchminer",
+  "shard" : 4,
+  "primary" : false,
+  "current_state" : "unassigned",
+  "unassigned_info" : {
+    "reason" : "INDEX_REOPENED",
+    "at" : "2025-10-08T09:38:30.733Z",
+    "last_allocation_status" : "no_attempt"
+  },
+  "can_allocate" : "no",
+  "allocate_explanation" : "cannot allocate because allocation is not permitted to any of the nodes",
+  "node_allocation_decisions" : [
+    {
+      "node_id" : "1A33PSQVRe2i9RpTuSshqw",
+      "node_name" : "1A33PSQ",
+      "transport_address" : "172.18.0.3:9300",
+      "node_attributes" : {
+        "ml.machine_memory" : "405209374720",
+        "xpack.installed" : "true",
+        "ml.max_open_jobs" : "20",
+        "ml.enabled" : "true"
+      },
+      "node_decision" : "no",
+      "deciders" : [
+        {
+          "decider" : "same_shard",
+          "decision" : "NO",
+          "explanation" : "the shard cannot be allocated to the same node on which a copy of the shard already exists [[matchminer][4], node[1A33PSQVRe2i9RpTuSshqw], [P], s[STARTED], a[id=JXpMoBIPTfGh2XtBvJdqMg]]"
+        }
+      ]
+    }
+  ]
+}
+```
+
+ 2. Check cluster health:
  It shows "unassigned_shards" and "status". Status should be 'green' ideally.
 
     ```curl -XGET 'localhost:9200/_cluster/health?pretty'```
 
- 2. Check matchminer index setting in ES (nodes/replicas/shards):
+ 3. Check matchminer index setting in ES (nodes/replicas/shards):
  If it shows "index.blocks.read_only_allow_delete": "true", that means it has set itself to read-only mode.
 
     ```curl -XGET 'localhost:9200/matchminer/_settings?pretty&flat_settings=true'```
 
-3. Check disk watermarks specifically:
+4. Check disk watermarks specifically:
 
     ```curl -XGET 'localhost:9200/_cluster/settings?include_defaults=true&pretty' | grep -A 5 -B 5 watermark```
 

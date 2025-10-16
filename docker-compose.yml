@@ -6,6 +6,8 @@ services:
     volumes:
     - ./matchminer-api/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     - ./matchminer-api/elasticsearch/synonyms.txt:/usr/share/elasticsearch/config/synonyms.txt
+    ports:
+      - "9200:9200"
     networks:
     - mm-dev-network
   matchminer-api:

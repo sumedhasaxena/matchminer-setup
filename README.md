@@ -98,7 +98,7 @@ Update `nginx.conf` under `matchminer-ui` with the corresponding SSL settings fo
 
 ## Development setup: matchminer-api
 
-Use this path when you are developing against the API submodule only. This starts Elasticsearch, MongoDB, and the API in development mode.
+Use this path when you are developing against the API submodule only. This starts Elasticsearch, MongoDB, and the API in development mode. Also set up the local UI (see [Development setup: matchminer-ui](#development-setup-matchminer-ui)) if you need to add or update patient or trial data, or for general testing of the API.
 
 ### Steps
 
@@ -127,13 +127,19 @@ In development mode, when `setup.sh` under `matchminer-api` is executed, Docker 
 
 The **matchminer-api** container runs on port **5000** by default. After setup completes, the API is available at [http://localhost:5000](http://localhost:5000).
 
-The dev setup script also seeds a development user in MongoDB to bypass authentication during local development.
+Once the matchminer-api development environment is set up with `setup.sh`, MongoDB starts empty except for one dummy user, **John Doe**, which is seeded to bypass authentication during local development.
 
 ---
 
 ## Development setup: matchminer-ui
 
-Use this path when you are developing against the UI submodule. **It is recommended to set up matchminer-api first** (see [Development setup: matchminer-api](#development-setup-matchminer-api)) so the UI can communicate with the API.
+Use this path when you are developing against the UI submodule, or when you need to add or update patient or trial data, or for general testing of the API. **It is recommended to set up matchminer-api first** (see [Development setup: matchminer-api](#development-setup-matchminer-api)) so the UI can communicate with the API.
+
+### Branch workflow
+
+The `dev` branch of matchminer-ui contains the configuration needed to run the UI in this local development setup. The `master` branch does **not** include those local-dev changes.
+
+All functional code changes go to `master`. Then merge `master` into `dev` (not the other way around) so the development configuration stays isolated on `dev` while still picking up the latest product changes.
 
 ### Steps
 
@@ -163,6 +169,8 @@ Use this path when you are developing against the UI submodule. **It is recommen
 The UI runs on port **1952**. Open [http://localhost:1952/](http://localhost:1952/) in your browser.
 
 If matchminer-api has already been set up using the steps above, matchminer-ui will be able to communicate with the API. The UI dev container connects to the Docker network created by the API dev stack (`matchminer-api_mm-dev-network`).
+
+To add trial or patient data for testing in the local environment, use [matchminer-admin](https://github.com/sumedhasaxena/matchminer-admin). Follow that repository's steps for setting it up locally. Once set up, matchminer-admin is configured to post requests to [http://localhost:1952](http://localhost:1952/) for patient and trial data operations.
 
 ---
 

@@ -129,6 +129,15 @@ The **matchminer-api** container runs on port **5000** by default. After setup c
 
 Once the matchminer-api development environment is set up with `setup.sh`, MongoDB starts empty except for one dummy user, **John Doe**, which is seeded to bypass authentication during local development.
 
+### Running tests
+
+With the API stack running, run tests inside the `mm-api` container with nosetests. For example, to run `test_negated_hormone_receptor_status`:
+
+```bash
+cd matchminer-api
+docker compose exec mm-api nosetests -v tests/unit/test_api/test_trial.py:TestTrialValidation.test_negated_hormone_receptor_status
+```
+
 ---
 
 ## Development setup: matchminer-ui

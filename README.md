@@ -37,13 +37,111 @@ Use this path when you want to run the full MatchMiner stack (MongoDB, Elasticse
 ### First-time setup
 
 1. Clone the repo with submodules (see above).
-2. From the `matchminer-setup` directory, run:
+
+`./setup.sh` launches all of the Docker containers. It also creates a seed MongoDB user. Set that user's details in `setup.sh`, and update `matchminer-ui/config.json`, before you run the script for production.
+
+2. Update the ObjectId and token in the seed user in `setup.sh`:
+
+   ```javascript
+   "_id": ObjectId("insert-id-here")
+   }, {
+   "_id": ObjectId("insert-id-here"),
+   "last_name" : "User",
+   "teams" : [
+     ObjectId("5a8ede8f4e0cce002dd5913c")
+   ],
+   "_updated" : ISODate("2018-02-22T10:15:27.000-05:00"),
+   "first_name" : "Matchminer",
+   "roles" : [
+     "user",
+     "cti",
+     "oncologist",
+     "admin"
+   ],
+   "title" : "",
+   "email" : "fake_email@institution.edu",
+   "_created" : ISODate("2018-02-22T10:15:27.000-05:00"),
+   "user_name" : "matchmineruser",
+   "token" : "insert-token-here",
+   "oncore_token" : "5f3c2421-271c-41ba-ac14-899f214d49b9"
+   }, { "upsert": true })
+   ```
+
+   Replace both `insert-id-here` values and `insert-token-here`. With `--dev true`, the script upserts this user into MongoDB.
+
+3. Create the seed user id and token.
+
+   **MongoDB id**
+
+   Launch a basic MongoDB container only to generate an ObjectId. The container name can be anything:
+
+   ```bash
+   docker run -d --name mongo-objectid mongo
+   docker exec -it mongo-objectid /bin/sh
+   mongosh
+   ObjectId()
+   ```
+
+   `ObjectId()` prints a value such as `ObjectId("64b7c2e1a9f04c0012ab34cd")`. Copy the 24-character hex string into both `_id` fields in the block above. Set the user's name there as well (`first_name`, `last_name`, and `user_name`).
+
+   **Token**
+
+   Generate a UUID:
+
+   ```bash
+   uuidgen
+   ```
+
+   Example: `6728e50a-2fb5-43b5-bbd6-a88ffb6ef0dc`
+
+   Replace `insert-token-here` in `setup.sh` with that UUID. The `token` field on the user document is the UUID itself. Use this same UUID as `devUser.token` in `matchminer-ui/config.json` (step 4). The UI reads that value and sends `base64(uuid + ":")` on each request.
+
+   Clients send that UUID as HTTP Basic auth, with an empty password. The header is `Authorization: Basic` plus the base64 encoding of `uuid + ":"`:
+
+   ```text
+   Authorization: Basic base64(uuid + ":")
+   ```
+
+   For the example UUID, the encoded value is `base64("6728e50a-2fb5-43b5-bbd6-a88ffb6ef0dc:")`.
+
+   matchminer-api uses Eve `TokenAuth` (`matchminer/security.py`). Flask decodes the Basic header and `check_auth` receives the username, which is the UUID before the colon. The API then runs `db.user.find_one({'token': token})`. The same encoding is what the API tests send (`base64(f'{user_token}:')`) and what the UI request interceptor builds (`btoa(token + ':')`).
+
+4. Update `matchminer-ui/config.json` before you run `./setup.sh`. Set the server name to the host that serves matchminer-api and matchminer-ui. These fields use that host:
+
+   ```json
+   "elasticsearch": {
+     "proxy": "https://<server-name>:1952/api/es"
+   },
+   "api": {
+     "host": "https://<server-name>:1952"
+   },
+   "linkToHomePage": "https://<server-name>:1952/"
+   ```
+
+   On the current deployment the server name is `dshihlab01.sbms.hku.hk`, so `proxy` is `https://dshihlab01.sbms.hku.hk:1952/api/es` and `api.host` is `https://dshihlab01.sbms.hku.hk:1952`.
+
+   **devUser.** Set `token` to the UUID from `setup.sh` and `user_id` to that user's MongoDB ObjectId:
+
+   ```json
+   "devUser": {
+     "token": "add-dev-user-token-here",
+     "user_id": "add-dev-user-id-here"
+   }
+   ```
+
+   **institution.** Set `resources.institution` to the name you want shown in the UI. This deployment uses `HKUMED`.
+
+   **email.** Set `resources.email` to the address shown in the FAQ section.
+
+   **linkToHomePage.** Use the same server name as `proxy` and `api.host`, for example `https://dshihlab01.sbms.hku.hk:1952/`.
+
+5. From the `matchminer-setup` directory, run:
 
    ```bash
    ./setup.sh --dev true
    ```
 
-   Use `--dev true` if you need a seeded MongoDB user for local testing. With `--dev true`, the script upserts a MongoDB user whose id and name are the values set in `setup.sh`. Otherwise run:
+   Use `--dev true` when you need the seeded MongoDB user. Otherwise run:
 
    ```bash
    ./setup.sh --dev false
@@ -59,45 +157,6 @@ This script will:
 - Build and start **matchminer-ui**
 
 The UI will be available at [http://localhost:1952/](http://localhost:1952/).
-
-### Changing the seed user
-
-To change the seed user or create a new one, set a new UUID and name in `setup.sh`, and generate a new MongoDB id as follows.
-
-**MongoDB id**
-
-Launch a basic MongoDB container only to generate an ObjectId. The container name can be anything:
-
-```bash
-docker run -d --name mongo-objectid mongo
-docker exec -it mongo-objectid /bin/sh
-mongosh
-ObjectId()
-```
-
-`ObjectId()` prints a value such as `ObjectId("64b7c2e1a9f04c0012ab34cd")`. Copy the 24-character hex string into both `_id` fields in the `db.user.replaceOne` call in `setup.sh` (the query and the document). Set the user's name there as well (`first_name`, `last_name`, and `user_name`).
-
-**Token**
-
-Generate a UUID:
-
-```bash
-uuidgen
-```
-
-Example: `6728e50a-2fb5-43b5-bbd6-a88ffb6ef0dc`
-
-Replace `insert-token-here` in `setup.sh` with that UUID. The `token` field on the user document is the UUID itself. Set the same UUID as `devUser.token` in `matchminer-ui/config.json`. The UI reads that value and sends `base64(uuid + ":")` on each request.
-
-Clients send that UUID as HTTP Basic auth, with an empty password. The header is `Authorization: Basic` plus the base64 encoding of `uuid + ":"`:
-
-```text
-Authorization: Basic base64(uuid + ":")
-```
-
-For the example UUID, the encoded value is `base64("6728e50a-2fb5-43b5-bbd6-a88ffb6ef0dc:")`.
-
-matchminer-api uses Eve `TokenAuth` (`matchminer/security.py`). Flask decodes the Basic header and `check_auth` receives the username, which is the UUID before the colon. The API then runs `db.user.find_one({'token': token})`. The same encoding is what the API tests send (`base64(f'{user_token}:')`) and what the UI request interceptor builds (`btoa(token + ':')`).
 
 ### Updating an existing installation
 

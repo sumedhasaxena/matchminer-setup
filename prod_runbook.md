@@ -22,8 +22,8 @@
 | Repo               | GitHub | Production entry point | How it runs | Port |
 | ------------------ | ------ | ---------------------- | ----------- | ---- |
 | matchminer-patient | [repo](https://github.com/sumedhasaxena/matchminer-patient) | `gunicorn_start.sh` in the matchminer-patient directory | Started from the terminal by the application owner. Nginx stays up as the public front end and forwards requests to Gunicorn over a Unix socket. | Nginx listens on **8890**. Gunicorn does not listen on a TCP port. It binds to the Unix socket `gunicorn.sock` in the matchminer-patient repo (`unix:/home/sumedha1/matchminer-patient/gunicorn.sock`). |
-| nct2ctml           | [repo](https://github.com/sumedhasaxena/nct2ctml) | `sync_trials.sh` in the nct2ctml directory | Run from the terminal when a sync is needed outside the schedule. On GPU02, a systemd timer (unit files live in matchminer-admin) runs every weekday and calls `sync_and_process.sh`, which calls `sync_trials.sh`. | None. This is a batch script, not a web service. |
-| matchminer-admin   | [repo](https://github.com/sumedhasaxena/matchminer-admin) | `start_processor.sh` in the matchminer-admin repo | Run from the terminal after trial and patient files are ready for review. It processes the files once and exits. | None. This is a batch script, not a web service. |
+| nct2ctml           | [repo](https://github.com/sumedhasaxena/nct2ctml) | `sync_trials.sh` in the nct2ctml directory | Run from the terminal when a sync is needed outside the schedule. On GPU02, a systemd timer (unit files live in matchminer-admin) runs every weekday and calls `sync_and_process.sh`, which calls `sync_trials.sh`. | None.|
+| matchminer-admin   | [repo](https://github.com/sumedhasaxena/matchminer-admin) | `start_processor.sh` in the matchminer-admin repo | Run from the terminal after trial and patient files are ready for review. It processes the files once and exits. | None. |
 
 
 

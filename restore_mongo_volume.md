@@ -2,6 +2,15 @@
 
 This guide is for a new Linux user on the same server who will run the same `docker-compose.yml` (4 containers: `mongo`, `elasticsearch`, `matchminer-api`, `matchminer-ui`) using rootless Docker. It explains how to restore the exported MongoDB backup (`mongo-backup.gz`) into the new user's Mongo container and ensure the data persists in the named volume `matchminer_data`.
 
+### Assumptions
+
+1. MongoDB backup was creating with the command: 
+
+`mongodump --archive --gzip` and is placed at /data3/mm_mongo/mongo-backup.gz on the same server.
+
+2. The service name for mongo in docker-compose.yaml is `mongo`.
+3. The volume name for mongo service in docker-compose.yaml is `matchminer_data`
+
 ---
 ## Step 1 — Start only Mongo and confirm the volume
 

@@ -1,3 +1,4 @@
+
 # How to run the Matchminer applications
 
 **Participating repos:** 
@@ -9,7 +10,7 @@
 - matchminer-ui
 - matchengine-V2
 
-## How the repos connect
+## How the repos connect:
 
 - **nct2ctml** pulls trials and writes matchminer compliant trial files.
 - **matchminer-patient** prepares matchminer compliant patient files.
@@ -18,22 +19,49 @@
 - **matchminer-ui** lets users view patient and trial data and routes requests to the API.
 - **matchengine-V2** matches patients to trials.
 
+## Matchminer stack
 
-| Repo               | GitHub | Production entry point | How it runs | Port |
+**matchminer-setup** is the repo that hosts the scripts and docker compose file for launching the matchminer stack in production mode. **matchminer-api** and **matchminer-ui** are Git submodules of this repo. 
+**matchengine-V2** is not a submodule; the API installs it from Git via `requirements.txt`.
+
+The matchminer stack currently runs on server *dshihlab01* server.
+To get the matchminer-stack up and running, follow the instructions at: [Production setup (API + UI)](https://github.com/sumedhasaxena/matchminer-setup/blob/main/README.md#production-setup-api--ui). Once finished, 4 dockers containers would be launched, which run the matchminer stack.
+Below are the details of applications in stack and the container they run in:
+
+**Application and docker container details:**
+| Github Repo | Role | Container |  Host port | Notes|
+| -------------- | ----|----| --------- | ------------------------------------------------------- |
+|[matchminer-ui](https://github.com/sumedhasaxena/matchminer-ui)| Web based UI for viewing patient/trials and routing incoming requests to API container | matchminer-ui |**1952**|Docker compose maps `1952:443`. Nginx is the public front end, running inside the container|
+|[matchminer-api](https://github.com/sumedhasaxena/matchminer-api)| Flask based Python application exposing endpoints to insert/update patient and trial data. Also defines schema for patient and trial data. | matchminer-api |-|All requests to API (coming from matchminer-admin for example) are routed via matchminer UI, which talks to API container via docker network|
+|[matchengine-v2](https://github.com/sumedhasaxena/matchengine-V2)| Python application containing the logic for matching patients to trials, based on pre-defined fields. | -|-| Packaged with matchminer-api as a dependency defined in requirements.txt. Not its own container.|
+|-          | Storage for patient and trial data  | mongo          | **27017** |At the time of writing, mongo:6.0-focal docker image from Docker Hub is used to launch this container. The data is persisted on host machine. Refer to docker compose file for details.|
+|-          | Search engine that MatchMiner uses for text querying of clinical trial eligibility criteria and genomic/variant matches  | elasticsearch  | **9200** |At the time of writing, elasticsearch:6.8.12 docker image from Docker Hub is used to launch this container. The data in elastic search is recreated when matchengine recreates/refreshes matches or when API container is brough up.|
+
+Notes:
+- For running these docker containers, the host ports **1952**, **27017**, and **9200** must be free.
+- After any new matchengine-V2 commit, update that hash in requirement.txt in matchminer-api repo and rebuild the API (`./setup.sh` or `docker compose build matchminer-api`). 
+- Matchminer-API exposes `POST /api/run_matchengine`endpoint to trigger regeneration of patient-trial matches. Matchminer-admin calls it whenever it inserts/updates any patient or trial data. 
+- Refer to official documentation for matchminer stack at: https://matchminer.gitbook.io/matchminer
+
+## Supporting matchminer stack applications:
+The following applications are currently setup and running on **GPU02** server:
+| Application               | GitHub | How to launch | How it runs | Port |
 | ------------------ | ------ | ---------------------- | ----------- | ---- |
-| matchminer-patient | [repo](https://github.com/sumedhasaxena/matchminer-patient) | `gunicorn_start.sh` in the matchminer-patient directory | Started from the terminal by the application owner. Nginx stays up as the public front end and forwards requests to Gunicorn over a Unix socket. | Nginx listens on **8890**. Gunicorn does not listen on a TCP port. It binds to the Unix socket `gunicorn.sock` in the matchminer-patient repo (`unix:/home/sumedha1/matchminer-patient/gunicorn.sock`). |
-| nct2ctml           | [repo](https://github.com/sumedhasaxena/nct2ctml) | `sync_trials.sh` in the nct2ctml directory | Run from the terminal when a sync is needed outside the schedule. On GPU02, a systemd timer (unit files live in matchminer-admin) runs every weekday and calls `sync_and_process.sh`, which calls `sync_trials.sh`. | None.|
-| matchminer-admin   | [repo](https://github.com/sumedhasaxena/matchminer-admin) | `start_processor.sh` in the matchminer-admin repo | Run from the terminal after trial and patient files are ready for review. It processes the files once and exits. | None. |
+| matchminer-patient (Web based UI) | [repo](https://github.com/sumedhasaxena/matchminer-patient) | Run `gunicorn_start.sh` from the matchminer-patient directory | Started from the terminal by the application owner. Nginx stays up as the public front end and forwards requests to Gunicorn over a Unix socket. | Nginx listens on **8890**. Gunicorn does not listen on a TCP port. It binds to the Unix socket `gunicorn.sock` in the matchminer-patient repo (`unix:/home/sumedha1/matchminer-patient/gunicorn.sock`). |
+| nct2ctml (Python CLI)           | [repo](https://github.com/sumedhasaxena/nct2ctml) | `sync_trials.sh` in the nct2ctml directory | Run from the terminal when a sync is needed outside the schedule. On GPU02, a systemd timer (unit files live in matchminer-admin) runs every weekday and calls `sync_and_process.sh`, which calls `sync_trials.sh`. | -|
+| matchminer-admin (Python CLI)  | [repo](https://github.com/sumedhasaxena/matchminer-admin) | `start_processor.sh` in the matchminer-admin repo | Run from the terminal after trial and patient files are ready for review. It processes the files once and exits. Currently, matchminer-admin needs to be present on same server as nct2ctml and matchminer-patient, as it need to read the files generated by the 2 repos | - |
 
 
 
 
-## matchminer-patient
 
-Nginx is already configured to listen on port **8890** and proxy to Gunicorn through the Unix socket. The application owner starts the app from a terminal:
+### Additional details : 
+
+#### matchminer-patient
+
+On GPU02, nginx is already configured to listen on port **8890** and proxy to Gunicorn through the Unix socket. The application owner starts the app from a terminal:
 
 ```bash
-cd /home/sumedha1/matchminer-patient
 ./gunicorn_start.sh
 ```
 
@@ -41,14 +69,13 @@ The script starts Gunicorn (`wsgi:app`) bound to `gunicorn.sock`. Leave that ter
 
 `gunicorn_start.sh` is created from `gunicorn_start.example.sh` and is not committed. The nginx site config in this environment is `nginx.conf` (`listen 8890` and `proxy_pass` to the socket above).
 
-## nct2ctml
+#### nct2ctml
 
-`sync_trials.sh` is the production entry point. From the nct2ctml directory it activates the `nct2ctml` conda environment, pulls trials (`python main.py pull --all`), then maps them to CTML (`python main.py map --all`), and exits.
+`sync_trials.sh` is the entry point and is present at repo home directory. From the nct2ctml directory it activates the `nct2ctml` conda environment, pulls trials (`python main.py pull --all`), then maps them to CTML (`python main.py map --all`), and exits.
 
 Manual run, when a sync is needed outside the schedule:
 
 ```bash
-cd /home/sumedha1/nct2ctml
 ./sync_trials.sh
 ```
 
@@ -59,58 +86,12 @@ On GPU02 this also runs on a schedule. The systemd unit and timer are in the **m
 
 `sync_and_process.sh` changes into the nct2ctml directory and runs `sync_trials.sh`. The step that would call `start_processor.sh` (to load trials and patients in Matchminer DB via matchminer-admin repo) is commented out, as we need manual review of the generated files before they are pushed to matchminer DB.
 
-## matchminer-admin
+#### matchminer-admin
 
-After trial and patient files have been reviewed and are in the directories configured in `config.py`, start processing from a terminal by running `start_processor.sh`. The script activates the `matchminer_admin` conda environment, runs `python data_processor.py` once, and exits.
+After trial and patient files have been reviewed and are in the directories configured in `config.py`, start processing from a terminal by running `start_processor.sh` from repo home directory. The script activates the `matchminer_admin` conda environment, runs `python data_processor.py` once, and exits.
 
 ```bash
-cd /home/sumedha1/matchminer-admin
 ./start_processor.sh
 ```
 
 Run this only when the files are ready for review. It is not part of the weekday GPU02 job.
-
-## Matchminer stack
-
-**matchminer-setup** is the repo that hosts the script for launching the matchminer stack in production mode. **matchminer-api** and **matchminer-ui** are Git submodules of this repo.
-**matchengine-V2** is not a submodule; the API installs it from Git via `requirements.txt`.
-
-
-| Repo             | GitHub | Role | Production entry point | How it runs | Port |
-| ---------------- | ------ | ---- | ---------------------- | ----------- | ---- |
-| matchminer-setup | [repo](https://github.com/sumedhasaxena/matchminer-setup) | Orchestrates the Matchminer Docker stack | `setup.sh` in this repo | Starts four containers: MongoDB, Elasticsearch, matchminer-api, matchminer-ui | NA |
-| matchminer-api   | [repo](https://github.com/sumedhasaxena/matchminer-api) | API submodule | Gunicorn `wsgi:app` inside the `matchminer-api` container | Built and started by `setup.sh`. Not published on a host port; UI nginx proxies `/api` to it. | Container **80** |
-| matchminer-ui    | [repo](https://github.com/sumedhasaxena/matchminer-ui) | UI submodule | Nginx in the `matchminer-ui` container | Built and started by `setup.sh`. Serves the UI and proxies API/ES through nginx. | Host **1952** |
-| matchengine-V2   | [repo](https://github.com/sumedhasaxena/matchengine-V2) | Matching engine (pip dep of the API) | `POST /api/run_matchengine` exposed by the API. (Automatically called by matchminer-admin after submitting trial/patient data) | Installed into the API image from a pinned Git commit. Not its own container. | None |
-
-
-
-
-### System-level config
-
-- For running the docker containers, the host ports **1952**, **27017**, and **9200** must be free.
-
-**Docker container details:**
-
-
-| Container      | Image / build                               | Host port | Notes                                                   |
-| -------------- | ------------------------------------------- | --------- | ------------------------------------------------------- |
-| mongo          | `mongo:6.0-focal`                           | **27017** | Data in the `matchminer_data` Docker volume             |
-| elasticsearch  | `elasticsearch:6.8.12`                      | **9200**  | Config from `matchminer-api/elasticsearch/`             |
-| matchminer-api | build `matchminer-api/` (`Dockerfile`)      | none      | Gunicorn on container port 80. Reads `/secrets.json`.   |
-| matchminer-ui  | build `matchminer-ui/` (Node build + nginx) | **1952**  | Compose maps `1952:443`. Nginx is the public front end. |
-
-
-
-
-### matchengine-V2 pin
-
-matchengine-V2 is pulled into the API image as:
-
-```
-git+https://github.com/sumedhasaxena/matchengine-V2.git@<commit>
-```
-
-in both `matchminer-api/requirements.in` and `matchminer-api/requirements.txt`. After any new matchengine-V2 commit, update that hash in both files and rebuild the API (`./setup.sh` or `docker compose build matchminer-api`). 
-
-CLI (inside an environment that has the package): `matchengine load` then `matchengine match`. The API also exposes `POST /api/run_matchengine`; prefer a dedicated runner in production.
